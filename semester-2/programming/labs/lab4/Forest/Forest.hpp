@@ -20,6 +20,7 @@ public:
     Forest(int, int);
     ~Forest();
 
+    friend class Tree;
 };
 
 #endif //LAB4_FOREST_HPP

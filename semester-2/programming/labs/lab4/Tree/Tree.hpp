@@ -7,8 +7,6 @@
 
 #include <string>
 
-class Forest;
-
 class Tree {
 private:
     int height;
