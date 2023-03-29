@@ -1,0 +1,12 @@
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4/cmake-build-debug/CMakeFiles/lab4.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4/cmake-build-debug/Forest/CMakeFiles/Forest.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4/cmake-build-debug/Forest/CMakeFiles/edit_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4/cmake-build-debug/Forest/CMakeFiles/rebuild_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4/cmake-build-debug/Tree/CMakeFiles/Tree.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4/cmake-build-debug/Tree/CMakeFiles/edit_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4/cmake-build-debug/Tree/CMakeFiles/rebuild_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4/cmake-build-debug/Tree_old/CMakeFiles/Tree_old.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4/cmake-build-debug/Tree_old/CMakeFiles/edit_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4/cmake-build-debug/Tree_old/CMakeFiles/rebuild_cache.dir

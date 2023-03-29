@@ -1,0 +1,138 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Forest",
+					"jsonFile" : "directory-Forest-Debug-71e0a7eb1d118050ccd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Forest",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Tree",
+					"jsonFile" : "directory-Tree-Debug-9cbf5e1d9b4ad865d249.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Tree",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Tree_old",
+					"jsonFile" : "directory-Tree_old-Debug-49531aee98bcae9e2618.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Tree_old",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "lab4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Forest::@a7150f1a84a4126ef75b",
+					"jsonFile" : "target-Forest-Debug-06e241cba8a3a4f2de38.json",
+					"name" : "Forest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Tree::@34ce7e76ff0ed793760b",
+					"jsonFile" : "target-Tree-Debug-081ed692e750a2ce8cec.json",
+					"name" : "Tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Tree_old::@9a229f365403717fa658",
+					"jsonFile" : "target-Tree_old-Debug-7b9a2c4f0ba40bb7f79d.json",
+					"name" : "Tree_old",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab4-Debug-2b39c0889e081e2b5b57.json",
+					"name" : "lab4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4/cmake-build-debug",
+		"source" : "/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
