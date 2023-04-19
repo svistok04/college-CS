@@ -1,9 +1,0 @@
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab6_test/cmake-build-debug/CMakeFiles/lab6_test.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab6_test/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab6_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab6_test/cmake-build-debug/Player/CMakeFiles/Player.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab6_test/cmake-build-debug/Player/CMakeFiles/edit_cache.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab6_test/cmake-build-debug/Player/CMakeFiles/rebuild_cache.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab6_test/cmake-build-debug/Wheel/CMakeFiles/Wheel.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab6_test/cmake-build-debug/Wheel/CMakeFiles/edit_cache.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab6_test/cmake-build-debug/Wheel/CMakeFiles/rebuild_cache.dir

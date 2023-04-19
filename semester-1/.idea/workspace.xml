@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7ec5a21-a8f9-4e5a-a534-bc4e4f7c0dea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/.idea/lab4_new.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/Forest/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/Forest/Forest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/Forest/Forest.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/Tree/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/Tree/Tree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/Tree/Tree.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/Tree_old/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/Tree_old/Tree_old.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/Tree_old/Tree_old.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/reply/cache-v2-fa07e6e3895afdef111c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-46b06ad131626de577f0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-eb4e81f5c458dd69f18f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/reply/directory-Forest-Debug-71e0a7eb1d118050ccd4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/reply/directory-Tree-Debug-9cbf5e1d9b4ad865d249.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/reply/directory-Tree_old-Debug-49531aee98bcae9e2618.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-29T01-06-08-0462.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/reply/target-Forest-Debug-06e241cba8a3a4f2de38.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/reply/target-Tree-Debug-081ed692e750a2ce8cec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/reply/target-Tree_old-Debug-7b9a2c4f0ba40bb7f79d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/reply/target-lab4_new-Debug-4a484bc30e901619f901.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ffb6434f9d66dd28afdb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/lab4_new.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/Forest/CMakeFiles/Forest.dir/Forest.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/Forest/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/Forest/libForest.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/Tree/CMakeFiles/Tree.dir/Tree.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/Tree/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/Tree/libTree.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/Tree_old/CMakeFiles/Tree_old.dir/Tree_old.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/Tree_old/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/Tree_old/libTree_old.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/cmake-build-debug/lab4_new" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/lab4_new/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/CMakeFiles/lab4.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/CMakeFiles/lab4.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/Forest/CMakeFiles/Forest.dir/Forest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/Forest/CMakeFiles/Forest.dir/Forest.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/Forest/libForest.a" beforeDir="false" afterPath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/Forest/libForest.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/Tree/CMakeFiles/Tree.dir/Tree.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/Tree/CMakeFiles/Tree.dir/Tree.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/Tree/libTree.a" beforeDir="false" afterPath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/Tree/libTree.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/lab4" beforeDir="false" afterPath="$PROJECT_DIR$/../semester-2/programming/labs/lab4/cmake-build-debug/lab4" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2NgHb6289EXE5zd84aWJWgTFXWm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/home/marling/Documents/CLionProjects/college-CS/semester-1",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7ec5a21-a8f9-4e5a-a534-bc4e4f7c0dea" name="Changes" comment="" />
+      <created>1680078873309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680078873309</updated>
+      <workItem from="1680078874668" duration="73000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

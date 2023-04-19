@@ -1,3 +1,0 @@
-/home/marling/Documents/CLionProjects/college-CS/semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/instrWarunkowWyboru.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
