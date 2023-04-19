@@ -10,7 +10,12 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="lab6" targetName="lab6" />
+      <config projectName="lab6" targetName="Game" />
+      <config projectName="lab6" targetName="Wheel" />
+      <config projectName="lab6" targetName="Player" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -18,444 +23,35 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="819bc8c1-37b4-4308-95f3-70c6492165a4" name="Changes" comment="push. uncompleted">
-      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/.cmake/api/v1/reply/cache-v2-dcc58923600fe91fb1da.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c2210b7d318ab3b95675.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5dd4bf69a0b7a3e6c798.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/.cmake/api/v1/reply/index-2023-04-05T08-25-42-0825.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/.cmake/api/v1/reply/target-filesmatrixestest-Debug-f8a079039c7457c6a23c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ffb6434f9d66dd28afdb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/filesmatrixestest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/matrixA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/matrixB.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug/matrixC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/filesmatrixestest/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/.cmake/api/v1/reply/cache-v2-38e22d34c69cb626a704.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-809cc7ef2174fe131f33.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-0ab2606aa29b1d90734c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-29T08-40-07-0223.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/.cmake/api/v1/reply/target-matricesMultiplication-Debug-8badcdca8450234a6ac7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ffb6434f9d66dd28afdb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/matricesMultiplication.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/cmake-build-debug/matricesMultiplication" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplication/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplicationFiles1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplicationFiles1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matricesMultiplicationFiles1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/.cmake/api/v1/reply/cache-v2-8afdf42e25735bd1176c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-a4c722ca3e6158f4ac05.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fd35c6d6d362107d4f96.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-29T09-49-28-0247.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/.cmake/api/v1/reply/target-matrixesfiles-Debug-c51a49c2d1fc77b1922c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ffb6434f9d66dd28afdb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/matrixesfiles.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/matrixA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/matrixB.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/cmake-build-debug/matrixesfiles" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/homework-projects/matrixesfiles/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/.cmake/api/v1/reply/cache-v2-945698c8676e4e21cb7b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-19d96e7d7ddcf1477d99.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-aca990ea10b6efc847ee.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-29T18-51-03-0192.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/.cmake/api/v1/reply/target-funkcje-Debug-7fca0752d2e50c9caea1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ffb6434f9d66dd28afdb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/funkcje/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/.cmake/api/v1/reply/cache-v2-c980b0969ccb89c5fcd6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7693519b116abfac164a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-483abb6a09446ab3cb7e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-29T18-48-55-0585.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/.cmake/api/v1/reply/target-instrWarunkowWyboru-Debug-6f40896dfbdb312eb4a4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ffb6434f9d66dd28afdb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/instrWarunkowWyboru/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../semester-1/programming/labs/nthRoot/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b8cca1a974b690614024.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-79a938dd279f94c41fdd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/.cmake/api/v1/reply/index-2023-04-06T18-18-37-0528.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.out" beforeDir="false" />
+    <list default="true" id="ffae8be7-1c44-4c1b-8223-88452382cfd9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Game.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Game.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/Player.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/Player.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wheel/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wheel/Wheel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wheel/Wheel.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-5d7825f57049be7d3890.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-45ec388dc40e0ed3c98a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-653d39be115b627e693e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-Game-Debug-49db927ff25093741159.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-Player-Debug-8583c720b5f893cf1c49.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-Wheel-Debug-08b402ca1e964c45e489.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/Game.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Game.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-04-18T23-50-28-0255.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Game-Debug-0bc76c41f228f50886bc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Player-Debug-20c1f70726f864861f72.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Wheel-Debug-25bb3beb6b6a14f7c812.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-lab6-Debug-1236183a09c07d8f3264.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ffb6434f9d66dd28afdb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Game/CMakeFiles/Game.dir/Game.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Game/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Game/libGame.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Game/CMakeFiles/Game.dir/Game.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Game/CMakeFiles/Game.dir/Game.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Game/libGame.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Game/libGame.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Menu/CMakeFiles/Menu.dir/Menu.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Menu/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Menu/libMenu.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Player/CMakeFiles/Player.dir/Player.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Player/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Player/libPlayer.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Wheel/CMakeFiles/Wheel.dir/Wheel.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Wheel/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Wheel/libWheel.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dane.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/Game.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/Game.h++" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/Player/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/Player/Player.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/Player/Player.h++" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/Wheel/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/Wheel/Wheel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/Wheel/Wheel.h++" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/reply/cache-v2-db092b0a210b4ed316ed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-51749f463076b91d0038.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a772d300cbb850358c1f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/reply/directory-Player-Debug-8583c720b5f893cf1c49.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/reply/directory-Wheel-Debug-08b402ca1e964c45e489.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/reply/index-2023-04-18T23-59-46-0409.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/reply/target-Player-Debug-0dd0fa6a4b4a1eb324c1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/reply/target-Wheel-Debug-4408adc5c43908717769.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/reply/target-lab6_test-Debug-de33a46fcd3ce203d116.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ffb6434f9d66dd28afdb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/lab6_test.dir/Game.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/lab6_test.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/Game/CMakeFiles/Game.dir/Game.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/Game/CMakeFiles/Game.dir/__/Game.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/Game/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/Game/libGame.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/Player/CMakeFiles/Player.dir/Player.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/Player/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/Player/libPlayer.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/Wheel/CMakeFiles/Wheel.dir/Wheel.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/Wheel/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/Wheel/libWheel.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6_test/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a62e52a509d8755d0942.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-babcdd25d5cb865f0267.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-05961e30e10edc17dd3c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/.cmake/api/v1/reply/index-2023-04-18T19-55-24-0823.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/.cmake/api/v1/reply/target-untitled-Debug-93b14062c4ed9a3a8000.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ffb6434f9d66dd28afdb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/dane.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/cmake-build-debug/untitled" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-c244651499db0524c0f6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-5eb8f183bd6bd9f58a05.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-82d4b9584c8987e82cca.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/.cmake/api/v1/reply/index-2023-04-18T20-42-59-0039.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/.cmake/api/v1/reply/target-untitled1-Debug-6656e91bdbd1b4824490.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ffb6434f9d66dd28afdb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/CMakeFiles/untitled1.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/dane.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/cmake-build-debug/untitled1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dane.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dane.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab6" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lab6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_test/.idea/lab6_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/untitled1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -468,7 +64,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
-    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -478,10 +73,7 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="1.1" />
   </component>
-  <component name="ProjectId" id="2O42DdKOmBgINZnvJ506dngI3i4" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="2OchODf9DJHhq0xpneeB2FpFwBq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -504,52 +96,48 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Menu" />
-      <recent name="$PROJECT_DIR$/Wheel" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="lab6" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
-      <method v="2" />
+  <component name="RunManager" selected="CMake Application.lab6">
+    <configuration name="Game" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab6" TARGET_NAME="Game" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="CMake Debug.lab6" />
-      </list>
-    </recent_temporary>
+    <configuration name="Player" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab6" TARGET_NAME="Player" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Wheel" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab6" TARGET_NAME="Wheel" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab6" TARGET_NAME="lab6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab6" RUN_TARGET_NAME="lab6">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.lab6" />
+      <item itemvalue="CMake Application.Game" />
+      <item itemvalue="CMake Application.Player" />
+      <item itemvalue="CMake Application.Wheel" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="819bc8c1-37b4-4308-95f3-70c6492165a4" name="Changes" comment="" />
-      <created>1680805415376</created>
+      <changelist id="ffae8be7-1c44-4c1b-8223-88452382cfd9" name="Changes" comment="" />
+      <created>1681865744826</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1680805415376</updated>
-      <workItem from="1680805417311" duration="1807000" />
-      <workItem from="1681231741677" duration="2178000" />
-      <workItem from="1681238209162" duration="1421000" />
-      <workItem from="1681846434240" duration="1640000" />
-      <workItem from="1681849482153" duration="13464000" />
-      <workItem from="1681864606919" duration="74000" />
-      <workItem from="1681864700379" duration="136000" />
+      <updated>1681865744826</updated>
+      <workItem from="1681865748497" duration="409000" />
+      <workItem from="1681866195315" duration="2000" />
     </task>
-    <task id="LOCAL-00001" summary="push. uncompleted">
-      <created>1681864159263</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1681864159263</updated>
-    </task>
-    <task id="LOCAL-00002" summary="push. uncompleted">
-      <created>1681864537628</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1681864537628</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,26 +154,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="push. uncompleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="push. uncompleted" />
   </component>
 </project>

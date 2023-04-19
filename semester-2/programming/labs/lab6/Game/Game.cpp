@@ -109,9 +109,14 @@ Game::~Game() {
 }
 
 void Game::play() {
+
+    srand(time(NULL));
+
     Wheel kolo;
 
     int i;
+
+    wczytaczHaslo();
 
     for (i = 0; i < rozmiar; i++)
     {

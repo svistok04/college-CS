@@ -28,16 +28,6 @@ private:
     char WczytajWybor();
     void wczytaczHaslo();
     void textPlayers();
-    void loadWords();
-    void startRound();
-    void endRound();
-    void displayWord();
-    void showMenu();
-    void bankrupt();
-    void roundLost();
-    void roundWon();
-    void turn();
-    void gameOver();
 
     string haslo;
     string proba;
