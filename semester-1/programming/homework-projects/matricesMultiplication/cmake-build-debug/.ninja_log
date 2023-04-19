@@ -1,0 +1,22 @@
+# ninja log v5
+1	333	1680079086412227904	CMakeFiles/matricesMultiplication.dir/main.cpp.o	1c766c41a9a237dc
+333	507	1680079086584230401	matricesMultiplication	d0dbef3b64103e16
+1	28	1680079207213982041	build.ninja	ea35422d433523fd
+1	308	1680079207529986630	CMakeFiles/matricesMultiplication.dir/main.cpp.o	1c766c41a9a237dc
+308	403	1680079207621987966	matricesMultiplication	d0dbef3b64103e16
+1	322	1680079463325701594	CMakeFiles/matricesMultiplication.dir/main.cpp.o	1c766c41a9a237dc
+322	414	1680079463417702930	matricesMultiplication	d0dbef3b64103e16
+3	348	1680079537666781376	CMakeFiles/matricesMultiplication.dir/main.cpp.o	1c766c41a9a237dc
+348	459	1680079537778783003	matricesMultiplication	d0dbef3b64103e16
+1	333	1680079960000916265	CMakeFiles/matricesMultiplication.dir/main.cpp.o	1c766c41a9a237dc
+333	455	1680079960120918008	matricesMultiplication	d0dbef3b64103e16
+1	333	1680080401653251377	CMakeFiles/matricesMultiplication.dir/main.cpp.o	1c766c41a9a237dc
+333	473	1680080401793251734	matricesMultiplication	d0dbef3b64103e16
+1	419	1680080480574877737	CMakeFiles/matricesMultiplication.dir/main.cpp.o	1c766c41a9a237dc
+419	575	1680080480730864115	matricesMultiplication	d0dbef3b64103e16
+1	353	1680080501333326076	CMakeFiles/matricesMultiplication.dir/main.cpp.o	1c766c41a9a237dc
+353	485	1680080501461317809	matricesMultiplication	d0dbef3b64103e16
+0	332	1680080554250559485	CMakeFiles/matricesMultiplication.dir/main.cpp.o	1c766c41a9a237dc
+332	468	1680080554386553357	matricesMultiplication	d0dbef3b64103e16
+1	229	1680119471688666733	CMakeFiles/matricesMultiplication.dir/main.cpp.o	1c766c41a9a237dc
+229	305	1680119471760667784	matricesMultiplication	d0dbef3b64103e16

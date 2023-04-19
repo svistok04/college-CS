@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "filesmatrixestest",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "filesmatrixestest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filesmatrixestest-Debug-f8a079039c7457c6a23c.json",
+					"name" : "filesmatrixestest",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/marling/Documents/CLionProjects/college-CS/semester-1/programming/homework-projects/filesmatrixestest/cmake-build-debug",
+		"source" : "/home/marling/Documents/CLionProjects/college-CS/semester-1/programming/homework-projects/filesmatrixestest"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
