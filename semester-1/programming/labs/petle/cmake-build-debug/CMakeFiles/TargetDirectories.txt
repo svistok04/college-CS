@@ -1,0 +1,3 @@
+/home/marling/Documents/CLionProjects/college-CS/semester-1/programming/labs/petle/cmake-build-debug/CMakeFiles/petle.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-1/programming/labs/petle/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-1/programming/labs/petle/cmake-build-debug/CMakeFiles/rebuild_cache.dir

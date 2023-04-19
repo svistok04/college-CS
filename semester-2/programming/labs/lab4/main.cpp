@@ -16,8 +16,8 @@ int main()
     Forest forest(15, 20);
     forest.addArea();
 
-    Tree* tree1 = new Tree(5, "green", '*', 2, 2);
-    Tree* tree2 = new Tree(3, "red", '~', 10, 10);
+    Tree* tree1 = new Tree(5, "green", '/', 2, 2);
+    Tree* tree2 = new Tree(3, "red", '\\', 10, 10);
 
     forest.addTree(tree1);
     forest.addTree(tree2);
