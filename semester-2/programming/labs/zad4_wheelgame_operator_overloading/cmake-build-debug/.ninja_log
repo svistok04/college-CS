@@ -1,0 +1,22 @@
+# ninja log v5
+327	398	1684277328432302958	zad4_wheelgame_operator_overloading	90904c7258aa74f5
+235	246	1684276666425095388	Player/libPlayer.a	5cdcf4815bb5eb14
+63	125	1684276051803646175	Wheel/libWheel.a	fcc4625fc2ba5620
+0	23	1684277343504544652	build.ninja	e90c4f46b9c7f567
+1	319	1684277328352301674	Game/CMakeFiles/Game.dir/Game.cpp.o	673b7959c38c87e9
+8	73	1684242698398629385	Wheel/CMakeFiles/Wheel.dir/Wheel.cpp.o	f2aa9a9a21cc1860
+319	327	1684277328360301803	Game/libGame.a	967b8fca8d350602
+0	281	1684276758498754465	CMakeFiles/zad4_wheelgame_operator_overloading.dir/main.cpp.o	e2fce38ec9fa2899
+1	235	1684276666413095169	Player/CMakeFiles/Player.dir/Player.cpp.o	ae44fe80fbf44da7
+570	691	1684276052367654420	zad4_wheelgame	1e792e74db2a9f71
+0	570	1684276052247652666	CMakeFiles/zad4_wheelgame.dir/main.cpp.o	55d27ce0b6be8b03
+0	243	1684277680397869121	CMakeFiles/zad4_wheelgame_operator_overloading.dir/main.cpp.o	e2fce38ec9fa2899
+1	430	1684277875328901736	Game/CMakeFiles/Game.dir/Game.cpp.o	673b7959c38c87e9
+431	437	1684277875336901860	Game/libGame.a	967b8fca8d350602
+437	511	1684277875408902976	zad4_wheelgame_operator_overloading	90904c7258aa74f5
+1	209	1684278538047085983	Player/CMakeFiles/Player.dir/Player.cpp.o	ae44fe80fbf44da7
+209	214	1684278538055086105	Player/libPlayer.a	5cdcf4815bb5eb14
+1	255	1684278538095086717	CMakeFiles/zad4_wheelgame_operator_overloading.dir/main.cpp.o	e2fce38ec9fa2899
+1	363	1684278538203088367	Game/CMakeFiles/Game.dir/Game.cpp.o	673b7959c38c87e9
+364	373	1684278538211088490	Game/libGame.a	967b8fca8d350602
+373	445	1684278538283089590	zad4_wheelgame_operator_overloading	90904c7258aa74f5

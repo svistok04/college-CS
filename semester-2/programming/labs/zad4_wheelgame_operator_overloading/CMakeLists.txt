@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.25)
+project(zad4_wheelgame_operator_overloading)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_subdirectory(Game)
+add_subdirectory(Player)
+add_subdirectory(Wheel)
+
+add_executable(zad4_wheelgame_operator_overloading main.cpp)
+
+target_link_libraries(zad4_wheelgame_operator_overloading PRIVATE Game)
+target_link_libraries(zad4_wheelgame_operator_overloading PRIVATE Player)
+target_link_libraries(zad4_wheelgame_operator_overloading PRIVATE Wheel)
