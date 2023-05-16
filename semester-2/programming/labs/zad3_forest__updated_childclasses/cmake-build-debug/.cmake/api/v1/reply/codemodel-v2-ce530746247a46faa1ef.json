@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Forest",
+					"jsonFile" : "directory-Forest-Debug-71e0a7eb1d118050ccd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Forest",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Shape",
+					"jsonFile" : "directory-Shape-Debug-d6ad0069e79a70fd9abd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Shape",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "RightTriangle",
+					"jsonFile" : "directory-RightTriangle-Debug-1bfb7fc5a2cb964bb894.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "RightTriangle",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Border",
+					"jsonFile" : "directory-Border-Debug-a0f21d3ce9085ddf874a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Border",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Rectangle",
+					"jsonFile" : "directory-Rectangle-Debug-77114a9931f1ce30e62a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Rectangle",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Triangle",
+					"jsonFile" : "directory-Triangle-Debug-2ae0bf9523971fa737cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Triangle",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "lab6_lab4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Border::@57a9ef3a1432a9ef9483",
+					"jsonFile" : "target-Border-Debug-dc7be9455a996d6966da.json",
+					"name" : "Border",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Forest::@a7150f1a84a4126ef75b",
+					"jsonFile" : "target-Forest-Debug-06e241cba8a3a4f2de38.json",
+					"name" : "Forest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Rectangle::@83e40d626b8917bbe7cc",
+					"jsonFile" : "target-Rectangle-Debug-0a22d0fc1e56cba72a00.json",
+					"name" : "Rectangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RightTriangle::@caa7560821515c77a77b",
+					"jsonFile" : "target-RightTriangle-Debug-6db6579cf1a0a64bd1df.json",
+					"name" : "RightTriangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Shape::@4dcfc4c932ca5fcc208e",
+					"jsonFile" : "target-Shape-Debug-a2e9a2e47ad3e9031968.json",
+					"name" : "Shape",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Triangle::@c62ee8c2c70b847b24d7",
+					"jsonFile" : "target-Triangle-Debug-87a99f5320682b23ff5f.json",
+					"name" : "Triangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab6_lab4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab6_lab4-Debug-0f272a28715de9dd81c1.json",
+					"name" : "lab6_lab4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad3_forest__updated_childclasses/cmake-build-debug",
+		"source" : "/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad3_forest__updated_childclasses"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

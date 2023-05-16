@@ -1,0 +1,21 @@
+# ninja log v5
+320	334	1682452822519127040	Tree_old/libTree_old.a	9fde5fc24a12cf35
+1	8	1682464845972316845	Rectangle/libRectangle.a	99a5e62116768cdf
+394	401	1682497846575948074	Forest/libForest.a	8a10f7b3ea03e43f
+396	490	1681861742904281053	lab4	8430bc2200062357
+413	706	1682464826251855924	Rectangle/CMakeFiles/Rectangle.dir/Rectangle.cpp.o	2639a720a3272fdb
+292	302	1682497846475946988	Border/libBorder.a	7675311bb8eed141
+1	183	1682465484967244502	RightTriangle/CMakeFiles/RightTriangle.dir/RightTriangle.cpp.o	f071b9a01be9674d
+1	25	1684267089870337493	build.ninja	5a156f67190c3761
+2	320	1682452822503126780	Tree_old/CMakeFiles/Tree_old.dir/Tree_old.cpp.o	3bda5e2261c36a64
+1	11	1682464845976316938	Triangle/libTriangle.a	6efc84b8b22a0aa3
+1	291	1682497846463946857	Border/CMakeFiles/Border.dir/Border.cpp.o	584d6dbe64203b2e
+1	304	1682464825847846481	Shape/CMakeFiles/Shape.dir/Shape.cpp.o	3d3e11caee4a3cab
+435	712	1682464826255856018	Triangle/CMakeFiles/Triangle.dir/Triangle.cpp.o	6b3620646b145c51
+359	364	1682465039680843405	Tree/libTree.a	35f096a39ffe8810
+1	359	1682465039672843218	Tree/CMakeFiles/Tree.dir/Tree.cpp.o	3c3dcbb07d5c3cca
+1	394	1682497846567947987	Forest/CMakeFiles/Forest.dir/Forest.cpp.o	5ddfe5a08c476ba3
+183	191	1682465484975244689	RightTriangle/libRightTriangle.a	331fada65ed1e611
+1	375	1682497976501359466	CMakeFiles/lab6_lab4.dir/main.cpp.o	8fca3b77eb390f89
+304	324	1682464825867846948	Shape/libShape.a	ffd921880eb4a309
+375	511	1682497976633360900	lab6_lab4	257fbc3ca49a924b

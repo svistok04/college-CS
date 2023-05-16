@@ -1,0 +1,138 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Game",
+					"jsonFile" : "directory-Game-Debug-49db927ff25093741159.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Game",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Player",
+					"jsonFile" : "directory-Player-Debug-8583c720b5f893cf1c49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Player",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Wheel",
+					"jsonFile" : "directory-Wheel-Debug-08b402ca1e964c45e489.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Wheel",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "lab6",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Game::@971b28586fb25e7ff763",
+					"jsonFile" : "target-Game-Debug-0bc76c41f228f50886bc.json",
+					"name" : "Game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Player::@b3817ea904e8d8913b24",
+					"jsonFile" : "target-Player-Debug-20c1f70726f864861f72.json",
+					"name" : "Player",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Wheel::@92a9df0a7a4a0025bbb8",
+					"jsonFile" : "target-Wheel-Debug-25bb3beb6b6a14f7c812.json",
+					"name" : "Wheel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab6-Debug-1236183a09c07d8f3264.json",
+					"name" : "lab6",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad2_Wheel-Game/cmake-build-debug",
+		"source" : "/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad2_Wheel-Game"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

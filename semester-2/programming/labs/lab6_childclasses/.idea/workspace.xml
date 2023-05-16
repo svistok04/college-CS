@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="lab6" targetName="lab6" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ac20dd4-1c99-462f-ad3d-7d948872f7fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/.idea/lab6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ffb6434f9d66dd28afdb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/lab6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wheel-Game/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rectangle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rectangle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shape.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shape.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ccf4f6afa61154357305.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-lab6-Debug-bd67ca893874fc62483f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/Game/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/Game/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/Game.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/Game/Game.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/Player/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/Player/Player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/Player.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/Player/Player.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wheel/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/Wheel/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wheel/Wheel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/Wheel/Wheel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wheel/Wheel.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/Wheel/Wheel.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-5d7825f57049be7d3890.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-45ec388dc40e0ed3c98a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-653d39be115b627e693e.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f75d2c472f31b0026b82.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-Game-Debug-49db927ff25093741159.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/reply/directory-Game-Debug-49db927ff25093741159.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-Player-Debug-8583c720b5f893cf1c49.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/reply/directory-Player-Debug-8583c720b5f893cf1c49.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-Wheel-Debug-08b402ca1e964c45e489.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/reply/directory-Wheel-Debug-08b402ca1e964c45e489.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Game-Debug-0bc76c41f228f50886bc.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/reply/target-Game-Debug-0bc76c41f228f50886bc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Player-Debug-20c1f70726f864861f72.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/reply/target-Player-Debug-20c1f70726f864861f72.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Wheel-Debug-25bb3beb6b6a14f7c812.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/reply/target-Wheel-Debug-25bb3beb6b6a14f7c812.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-lab6-Debug-1236183a09c07d8f3264.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/.cmake/api/v1/reply/target-lab6-Debug-1236183a09c07d8f3264.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Game/CMakeFiles/Game.dir/Game.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/Game/CMakeFiles/Game.dir/Game.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Game/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/Player/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Game/libGame.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/Game/libGame.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Player/CMakeFiles/Player.dir/Player.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/Player/CMakeFiles/Player.dir/Player.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Player/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/Game/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Player/libPlayer.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/Player/libPlayer.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Wheel/CMakeFiles/Wheel.dir/Wheel.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/Wheel/CMakeFiles/Wheel.dir/Wheel.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Wheel/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/Wheel/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Wheel/libWheel.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/Wheel/libWheel.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dane.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/cmake-build-debug/dane.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab6" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lab6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Wheel-Game/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/Border/Border.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/Border/Border.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/Border/Border.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/Border/Border.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/Forest/Forest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/Forest/Forest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/Forest/Forest.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/Forest/Forest.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/Tree/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/Tree/Tree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/Tree/Tree.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/Tree_old/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/Tree_old/Tree_old.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/Tree_old/Tree_old.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f00783d019a94ed3f1e4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-5c9a2956c56224868e9d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-43f5fa15586734d16df2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/.cmake/api/v1/reply/directory-Tree-Debug-9cbf5e1d9b4ad865d249.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/.cmake/api/v1/reply/directory-Tree_old-Debug-49531aee98bcae9e2618.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/.cmake/api/v1/reply/index-2023-04-25T19-57-57-0084.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/.cmake/api/v1/reply/target-Tree-Debug-081ed692e750a2ce8cec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/.cmake/api/v1/reply/target-Tree_old-Debug-7b9a2c4f0ba40bb7f79d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/.cmake/api/v1/reply/target-lab6_lab4-Debug-6f27269a0c1ff098fcb9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/Border/CMakeFiles/Border.dir/Border.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/Border/CMakeFiles/Border.dir/Border.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/Border/libBorder.a" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/Border/libBorder.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeFiles/lab6_lab4.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/Forest/CMakeFiles/Forest.dir/Forest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/Forest/CMakeFiles/Forest.dir/Forest.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/Forest/libForest.a" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/Forest/libForest.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/lab6_lab4" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/cmake-build-debug/lab6_lab4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6_lab4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6_lab4/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="1.1" />
+  </component>
+  <component name="ProjectId" id="2OvNfF8q5sCUoOSNGWvOl9191wg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad4_wheelgame",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="lab6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab6" TARGET_NAME="lab6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab6" RUN_TARGET_NAME="lab6">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ac20dd4-1c99-462f-ad3d-7d948872f7fb" name="Changes" comment="" />
+      <created>1682437196754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682437196754</updated>
+      <workItem from="1682437200391" duration="844000" />
+      <workItem from="1682445089802" duration="6790000" />
+      <workItem from="1682498075798" duration="17000" />
+      <workItem from="1683709660321" duration="10000" />
+      <workItem from="1684230706430" duration="38000" />
+      <workItem from="1684230847483" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+</project>
