@@ -1,0 +1,4 @@
+/snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/235/bin/ninja/linux/x64/ninja -G Ninja -S /home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad5_stl -B /home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad5_stl/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad5_stl/cmake-build-debug

@@ -1,0 +1,6 @@
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad5_stl/cmake-build-debug/CMakeFiles/zad5_stl.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad5_stl/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad5_stl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad5_stl/cmake-build-debug/Team/CMakeFiles/Team.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad5_stl/cmake-build-debug/Team/CMakeFiles/edit_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad5_stl/cmake-build-debug/Team/CMakeFiles/rebuild_cache.dir
