@@ -1,0 +1,6 @@
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad6_files_studentslist/cmake-build-debug/CMakeFiles/zad6_files_studentslist.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad6_files_studentslist/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad6_files_studentslist/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad6_files_studentslist/cmake-build-debug/Student/CMakeFiles/Student.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad6_files_studentslist/cmake-build-debug/Student/CMakeFiles/edit_cache.dir
+/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/zad6_files_studentslist/cmake-build-debug/Student/CMakeFiles/rebuild_cache.dir
