@@ -1,5 +1,6 @@
 from sympy import isprime, gcd
 from random import randint, seed
+from numpy import prod
 seed()
 
 
@@ -26,6 +27,7 @@ try:
 except FileNotFoundError:
     print("File data.txt not found!")
 while True:
+    j = 0
     continued = False  # used to return to the start of the while-loop if case 2 fails to perform its task.
     choice = int(input())
     match choice:
@@ -53,15 +55,24 @@ while True:
         print("Oops!", n, "is a prime number itself.")
     else:
         factors = []
-
-        while n > 1 and not isprime(n):
+        while n > 1 and not isprime(n) and j < 5000:
             f = rho_pollard(n)
             if isprime(f):
                 factors.append(f)
                 n //= f
+            j += 1
         if n > 1:
             factors.append(n)
 
-        print("Prime factors of", n0, "are:")
+        shouldPrint = True
+
         for factor in factors:
-            print(factor)
+            if not isprime(factor):
+                print("Unfortunately, it's not possible to factorize this integer")
+                shouldPrint = False
+                break
+
+        if shouldPrint:
+            print("Prime factors of", n0, "are:")
+            for factor in factors:
+                print(factor)
