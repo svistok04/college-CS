@@ -23,7 +23,7 @@ int main() {
     std::ofstream file2("out.txt");
 
     //for_each(team.begin(), team.end(), fun);
-    //for_each(team.begin(), team.end(), player()); //doesn't work :((
+    // for_each(team.begin(), team.end(), Player()); //doesn't work :((
     for_each(team.begin(), team.end(), [](Player p) {std::cout << p << std::endl;} ); //lambda
 
     for(auto p : team) {
@@ -32,7 +32,7 @@ int main() {
 
     std::vector<Player>::iterator it;
     for(it=team.begin(); it != team.end(); it++) {
-        std::cout << "iterator: " << *it << "\n";
+        std::cout << "iterator:  " << *it << "\n";
     }
 
     std::cout << std::count_if(team.begin(), team.end(), [=](Player p) -> bool

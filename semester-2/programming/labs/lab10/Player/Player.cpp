@@ -27,9 +27,9 @@ std::ifstream& operator>>(std::ifstream& input, Player& player) {
     input >> player.nazwisko >> player.wiek;
 }
 
-void Player::operator()() {
+/*void Player::operator()(Player&) {
     std::cout << this;
-} // functor
+} // functor */
 
 Player::Player(std::string nazwisko, int wiek) : nazwisko(std::move(nazwisko)), wiek(wiek) {}
 

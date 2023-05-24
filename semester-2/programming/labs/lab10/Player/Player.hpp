@@ -18,7 +18,7 @@ public:
     friend std::ostream& operator<<(std::ostream&, Player&);
     friend std::ifstream& operator>>(std::ifstream&, Player&);
     friend std::ofstream& operator<<(std::ofstream&, Player&);
-    void operator () ();
+    void operator () (Player&);
 
     const std::string getNazwisko() const;
 };
