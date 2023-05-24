@@ -1,3 +1,0 @@
-/home/marling/Documents/CLionProjects/college-CS/semester-1/programming/homework-projects/matricesMultiplicationFiles1/cmake-build-debug/CMakeFiles/matricesMultiplicationFiles1.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-1/programming/homework-projects/matricesMultiplicationFiles1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-1/programming/homework-projects/matricesMultiplicationFiles1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
