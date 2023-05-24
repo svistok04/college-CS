@@ -1,6 +1,5 @@
 from sympy import isprime, gcd
 from random import randint, seed
-from numpy import prod
 
 seed()
 
@@ -20,14 +19,19 @@ def rho_pollard(n):
 
 print("Make your choice: 1 to enter your own number, 2 to read a line"
       " from the file 'data.txt' and 3 to quit the program.")
+
 n0 = n = 0
 i = 0
 lines = []
+
+file_output = open("output.txt", "a")
+
 file_opened = True
+
 try:
-    file = open("data.txt")
-    lines = file.readlines()
-    file.close()
+    file_input = open("data.txt")
+    lines = file_input.readlines()
+    file_input.close()
 except FileNotFoundError:
     file_opened = False
 while True:
@@ -68,6 +72,8 @@ while True:
                 continued = True
         case 3:
             print("That was entirely your choice!")
+            if file_output:
+                file_output.close()
             quit()
 
     if n0 < 0:
@@ -85,23 +91,28 @@ while True:
     else:
         factors = []
         while n > 1 and not isprime(n) and j < 7000:
-            file = rho_pollard(n)
-            if isprime(file):
-                factors.append(file)
-                n //= file
+            file_input = rho_pollard(n)
+            if isprime(file_input):
+                factors.append(file_input)
+                n //= file_input
             j += 1
         if n > 1:
             factors.append(n)
 
-        shouldPrint = True
+        is_factorized = True
 
         for factor in factors:
             if not isprime(factor):
                 print("Unfortunately, it's not possible to factorize", n0)
-                shouldPrint = False
+                is_factorized = False
                 break
 
-        if shouldPrint:
+        if is_factorized:
             print("Prime factors of", n0, "are:")
+            file_output.write("Prime factors of " + str(n0) + " are:\n")
             for factor in factors:
                 print(factor)
+                file_output.write(str(factor) + "\n")
+            file_output.write("\n")
+
+file_output.close()
