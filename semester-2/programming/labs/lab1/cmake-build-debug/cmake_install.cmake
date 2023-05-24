@@ -1,4 +1,4 @@
-# Install script for directory: /home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab1
+# Install script for directory: /home/marling/Documents/college-CS/semester-2/programming/labs/lab1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/marling/Documents/college-CS/semester-2/programming/labs/lab1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

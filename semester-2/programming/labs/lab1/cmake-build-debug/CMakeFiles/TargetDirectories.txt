@@ -1,3 +1,3 @@
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab1/cmake-build-debug/CMakeFiles/lab1.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/marling/Documents/CLionProjects/college-CS/semester-2/programming/labs/lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/marling/Documents/college-CS/semester-2/programming/labs/lab1/cmake-build-debug/CMakeFiles/lab1.dir
+/home/marling/Documents/college-CS/semester-2/programming/labs/lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/marling/Documents/college-CS/semester-2/programming/labs/lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
