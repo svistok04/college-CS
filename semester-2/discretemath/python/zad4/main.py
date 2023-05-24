@@ -1,6 +1,7 @@
 from sympy import isprime, gcd
 from random import randint, seed
 from numpy import prod
+
 seed()
 
 
@@ -21,18 +22,32 @@ print("Make your choice: 1 to enter your own number, 2 to read a line"
       " from the file 'data.txt' and 3 to quit the program.")
 n0 = n = 0
 i = 0
+lines = []
+file_opened = True
 try:
-    f = open("data.txt")
-    lines = f.readlines()
+    file = open("data.txt")
+    lines = file.readlines()
+    file.close()
 except FileNotFoundError:
-    print("File data.txt not found!")
+    file_opened = False
 while True:
     j = 0
     continued = False  # used to return to the start of the while-loop if case 2 fails to perform its task.
-    choice = int(input())
+    try:
+        choice = int(input())
+    except ValueError:
+        print("Please, provide only such numbers as: 1, 2 or 3!")
+        continue
+    if choice not in range(1, 4):
+        print("Please, provide only such numbers as: 1, 2 or 3!")
+        continue
     match choice:
         case 1:
-            n0 = n = int(input())
+            try:
+                n0 = n = int(input())
+            except ValueError:
+                print("The number must be a positive integer!")
+                continued = True
         case 2:
             if lines:
                 try:
@@ -41,25 +56,39 @@ while True:
                 except IndexError:
                     print("No more lines to read from!")
                     continued = True
+                except ValueError:
+                    print("The number must be a positive integer!")
+                    continued = True
             else:
-                print("File data.txt is empty!")
+                if file_opened:
+                    print("File data.txt is empty!")
+                else:
+                    print("File data.txt was never opened since it does not exist, hence "
+                          "there are no number to work on.")
                 continued = True
         case 3:
             print("That was entirely your choice!")
             quit()
+
+    if n0 < 0:
+        print("Only positive integers are allowed!")
+        continued = True
 
     if continued:
         continue  # return to the start of the while-loop.
 
     if isprime(n):
         print("Oops!", n, "is a prime number itself.")
+    elif n == 1:
+        print("Sorry, but factorization does not apply to the number 1 as it is a special case "
+              "being the smallest positive integer.")
     else:
         factors = []
-        while n > 1 and not isprime(n) and j < 5000:
-            f = rho_pollard(n)
-            if isprime(f):
-                factors.append(f)
-                n //= f
+        while n > 1 and not isprime(n) and j < 7000:
+            file = rho_pollard(n)
+            if isprime(file):
+                factors.append(file)
+                n //= file
             j += 1
         if n > 1:
             factors.append(n)
@@ -68,7 +97,7 @@ while True:
 
         for factor in factors:
             if not isprime(factor):
-                print("Unfortunately, it's not possible to factorize this integer")
+                print("Unfortunately, it's not possible to factorize", n0)
                 shouldPrint = False
                 break
 
