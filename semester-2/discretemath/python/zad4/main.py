@@ -11,8 +11,8 @@ def rho_pollard(n):
     d = 1
     while d == 1:
         x = (x * x + c) % n  # g(x)
-        y = (y * y + c) % n
         y = (y * y + c) % n  # g(g(y))
+        y = (y * y + c) % n  # look above
         d = gcd(abs(x - y), n)  # gcd(|x - y|, n)
     return d
 
@@ -90,7 +90,7 @@ while True:
               "being the smallest positive integer.")
     else:
         factors = []
-        while n > 1 and not isprime(n) and j < 7000:
+        while n > 1 and not isprime(n) and j < 10:
             file_input = rho_pollard(n)
             if isprime(file_input):
                 factors.append(file_input)
