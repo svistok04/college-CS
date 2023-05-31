@@ -115,4 +115,6 @@ while True:
                 file_output.write(str(factor) + "\n")
             file_output.write("\n")
 
+
 file_output.close()
+
