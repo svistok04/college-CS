@@ -1,0 +1,5 @@
+# Comparative Analysis of Prime Number Testing Methods
+
+### Program to analyze different methods for determining whether a number is prime or not. It measures the computation time required for each method and organizes the results into three distinct tables. These tables are dedicated to prime numbers, composite numbers, and an overall compilation of all numbers tested. In addition, the program enhances the table containing all numbers by including an additional column that indicates whether each number is prime or composite. The numbers in each table are sorted in ascending order. The tables are then saved into three separate Excel .xlsx files
+
+### Furthermore, the program also generates an informative plot that represents the data. The x-axis represents the numbers being analyzed, and the y-axis displays the corresponding computational time. Each dot on the plot reflects the time it took to compute for a specific number. The colors of the dots indicate the method used for the evaluation,  and a legend is provided to assist users in associating each color with its corresponding method.
