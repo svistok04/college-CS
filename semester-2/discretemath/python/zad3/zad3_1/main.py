@@ -20,7 +20,7 @@ def naive_1(n):
     return "is prime"
 
 
-# naive method 1 - check if the given number "n" is divisible by any from 2 to sqrt(n) rounded up, if it is,
+# naive method 2 - check if the given number "n" is divisible by any from 2 to sqrt(n) rounded up, if it is,
 # return "is not prime", otherwise return "is prime"
 def naive_2(n):
     if n <= 1:
@@ -177,8 +177,6 @@ times = pandas.to_numeric(times, errors='coerce')
 plt.xlabel('Number')
 plt.ylabel('Time')
 plt.title('Computation time for all 4 methods')
-
-
 
 # failed to change the way it displays values on the y-axis
 # min_time = float(numpy.min(time))
