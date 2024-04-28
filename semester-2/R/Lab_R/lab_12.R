@@ -11,6 +11,8 @@ cor.test(Ankieta$L.godzin, Ankieta$Wiek, conf.level=0.98)
 # obejmuje prawdziwą nieznany współczynnik korelacji między liczbą godzin
 # przed komputerem w ciągu doby, a wiekiem zetknięcia się z komputerem
 
+lm(Ankieta$L.godzin~Ankieta$Wiek)
+
 # c)
 # Prawdziwy współczynnik korelacji liniowej Pearsona w pop.gen oznaczamy ρ (ro)
 # Test dla współczynnika korelacji

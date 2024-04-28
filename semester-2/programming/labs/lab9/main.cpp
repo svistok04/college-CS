@@ -1,5 +1,5 @@
 #include <iostream>
-#include <bits/stdc++.h>
+#include <algorithm>
 
 int main() {
     std::vector<int> v{ 1, 5, 8, 9, 6, 7, 3, 4, 2, 0 };
@@ -12,7 +12,6 @@ int main() {
 
     std::vector<int> w{ 1, 5, 8, 9, 6, 7, 3, 4, 2, 0 };
 
-    //sort(w.begin(), w.end(), std::greater<>());
     sort(w.begin(), w.end(), std::greater<>());
     std::cout << "\nSorted \n";
     for (auto x : w)
