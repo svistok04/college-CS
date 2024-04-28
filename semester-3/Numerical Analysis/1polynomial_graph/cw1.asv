@@ -1,0 +1,38 @@
+A = input('Wprowadz wektor wspolrzednych wielomianu: ');
+
+A_length = length(A);
+
+x = -10:0.1:10;
+
+x_length = length(x);
+
+W = zeros(x_length);
+
+
+for i = 1:A_length 
+    for j = 1:x_length
+        W(j) = W(j) + A(i) * x(j)^(i-1);
+    end
+end
+
+plot(x, W, 'LineWidth',3);
+
+podpis = 'W(x) = ' ;
+
+
+for i = 1:A_length 
+    if A(i) > 0
+        if i > 1
+            podpis = strcat(podpis, " + ");
+        end
+        podpis = strcat(podpis + num2str(A(i)));
+        if i > 1
+            podpis = strcat(podpis, "x^");
+        end
+    end
+end
+
+disp(podpis);
+
+title(podpis)
+grid on;

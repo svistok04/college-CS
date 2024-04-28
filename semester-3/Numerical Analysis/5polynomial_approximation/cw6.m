@@ -1,0 +1,48 @@
+x = input('Podaj wspolczynyiki x: ');
+y = input('Podaj wspolczynniki y: ');
+p = input('Podaj stopien wielomianu: ');
+n = length(x);
+
+if p < n
+
+    psi = zeros(p+1, p+1);
+    F = zeros(p+1, 1);
+    
+    for i = 1:(p+1)
+        for j = 1:(p+1)
+            for k = 1:n
+                psi(i, j) = psi(i, j) + x(k).^(i+j-2);
+            end
+        end
+    end
+    for i = 1:(p+1)
+        for j = 1:n
+            F(i) = F(i) + x(j).^(i-1)*y(j);
+        end
+    end
+    
+    A = psi \ F;
+    xx = min(x):0.1:max(x);
+    W = zeros(size(xx));
+    for i = 1:p+1
+        W = W + A(i) * xx.^(i-1);
+    end
+    
+    disp(A);
+
+    figure;
+    hold on;
+    grid on;
+    plot(x, y, 'or');
+    plot(xx, W, 'blue');
+
+    Q = 0;
+    WW = zeros(size(x));
+    for i = 1:p+1
+        WW = WW + A(i) * x.^(i-1);
+    end
+    for i = 1:length(x)
+        Q = Q + (W(i) - y(i))^2;
+    end
+    disp(Q);
+end

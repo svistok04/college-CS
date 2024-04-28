@@ -1,0 +1,23 @@
+F = @(x) x.^cos(x);
+
+a = 0;
+b = 10;
+n = 1000;
+h = (b-a)/n;
+x = a:h:b;
+
+disp('metoda prostokatow');
+J1 = sum(F(a:h:b-h))*h;
+disp(J1);
+
+disp('metoda trapezow');
+J2 = (F(b)/2 + sum(F(a+h:h:b-h)) + F(a)/2)*h;
+disp(J2);
+
+disp('metoda simspona');
+J3 = (F(a) + 4*sum(F(a+h:h*2:b-h)) + 2*sum(F(a+2*h:h*2:b-2*h)) + F(b))*(h/3);
+disp(J3);
+
+disp('metoda wbudowana');
+J4 = quad(F, a, b);
+disp(J4);
