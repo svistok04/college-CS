@@ -1,0 +1,3 @@
+A simple C program written to learn IPC through shared memory on Linux by copying a file. The program is designed to copy no more than 100 bytes at a time and is split into two parts: a sender and a receiver. The sender reads data from a specified source file and writes it into a shared memory segment, signaling when data is available or when the end of the file is reached. The receiver connects to this shared memory using a key, reads the available data, and writes it to a target file. The process ensures data integrity and synchronization between the sender and receiver through the use of flags within the shared memory structure.
+
+
