@@ -1,0 +1,7 @@
+<data>
+    <items>
+        <item name="book" price="45">HarryPotter</item>
+        <item name="dvdplayer">Sony3k</item>
+		<item name="cd">Lordi</item>
+    </items>
+</data>
