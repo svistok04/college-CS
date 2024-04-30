@@ -10,14 +10,14 @@
 
 ## The features I've so far implemented:
 1. ### Board and Coordinates Logic:
-   - Implemented the logic to display the game board in the console.
-   - Developed a mechanism to show the user's ship placements and the hits on the opponent's board.
    - Utilized coordinates to represent cells on the board.
+   - Implemented the logic to display the game board in the console.
+   - Developed a mechanism to show the user's ship placements and the hits on the boards.
      
 
 2. ### Ship Placement Logic:
    - Created functions to handle ship placement based on the rules of the game.
-   - Ensured that ships cannot be placed in adjacent cells, either vertically, horizontally, or diagonally.
+   - Ensured that ships cannot be placed in adjacent cells, either vertically, horizontally.
    - Provided feedback to the user if the placement is invalid or restricted to a specific orientation.
 
 
