@@ -1,0 +1,47 @@
+Using Amplitude spectrum                           | Using dB spectrum                                 
+-------------------------------------------------- | -------------------------------------------
+Signal: za_a                                       |
+3 dB:  159.71 Hz to 160.29 Hz and equals 0.5858 Hz | 159.99 Hz to 160.01 Hz and equals 0.021 Hz
+6 dB:  159.50 Hz to 160.50 Hz and equals 1.0000 Hz | 159.98 Hz to 160.02 Hz and equals 0.042 Hz
+12 dB: 159.25 Hz to 160.75 Hz and equals 1.5000 Hz | 159.96 Hz to 160.04 Hz and equals 0.084 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zp_a                                       |
+3 dB:  159.71 Hz to 160.29 Hz and equals 0.5858 Hz | 159.99 Hz to 160.01 Hz and equals 0.021 Hz
+6 dB:  159.50 Hz to 160.50 Hz and equals 1.0000 Hz | 159.98 Hz to 160.02 Hz and equals 0.042 Hz
+12 dB: 159.25 Hz to 160.75 Hz and equals 1.5000 Hz | 159.96 Hz to 160.04 Hz and equals 0.085 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zf_a                                       |
+3 dB:  159.71 Hz to 160.29 Hz and equals 0.5858 Hz | 159.99 Hz to 160.01 Hz and equals 0.021 Hz
+6 dB:  159.50 Hz to 160.50 Hz and equals 1.0000 Hz | 159.98 Hz to 160.02 Hz and equals 0.042 Hz
+12 dB: 159.25 Hz to 160.75 Hz and equals 1.5000 Hz | 159.96 Hz to 160.04 Hz and equals 0.084 Hz
+-----------------------------------------------------------------------------------------------
+Signal: za_b                                       |
+3 dB:  188.71 Hz to 189.29 Hz and equals 0.5858 Hz | 188.99 Hz to 189.01 Hz and equals 0.021 Hz
+6 dB:  188.50 Hz to 189.50 Hz and equals 1.0000 Hz | 188.98 Hz to 189.02 Hz and equals 0.043 Hz
+12 dB: 188.25 Hz to 189.75 Hz and equals 1.5000 Hz | 188.96 Hz to 189.04 Hz and equals 0.085 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zp_b                                       |
+3 dB:  188.71 Hz to 189.29 Hz and equals 0.5858 Hz | 188.98 Hz to 189.01 Hz and equals 0.026 Hz
+6 dB:  188.50 Hz to 189.50 Hz and equals 1.0000 Hz | 188.97 Hz to 189.02 Hz and equals 0.052 Hz
+12 dB: 188.25 Hz to 189.75 Hz and equals 1.5000 Hz | 188.94 Hz to 189.04 Hz and equals 0.1032 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zf_b                                       |
+3 dB:  159.71 Hz to 160.29 Hz and equals 0.5858 Hz | 159.99 Hz to 160.01 Hz and equals 0.021 Hz
+6 dB:  159.50 Hz to 160.50 Hz and equals 1.0000 Hz | 159.98 Hz to 160.02 Hz and equals 0.042 Hz
+12 dB: 159.25 Hz to 160.75 Hz and equals 1.5000 Hz | 159.96 Hz to 160.04 Hz and equals 0.084 Hz
+-----------------------------------------------------------------------------------------------
+Signal: za_c                                       |
+3 dB:  188.71 Hz to 189.29 Hz and equals 0.5858 Hz | 188.99 Hz to 189.01 Hz and equals 0.021 Hz
+6 dB:  188.50 Hz to 189.50 Hz and equals 1.0000 Hz | 188.98 Hz to 189.02 Hz and equals 0.043 Hz
+12 dB: 188.25 Hz to 189.75 Hz and equals 1.5000 Hz | 188.96 Hz to 189.04 Hz and equals 0.085 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zp_c                                       |
+3 dB:  13.707 Hz to 14.787 Hz and equals 1.0796 Hz | 13.989 Hz to 14.742 Hz and equals 0.7524 Hz
+6 dB:  13.500 Hz to 15.203 Hz and equals 1.7034 Hz | 13.978 Hz to 15.007 Hz and equals 1.0287 Hz
+12 dB: 13.250 Hz to 15.602 Hz and equals 2.3517 Hz | 13.957 Hz to 15.029 Hz and equals 1.0723 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zf_c                                       |
+3 dB:  159.71 Hz to 160.29 Hz and equals 0.5858 Hz | 159.99 Hz to 160.01 Hz and equals 0.021 Hz
+6 dB:  159.50 Hz to 160.50 Hz and equals 1.0000 Hz | 159.98 Hz to 160.02 Hz and equals 0.042 Hz
+12 dB: 159.25 Hz to 160.75 Hz and equals 1.5000 Hz | 159.96 Hz to 160.04 Hz and equals 0.085 Hz
+-----------------------------------------------------------------------------------------------

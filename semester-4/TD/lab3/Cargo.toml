@@ -1,0 +1,13 @@
+[package]
+name = "lab3"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+itertools = "0.12.1"
+plotters = "0.3.5"
+num-complex = "0.4"
+rustfft = "6.2.0"
+lerp = "0.5.0"

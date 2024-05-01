@@ -1,0 +1,47 @@
+Using Amplitude spectrum                           | Using dB spectrum
+-------------------------------------------------- | -------------------------------------------
+Signal: za_a                                       |
+3 dB:  126.44 Hz to 130.14 Hz and equals 3.7030 Hz | 126.76 Hz to 130.09 Hz and equals 3.3249 Hz
+6 dB:  125.69 Hz to 131.25 Hz and equals 5.5627 Hz | 126.03 Hz to 130.94 Hz and equals 4.9159 Hz
+12 dB: 123.76 Hz to 132.97 Hz and equals 9.2015 Hz | 123.94 Hz to 132.86 Hz and equals 8.9240 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zp_a                                       |
+3 dB:  126.43 Hz to 129.92 Hz and equals 3.4981 Hz | 126.75 Hz to 129.90 Hz and equals 3.1552 Hz
+6 dB:  125.67 Hz to 131.06 Hz and equals 5.3953 Hz | 125.99 Hz to 130.75 Hz and equals 4.7599 Hz
+12 dB: 123.59 Hz to 132.40 Hz and equals 8.8142 Hz | 123.76 Hz to 132.32 Hz and equals 8.5554 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zf_a                                       |
+3 dB:  126.43 Hz to 129.99 Hz and equals 3.5578 Hz | 126.75 Hz to 129.98 Hz and equals 3.2258 Hz
+6 dB:  125.67 Hz to 131.10 Hz and equals 5.4282 Hz | 126.00 Hz to 130.79 Hz and equals 4.7879 Hz
+12 dB: 123.64 Hz to 132.44 Hz and equals 8.7975 Hz | 123.82 Hz to 132.38 Hz and equals 8.5643 Hz
+-----------------------------------------------------------------------------------------------
+Signal: za_b                                       |
+3 dB:  138.78 Hz to 140.96 Hz and equals 2.1835 Hz | 139.06 Hz to 140.60 Hz and equals 1.5469 Hz
+6 dB:  137.92 Hz to 141.64 Hz and equals 3.7275 Hz | 138.11 Hz to 141.21 Hz and equals 3.0939 Hz
+12 dB: 135.73 Hz to 142.47 Hz and equals 6.7394 Hz | 135.95 Hz to 142.42 Hz and equals 6.4639 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zp_b                                       |
+3 dB:  138.86 Hz to 140.95 Hz and equals 2.0949 Hz | 139.15 Hz to 140.59 Hz and equals 1.4324 Hz
+6 dB:  138.05 Hz to 141.62 Hz and equals 3.5762 Hz | 138.31 Hz to 141.17 Hz and equals 2.8648 Hz
+12 dB: 136.37 Hz to 142.43 Hz and equals 6.0624 Hz | 136.70 Hz to 142.34 Hz and equals 5.6413 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zf_b                                       |
+3 dB:  126.43 Hz to 129.98 Hz and equals 3.5485 Hz | 126.75 Hz to 129.96 Hz and equals 3.2148 Hz
+6 dB:  125.67 Hz to 131.09 Hz and equals 5.4232 Hz | 126.00 Hz to 130.78 Hz and equals 4.7836 Hz
+12 dB: 123.63 Hz to 132.43 Hz and equals 8.8000 Hz | 123.81 Hz to 132.37 Hz and equals 8.5627 Hz
+-----------------------------------------------------------------------------------------------
+Signal: za_c                                       |
+3 dB:  138.82 Hz to 140.97 Hz and equals 2.1441 Hz | 139.11 Hz to 140.61 Hz and equals 1.4973 Hz
+6 dB:  137.99 Hz to 141.65 Hz and equals 3.6602 Hz | 138.22 Hz to 141.22 Hz and equals 2.9945 Hz
+12 dB: 136.06 Hz to 142.47 Hz and equals 6.4118 Hz | 136.35 Hz to 142.44 Hz and equals 6.0849 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zp_c                                       |
+3 dB:  94.424 Hz to 98.527 Hz and equals 4.1026 Hz | 94.593 Hz to 98.192 Hz and equals 3.5991 Hz
+6 dB:  93.344 Hz to 99.253 Hz and equals 5.9088 Hz | 93.615 Hz to 98.884 Hz and equals 5.2688 Hz
+12 dB: 83.234 Hz to 100.79 Hz and equals 17.554 Hz | 83.589 Hz to 100.63 Hz and equals 17.044 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zf_c                                       |
+3 dB:  126.42 Hz to 129.88 Hz and equals 3.4603 Hz | 126.74 Hz to 129.85 Hz and equals 3.1104 Hz
+6 dB:  125.66 Hz to 131.03 Hz and equals 5.3735 Hz | 125.98 Hz to 130.73 Hz and equals 4.7419 Hz
+12 dB: 123.55 Hz to 132.38 Hz and equals 8.8260 Hz | 123.72 Hz to 132.27 Hz and equals 8.5510 Hz
+-----------------------------------------------------------------------------------------------
