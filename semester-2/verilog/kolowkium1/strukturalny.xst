@@ -1,0 +1,5 @@
+set -tmpdir "C:/Studenci/zv53855/kolowkium1/xst/projnav.tmp"
+set -xsthdpdir "C:/Studenci/zv53855/kolowkium1/xst"
+elaborate
+-ifn strukturalny.prj
+-ifmt mixed

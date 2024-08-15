@@ -1,0 +1,14 @@
+NET "iCLK" LOC = P129;
+
+NET"baza[0]"LOC=P120;  #right
+NET"baza[1]"LOC=P121;  #middle
+NET"baza[2]"LOC=P124;  #left 
+
+NET"seg[7]"LOC=P117; # SevenSegment[7] a
+NET"seg[6]"LOC=P116; # SevenSegment[6] b
+NET"seg[5]"LOC=P115; # SevenSegment[5] c
+NET"seg[4]"LOC=P113; # SevenSegment[4] d
+NET"seg[3]"LOC=P112; # SevenSegment[3] e
+NET"seg[2]"LOC=P111; # SevenSegment[2] f
+NET"seg[1]"LOC=P110; # SevenSegment[1] g
+NET"seg[0]"LOC=P114; # SevenSegment[0] dp

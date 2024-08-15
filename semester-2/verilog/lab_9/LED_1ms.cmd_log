@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_9/LED_1ms.xst" -ofn "C:/Studenci/zv53855/lab_9/LED_1ms.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED0.ucf -p xc3s50a-tq144-5 LED_1ms.ngc LED_1ms.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o LED_1ms_map.ncd LED_1ms.ngd LED_1ms.pcf 
+par -w -intstyle ise -ol high -t 1 LED_1ms_map.ncd LED_1ms.ncd LED_1ms.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LED_1ms.twx LED_1ms.ncd -o LED_1ms.twr LED_1ms.pcf -ucf LED0.ucf 
+bitgen -intstyle ise -f LED_1ms.ut LED_1ms.ncd 

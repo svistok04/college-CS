@@ -1,0 +1,3 @@
+verilog isim_temp "GenSignal_mROM.v"
+verilog isim_temp "GenSignal_mROM_tb.v"
+verilog isim_temp "C:/XilinxISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

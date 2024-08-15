@@ -1,0 +1,20 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jun 05 13:16:44 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "baza<0>" LOCATE = SITE "P120" LEVEL 1;
+COMP "baza<1>" LOCATE = SITE "P121" LEVEL 1;
+COMP "baza<2>" LOCATE = SITE "P124" LEVEL 1;
+NET "iCLK_BUFGP/IBUFG" BEL "iCLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+COMP "iCLK" LOCATE = SITE "P129" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "P114" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "P110" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "P111" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "P112" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "P113" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "P115" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "P116" LEVEL 1;
+COMP "seg<7>" LOCATE = SITE "P117" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,4 @@
+
+W	cpp:S5945"=Use "std::array" or "std::vector" instead of a C-style array.(Ÿõ„ðüÿÿÿÿ
+rcpp:S995"YMake the type of this parameter a pointer-to-const. The current type of "arr" is "int *".(Ÿõ„ðüÿÿÿÿ
+W	cpp:S5945"=Use "std::array" or "std::vector" instead of a C-style array.(ñÈ²Ÿøÿÿÿÿ

@@ -1,0 +1,46 @@
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zad_1.ucf -p xc3s50a-tq144-4 zad_1.ngc zad_1.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o zad_1_map.ncd zad_1.ngd zad_1.pcf 
+par -w -intstyle ise -ol high -t 1 zad_1_map.ncd zad_1.ncd zad_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml zad_1.twx zad_1.ncd -o zad_1.twr zad_1.pcf -ucf zad_1.ucf 
+bitgen -intstyle ise -f zad_1.ut zad_1.ncd 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zad_1.ucf -p xc3s50a-tq144-4 zad_1.ngc zad_1.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o zad_1_map.ncd zad_1.ngd zad_1.pcf 
+par -w -intstyle ise -ol high -t 1 zad_1_map.ncd zad_1.ncd zad_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml zad_1.twx zad_1.ncd -o zad_1.twr zad_1.pcf -ucf zad_1.ucf 
+bitgen -intstyle ise -f zad_1.ut zad_1.ncd 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zad_1.ucf -p xc3s50a-tq144-4 zad_1.ngc zad_1.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o zad_1_map.ncd zad_1.ngd zad_1.pcf 
+par -w -intstyle ise -ol high -t 1 zad_1_map.ncd zad_1.ncd zad_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml zad_1.twx zad_1.ncd -o zad_1.twr zad_1.pcf -ucf zad_1.ucf 
+bitgen -intstyle ise -f zad_1.ut zad_1.ncd 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zad_1.ucf -p xc3s50a-tq144-4 zad_1.ngc zad_1.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o zad_1_map.ncd zad_1.ngd zad_1.pcf 
+par -w -intstyle ise -ol high -t 1 zad_1_map.ncd zad_1.ncd zad_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml zad_1.twx zad_1.ncd -o zad_1.twr zad_1.pcf -ucf zad_1.ucf 
+bitgen -intstyle ise -f zad_1.ut zad_1.ncd 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zad_1.ucf -p xc3s50a-tq144-4 zad_1.ngc zad_1.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o zad_1_map.ncd zad_1.ngd zad_1.pcf 
+par -w -intstyle ise -ol high -t 1 zad_1_map.ncd zad_1.ncd zad_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml zad_1.twx zad_1.ncd -o zad_1.twr zad_1.pcf -ucf zad_1.ucf 
+bitgen -intstyle ise -f zad_1.ut zad_1.ncd 
+xst -intstyle ise -ifn "C:/Studenci/zv53855/lab_12/zad_1.xst" -ofn "C:/Studenci/zv53855/lab_12/zad_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zad_1.ucf -p xc3s50a-tq144-4 zad_1.ngc zad_1.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o zad_1_map.ncd zad_1.ngd zad_1.pcf 
+par -w -intstyle ise -ol high -t 1 zad_1_map.ncd zad_1.ncd zad_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml zad_1.twx zad_1.ncd -o zad_1.twr zad_1.pcf -ucf zad_1.ucf 
+bitgen -intstyle ise -f zad_1.ut zad_1.ncd 

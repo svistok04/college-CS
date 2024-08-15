@@ -1,0 +1,2 @@
+select figure at 1926 601 8 -branches -sn=1
+select all in 1876 585 1926 601 -branches -enclosed -sn=1

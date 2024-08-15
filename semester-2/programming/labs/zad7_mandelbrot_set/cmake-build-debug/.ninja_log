@@ -1,0 +1,11 @@
+# ninja log v5
+2	74	1685511705565027287	build.ninja	2e45eb1cfb98a8c4
+607	697	1685299073184227932	zad7_mandelbrot_set	2eb66bc040cc1c4
+0	607	1685299073092226407	CMakeFiles/zad7_mandelbrot_set.dir/main.cpp.o	820d958c6a6c62c
+3	613	1685520561266077329	CMakeFiles/zad7_mandelbrot_set.dir/Fractal.cpp.o	75989d3662c31d60
+2	614	1685520561266077329	CMakeFiles/zad7_mandelbrot_set.dir/main.cpp.o	820d958c6a6c62c
+614	726	1685520561378079109	zad7_mandelbrot_set	29fbc32068a5838f
+1	583	1685520673133581034	CMakeFiles/zad7_mandelbrot_set.dir/main.cpp.o	820d958c6a6c62c
+583	688	1685520673237578507	zad7_mandelbrot_set	29fbc32068a5838f
+4	533	1685520954910959799	CMakeFiles/zad7_mandelbrot_set.dir/Fractal.cpp.o	75989d3662c31d60
+533	648	1685520955026961595	zad7_mandelbrot_set	29fbc32068a5838f

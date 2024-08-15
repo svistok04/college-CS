@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Studenci\zv53855\lab_11\segment7_855.ncd
+OUTFILE=C:\Studenci\zv53855\lab_11\segment7_855.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-4tq144
+WORKINGDIR=C:\Studenci\zv53855\lab_11
+LICENSE=ISE
+USER_INFO=204274456_1777524322_210654223_162

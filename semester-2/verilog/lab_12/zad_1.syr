@@ -1,0 +1,458 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: zad_1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "zad_1.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "zad_1"
+Output Format                      : NGC
+Target Device                      : xc3s50a-4-tq144
+
+---- Source Options
+Top Module Name                    : zad_1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "zad_1.v" in library work
+Module <zad_1> compiled
+No errors in compilation
+Analysis of file <"zad_1.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <zad_1> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <zad_1>.
+Module <zad_1> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <zad_1>.
+    Related source file is "zad_1.v".
+WARNING:Xst:1780 - Signal <dig2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <dig1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <dig0> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <bcd> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <baza_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 3-bit latch for signal <baza>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 8-bit latch for signal <seg>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 23-bit adder for signal <old_rCnt_1$add0000> created at line 41.
+    Found 4-bit adder for signal <old_rStan_2$add0000> created at line 51.
+    Found 23-bit up counter for signal <rCnt>.
+    Found 23-bit comparator greatequal for signal <rCnt$cmp_ge0000> created at line 42.
+    Found 4-bit up counter for signal <rStan>.
+    Found 4-bit comparator greatequal for signal <rStan$cmp_ge0000> created at line 52.
+    Found 1-bit register for signal <sCLK1s>.
+    Found 23-bit comparator greatequal for signal <sCLK1s$cmp_ge0000> created at line 42.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <zad_1> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 23-bit adder                                          : 1
+ 4-bit adder                                           : 1
+# Counters                                             : 2
+ 23-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 1
+ 1-bit register                                        : 1
+# Latches                                              : 2
+ 3-bit latch                                           : 1
+ 8-bit latch                                           : 1
+# Comparators                                          : 3
+ 23-bit comparator greatequal                          : 2
+ 4-bit comparator greatequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <1>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 23-bit adder                                          : 1
+ 4-bit adder                                           : 1
+# Counters                                             : 2
+ 23-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Latches                                              : 2
+ 3-bit latch                                           : 1
+ 8-bit latch                                           : 1
+# Comparators                                          : 3
+ 23-bit comparator greatequal                          : 2
+ 4-bit comparator greatequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <7> in Unit <LPM_LATCH_3> is equivalent to the following 2 FFs/Latches, which will be removed : <6> <2> 
+INFO:Xst:2261 - The FF/Latch <5> in Unit <LPM_LATCH_3> is equivalent to the following 2 FFs/Latches, which will be removed : <4> <3> 
+WARNING:Xst:1710 - FF/Latch <1> (without init value) has a constant value of 0 in block <LPM_LATCH_3>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <zad_1> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block zad_1, actual ratio is 5.
+Latch seg_7 has been replicated 2 time(s) to handle iob=true attribute.
+Latch seg_5 has been replicated 2 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 28
+ Flip-Flops                                            : 28
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : zad_1.ngr
+Top Level Output File Name         : zad_1
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 162
+#      GND                         : 1
+#      INV                         : 7
+#      LUT1                        : 45
+#      LUT2                        : 5
+#      LUT3                        : 4
+#      LUT4                        : 7
+#      MUXCY                       : 53
+#      VCC                         : 1
+#      XORCY                       : 39
+# FlipFlops/Latches                : 38
+#      FDE                         : 1
+#      FDR                         : 27
+#      LD                          : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50atq144-4 
+
+ Number of Slices:                       39  out of    704     5%  
+ Number of Slice Flip Flops:             28  out of   1408     1%  
+ Number of 4 input LUTs:                 68  out of   1408     4%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    108    11%  
+    IOB Flip Flops:                      10
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+iCLK                               | BUFGP                  | 24    |
+baza_not0001(baza_not00011:O)      | NONE(*)(baza_0)        | 3     |
+sCLK1s                             | NONE(rStan_0)          | 4     |
+seg_mux0000<0>(seg_mux0000<0>1:O)  | NONE(*)(seg_0)         | 7     |
+-----------------------------------+------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 8.645ns (Maximum Frequency: 115.674MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 5.668ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'iCLK'
+  Clock period: 8.645ns (frequency: 115.674MHz)
+  Total number of paths / destination ports: 6229 / 48
+-------------------------------------------------------------------------
+Delay:               8.645ns (Levels of Logic = 25)
+  Source:            rCnt_1 (FF)
+  Destination:       rCnt_0 (FF)
+  Source Clock:      iCLK rising
+  Destination Clock: iCLK rising
+
+  Data Path: rCnt_1 to rCnt_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.590  rCnt_1 (rCnt_1)
+     LUT1:I0->O            1   0.648   0.000  Madd_old_rCnt_1_add0000_cy<1>_rt (Madd_old_rCnt_1_add0000_cy<1>_rt)
+     MUXCY:S->O            1   0.632   0.000  Madd_old_rCnt_1_add0000_cy<1> (Madd_old_rCnt_1_add0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<2> (Madd_old_rCnt_1_add0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<3> (Madd_old_rCnt_1_add0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<4> (Madd_old_rCnt_1_add0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<5> (Madd_old_rCnt_1_add0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<6> (Madd_old_rCnt_1_add0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<7> (Madd_old_rCnt_1_add0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<8> (Madd_old_rCnt_1_add0000_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<9> (Madd_old_rCnt_1_add0000_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<10> (Madd_old_rCnt_1_add0000_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<11> (Madd_old_rCnt_1_add0000_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<12> (Madd_old_rCnt_1_add0000_cy<12>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<13> (Madd_old_rCnt_1_add0000_cy<13>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<14> (Madd_old_rCnt_1_add0000_cy<14>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<15> (Madd_old_rCnt_1_add0000_cy<15>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<16> (Madd_old_rCnt_1_add0000_cy<16>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<17> (Madd_old_rCnt_1_add0000_cy<17>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<18> (Madd_old_rCnt_1_add0000_cy<18>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<19> (Madd_old_rCnt_1_add0000_cy<19>)
+     MUXCY:CI->O           1   0.065   0.000  Madd_old_rCnt_1_add0000_cy<20> (Madd_old_rCnt_1_add0000_cy<20>)
+     MUXCY:CI->O           0   0.065   0.000  Madd_old_rCnt_1_add0000_cy<21> (Madd_old_rCnt_1_add0000_cy<21>)
+     XORCY:CI->O           1   0.844   0.563  Madd_old_rCnt_1_add0000_xor<22> (old_rCnt_1_add0000<22>)
+     LUT1:I0->O            1   0.648   0.000  Mcompar_rCnt_cmp_ge0000_cy<8>_rt (Mcompar_rCnt_cmp_ge0000_cy<8>_rt)
+     MUXCY:S->O           24   0.708   1.252  Mcompar_rCnt_cmp_ge0000_cy<8> (rCnt_cmp_ge0000)
+     FDR:R                     0.869          rCnt_0
+    ----------------------------------------
+    Total                      8.645ns (6.240ns logic, 2.405ns route)
+                                       (72.2% logic, 27.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'sCLK1s'
+  Clock period: 3.658ns (frequency: 273.373MHz)
+  Total number of paths / destination ports: 26 / 8
+-------------------------------------------------------------------------
+Delay:               3.658ns (Levels of Logic = 1)
+  Source:            rStan_2 (FF)
+  Destination:       rStan_0 (FF)
+  Source Clock:      sCLK1s rising
+  Destination Clock: sCLK1s rising
+
+  Data Path: rStan_2 to rStan_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              9   0.591   0.963  rStan_2 (rStan_2)
+     LUT4:I0->O            4   0.648   0.587  rStan_cmp_ge000011 (rStan_cmp_ge0000)
+     FDR:R                     0.869          rStan_0
+    ----------------------------------------
+    Total                      3.658ns (2.108ns logic, 1.550ns route)
+                                       (57.6% logic, 42.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'baza_not0001'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              5.668ns (Levels of Logic = 1)
+  Source:            baza_2 (LATCH)
+  Destination:       baza<2> (PAD)
+  Source Clock:      baza_not0001 falling
+
+  Data Path: baza_2 to baza<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.728   0.420  baza_2 (baza_2)
+     OBUF:I->O                 4.520          baza_2_OBUF (baza<2>)
+    ----------------------------------------
+    Total                      5.668ns (5.248ns logic, 0.420ns route)
+                                       (92.6% logic, 7.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'seg_mux0000<0>'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              5.668ns (Levels of Logic = 1)
+  Source:            seg_7_1 (LATCH)
+  Destination:       seg<7> (PAD)
+  Source Clock:      seg_mux0000<0> falling
+
+  Data Path: seg_7_1 to seg<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.728   0.420  seg_7_1 (seg_7_1)
+     OBUF:I->O                 4.520          seg_7_OBUF (seg<7>)
+    ----------------------------------------
+    Total                      5.668ns (5.248ns logic, 0.420ns route)
+                                       (92.6% logic, 7.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.77 secs
+ 
+--> 
+
+Total memory usage is 4482076 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    9 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

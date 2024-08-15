@@ -1,0 +1,3 @@
+verilog isim_temp "przebieg_1.v"
+verilog isim_temp "przebieg_1_tb.v"
+verilog isim_temp "C:/XilinxISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

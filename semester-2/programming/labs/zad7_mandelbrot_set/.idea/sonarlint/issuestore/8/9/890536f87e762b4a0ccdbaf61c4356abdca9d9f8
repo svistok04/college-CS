@@ -1,0 +1,15 @@
+
+Q	cpp:S1659"0Define each identifier in a dedicated statement.(ã†·úÿÿÿÿ8€Ÿï‚‡1
+L	cpp:S1659	"0Define each identifier in a dedicated statement.(¦Ä‡Å8Ÿï‚‡1
+L	cpp:S1659
+"0Define each identifier in a dedicated statement.(âò¢é8Ÿï‚‡1
+Rcpp:S886"2Refactor this loop so that it is less error-prone.(İ—ú«úÿÿÿÿ8æùï‚‡1
+E	cpp:S58171")This function should be declared "const".(ÃŸûŞ8Ïè†‡1
+b	cpp:S60091"FReplace this const reference to "std::string" by a "std::string_view".(ÃŸûŞ8éè‚‡‡1
+L	cpp:S6022="0Use "std::byte" for byte-oriented memory access.(¸ÅóÆ8ëè‚‡‡1
+I	cpp:S3630="-Replace "reinterpret_cast" with a safer cast.(¸ÅóÆ8ëè‚‡‡1
+Q	cpp:S6022>"0Use "std::byte" for byte-oriented memory access.(×Æòúÿÿÿÿ8ìè‚‡‡1
+N	cpp:S3630>"-Replace "reinterpret_cast" with a safer cast.(×Æòúÿÿÿÿ8ìè‚‡‡1
+L	cpp:S6022?"0Use "std::byte" for byte-oriented memory access.(õª¢8ìè‚‡‡1
+I	cpp:S3630?"-Replace "reinterpret_cast" with a safer cast.(õª¢8ìè‚‡‡1
+N	cpp:S3630D"-Replace "reinterpret_cast" with a safer cast.(Â‡İØşÿÿÿÿ8ïè‚‡‡1

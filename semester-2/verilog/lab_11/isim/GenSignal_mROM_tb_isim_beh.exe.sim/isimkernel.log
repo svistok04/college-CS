@@ -1,0 +1,28 @@
+Command line:
+   GenSignal_mROM_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50610
+
+Mon May 29 13:05:48 2023
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5173.49 Meg
+
+ Total Signals          : 16
+ Total Nets             : 27
+ Total Signal Drivers   : 19
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 26
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 136
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5173.49 Meg
+
+Mon May 29 13:06:40 2023
+

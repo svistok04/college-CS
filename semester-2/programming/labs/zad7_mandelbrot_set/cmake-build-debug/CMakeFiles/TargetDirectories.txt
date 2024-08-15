@@ -1,0 +1,3 @@
+/home/marling/Documents/college-CS/semester-2/programming/labs/zad7_mandelbrot_set/cmake-build-debug/CMakeFiles/zad7_mandelbrot_set.dir
+/home/marling/Documents/college-CS/semester-2/programming/labs/zad7_mandelbrot_set/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/marling/Documents/college-CS/semester-2/programming/labs/zad7_mandelbrot_set/cmake-build-debug/CMakeFiles/rebuild_cache.dir

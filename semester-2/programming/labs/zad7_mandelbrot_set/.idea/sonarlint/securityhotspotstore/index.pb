@@ -1,0 +1,7 @@
+
+8
+main.cpp,6/8/682a50d19e416195436708e48c7761923b8d6651
+;
+Fractal.cpp,8/9/890536f87e762b4a0ccdbaf61c4356abdca9d9f8
+;
+Fractal.hpp,9/3/93942faa41cde75cbbfe5c327aad29d8f6c89a6e

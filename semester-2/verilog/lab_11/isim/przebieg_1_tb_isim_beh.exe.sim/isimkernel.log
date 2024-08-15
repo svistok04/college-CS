@@ -1,0 +1,28 @@
+Command line:
+   przebieg_1_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50625
+
+Mon May 29 13:06:56 2023
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5173.48 Meg
+
+ Total Signals          : 16
+ Total Nets             : 27
+ Total Signal Drivers   : 19
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 26
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 136
+
+ Total Simulation Time: 35.6094 sec
+
+ Current Memory Usage: 5173.48 Meg
+
+Mon May 29 13:08:40 2023
+

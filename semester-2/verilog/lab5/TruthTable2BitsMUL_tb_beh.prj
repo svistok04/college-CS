@@ -1,0 +1,3 @@
+verilog work "TruthTable2BitsMUL.v"
+verilog work "TruthTable2BitsMUL_tb.v"
+verilog work "C:/XilinxISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon May 08 13:31:43 2023
+# Process ID: 11100
+# Log file: C:/Studenci/zv53855/lab_9/planAhead_run_1/planAhead.log
+# Journal file: C:/Studenci/zv53855/lab_9/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Studenci/zv53855/lab_9/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P46 [get_ports oLED]
+endgroup
+startgroup
+set_property package_pin P129 [get_ports iCLK]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports oLED]
+endgroup
+startgroup
+set_property package_pin P129 [get_ports iCLK]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports oLED]
+endgroup
+save_constraints

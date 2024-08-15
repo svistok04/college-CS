@@ -1,0 +1,5 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "iCLK" LOC = P129;
+NET "oLED" LOC = P46;

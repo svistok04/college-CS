@@ -1,0 +1,28 @@
+Command line:
+   mux8na1_sch_mux8na1_sch_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  2
+     -socket  50463
+
+Mon Apr 17 13:47:16 2023
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5172.67 Meg
+
+ Total Signals          : 37
+ Total Nets             : 21
+ Total Signal Drivers   : 13
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 16
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 106
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 4700.8 Meg
+
+Mon Apr 17 13:54:29 2023
+
