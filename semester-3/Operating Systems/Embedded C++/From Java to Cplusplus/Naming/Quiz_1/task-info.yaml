@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: It is a good practice to split the code between header and source files.
+    is_correct: true
+  - text: The header file contains the implementation of the code.
+    is_correct: false
+  - text: Other files import the header files with the <code>#include</code> keyword
+      to access to the public implementation.
+    is_correct: true
+  - text: The expression <code>Class::method()</code> is used in the .cpp file to define
+      the constructors and methods.
+    is_correct: true
+quiz_header: Which statements are correct ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutIGDBON/QVIyXcXxr6+218gXccUbNO50ecHVat2ikefBa10mX/1QZg+sKUQKDyyVRNEaIUkwkBkgcnNUhN56BwqzQQSvBNA/pVBqAsJANcPpFiW194FGXxnuv2SLJ8agBhsZasCAlGPB/HXr6s3QNArj9lACVzQXcg+yzKLHno4HFqjpaDBHc97cjJwKutdNYU8jVHjU+haoF3/xPOqT1ZdIOdPtp+vlw9vKmlOKu/HeDpvXPofSdnUgu7HGq1bbGOQ7ZUcHKz8M7nsihzY04l3HJVsmaC5DC42gxUWQwaMEXkdyUoG0coh4ZQI38Lauqc+pEll6BM+YTeEI8GOWObG/fdMLjpF0Ux5dPXAJS+vl
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7A+KPOC+KfutLn0kCtYNht4=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

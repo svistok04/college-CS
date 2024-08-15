@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "In C++, a class can only inherit one class like in Java."
+    is_correct: false
+  - text: Virtual methods are useful to define different behaviors in the derived classes
+      by the method overridden.
+    is_correct: true
+  - text: Pure virtual methods have a defined syntax.
+    is_correct: true
+  - text: "Pure virtual methods have a body, whereas virtual methods don't have one."
+    is_correct: false
+quiz_header: Which statements are correct ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutPnc9QJbV9nLERtAyximqoCS49aIVVCtjOCF+/NfvQDEqcNJ20Ywp1RjOB9tFra8LdkqRfaVOvg0mNDGyJX7bDBduWEBlPlNNdCDAthbLUa5L/3A7cbldqSLwAiJ+qQRrLPd0VjmAN+5DaJD3Z4DJqYkE38vPS1oS6sy2AJCCry3cTGtVcvLVlyx0e0Vxe+D/I3iiplXbDtO7Oezt+6vgDI/DWXVdIu6uQA4xuWBriVSUVs2niOeajkDYt01yZRkMuY7WXmiOiSFfNoVnhm8HC6jzPFUhVbccEmkTWbXhcCgJltbW0af8v081RxBLBwdVowAGxIQ/BVw0X02ZDUYrX5gMpLwx3IgMkXK12kclFN71HADYUDjCI8LxaPrB2uAzw==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7A+KPOC+KfutLn0kCtYNht4=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

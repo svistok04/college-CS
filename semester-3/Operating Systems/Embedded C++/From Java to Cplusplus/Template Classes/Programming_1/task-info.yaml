@@ -1,0 +1,31 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: sY/bXbBQdGnpRsE0eX6oEA==
+    learner_created: false
+  - name: test/input.txt
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutMkCGYKJkGWSt1c43j26vHZ3EqS3j3p1Li6b5+QeDvZ97WDjDBwrcYRoj9gRBF0MTlMlRTG4oPAB3BScuApTyGjsIr97vro1kNy+rm2wvYvOkrqbpiU8VG2UBbN2ub3s8Y1HEl0TQQzmeDSKp5Mkt0sLjE8UiTjS8ERqeiuETeoHyWZQJ48Ym/oftyAdTma0Jn6I7EXZkw4SNRDacNQ39Ga2HmMn2+OxxpvuBxCMXRowHIKVJNb7Rj3aK0aiSbjdDwJlDeHbwPQCJMxAoyeCRrd9tizcSzXzCXUaZ3eD3ib0YB/Lm/25w0WIURrgmq2+SORVHW43mr3/YdEvvJex7i5Af3GXp1gWruMkqs4YUs924JcOzuXEPrxiW+SADfJg6A==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    placeholders:
+      - offset: 39
+        length: 40
+        placeholder_text: /* Define the template max() function */
+        initial_state:
+          length: 40
+          offset: 39
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: IemgsLuOZbKIRc7jour2XC70M+iIdfurb/zb5wI0KSqUqOlul6qR8yrIl+EwQC1W2hvGpmbprRFceLhz6HhY5oZX+7mlpwCphE8+3Ff8Nr2LhGu2etoAgOxRSc3ijV8G
+    encrypted_text: G1EDRCp8K72w6UaV30vFpGtLpQkBF4XO5HNTymrNiC46U1HxLzUA3yhFCPxzKaYh3MuFGcBNtnn4Sd0I2mqhm55UGYr419KcdJlZnq3VP1rCyO8KC20tl9ZLiG5Pi9vZTvAATcWmdwFKK6Qp04uX5tnlv7Rbw95B05TqvAqVdYZMQbcXeRpd1pwK37sgVi5oAaVR29kZhY2f8FCXk3/ADEeKaP2leCIpNSoRcDc5fLbCBaBO99cQ1LK3kranw4p5moqg7T7xQrBCRrVk5P+G2U0cgCKXO2QvOc4DgtxjEWCrnj0amNJb65/o45fnJOrFRLQBdFAfyrjbXVlbS7Eh3UGN0KnzQhFaxs2n1Y9Zhn0=
+    learner_created: false
+status: Unchecked
+record: -1

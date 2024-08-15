@@ -1,0 +1,25 @@
+type: theory
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oTBzCxpuHAp+M+uRXTkODPzWW0D0J5m1DiqIVcZUXsx58PGaQlEQKZmnVvuUVsUe0Z7ezTt+ktf3RGffrdU46nNDJHMYrKKmC/LNcQxAXbqfDt4IW5xMqfhLz+vEjyBBXIcFmXo7OPuOHr/441F3DoCd2AA/pyfpY7xFptr9WsBffe9dAELnbAm3wJCq3TuWpgNe77Q8lx2F35H6ARtOxeDgNLyoX+fL0t8PftoIKeaotpIYyc0bP450IZ5F54PmeTWY5fZBQoUj31QCTXALu/P10RVm/sWbXJN93hRPiB2DRK1CpfJyhKzNzNrsOijtxkFKwjrG0FxlDZlg6Kwjo9+V24frXyhyW+uc82bdZR0u+W+qXtYCVbneE8ZdQ1+ZDeO+/CDJgKB/lpeIjSiiEWnwy44IgK6B1209or39w21fz2v8cmLr1qBmqUOxQtSn7A=
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    placeholders:
+      - offset: 745
+        length: 76
+        placeholder_text: "/* if you call s.getter() and discard the return value, you\
+      \ get a warning */"
+        initial_state:
+          length: 76
+          offset: 745
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: D0sMHYgU2/t5JvyDxEhkqA==
+    encrypted_text: G1EDRCp8K72w6UaV30vFpNngFwBnlY2yijf58DVJsZ3qiL0U0RYtDEzDqP3YLaDMiVsZ9rGUXJuaZXnZU2v8wsI3CdUc4kIexP8geQay/mboQuEhd0H9OaFLaicxDH1S282BIeqegDOm41ylWB4flM3UMa1W8RsYEw/KVReY7bU31pzF0zFTxfsU+BW4o3x8EDHVG5+mslcaQyGW9TWKlKlfKo2uzG9/dXAfa1Cyv6IH377+0JpuaiY3nU7go1jSgQWUNDVdyWn3CIkF1f04Gi/rmuMjv92iyK2zDnDB44j/FnawxGRT1Bpb52Swwhyg7HYYII8FD4Zm1WQUFg+blB6xhBwlP9dQ7dLSUQYzqxOxx5oQM5C4qa4qv5feiMHmew/snqbdvwdzvqmWzAG0YWFukab+h+A3OWRdhHARErfpsYFHaokgDP7x/6ihEvT1opvuscSl5wjlUx8hC+zl1u5bn47VOA0QB33Nf2v80XJ5R5GwPwwZdXxN0JlwJ57ResPbkPe5EbTcURPi9uh7D766jou1SiCPdsNMmsBMXSIQp/NF5L66UTE8KYoQhBSPZiAQNmWp7dfb8tQdW1g8PlR9fxc0KlA1VAT1zsI9IBamK026/SkgcSR76kVo/llI9jXlF5sBuiPosHXHvow2Rj5d8G0thUqPmkUUhehMG0SNxn77tw/SGLpcoIKvbEppGaqTbW6K2qCNBLfoZwuWSdNEBBsstZdLF4nZ+khO9PJObCmdMAR2PYjidqmYv275H1f3CIAK8KtRXmxVtdwpL7zcbJMgJ1kDdFhwyswGf9GTomDZb7tnjrMzuBWsxHMuEmUmg7BDtuARI6HcFKaGTOz6oh5v1qXYzc/sBgzG1tjmQkkcP/4J01eFZf4ui5PCbOFmbTsyoctENaSiBRBWJ86ud8qJpKt9BbCX7Mx4pxUFmBca+AqVFp3hJ3SKK6w1AP8/0+IbqW9/7WyFwWiwhpDT9z7J9luTS+sR2Nex+7wg+cVXXNurZQBpLPqIk5wH6NqfNUkH+GgmROncdDb1wEI0XRLRRc0WJIEi8ZOQmubwF9KnR4KJyxMDsw2u9fpIe3rcU3rRDzVFKVvJSPFUC2Otj2gFGEX1RAWltCglS9UCeRrhk1d1FaXh3Jml+gNWvutoGFl8vXcHLA6SQMNRxzAnCEIRvapcgac34tStNTn1X3q0biiZ05Vcvrm0lTgltGll1U0Ey0XlRkPKYcfLgIbHxT17oMyYws3TCSSa2E7ki9A156qgu9I8sMIsMrsz8d4xm4KHJzb3koQwVr3ewMLgYMrHqKEFHQapNvaAtSoZghW0q/tfzi4fyHrGIDU4+R27SgTKFHu9i623LzVDw4ii0a/RytdiPEFeI/dOXziDd7xIWuWe5LDjLkfiVWPAE+OAY2BxwNNlmDbW/vqOoqkCwgb4tbMRr+KzPyCklK1ia/lr9JUsCZfLLuesuNZL2flffhEqYt5OUbfBxfM1xKuCHwUod/ZejYy5ZlKNLEhg0FtuKduNPEM4vB1mJhfX8gV4Uwrs6ZleFuHzPJ/VC1PCe+Z+XFXUPxYyobpVi0xbtqMWTGyE8ZIGkdgHkddXZK1eSe+QuUmELr+RxhtSOpoqQOXJA/7WGtECJZZb9dpPQPUvjAIFPddlSA7g25lVn2YgGLE1/CSBCtqyo56liwoFd/bIKg+36Q/yEgLke6I=
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

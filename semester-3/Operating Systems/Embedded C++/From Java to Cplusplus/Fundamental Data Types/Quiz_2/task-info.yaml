@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 1
+    is_correct: false
+  - text: 2
+    is_correct: false
+  - text: 3
+    is_correct: false
+  - text: 4
+    is_correct: true
+  - text: 8
+    is_correct: false
+  - text: It depends of the machine.
+    is_correct: false
+quiz_header: How many bytes has the <code> int32_t </code> data type ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutOSusGe0gpSELVyjuAPOUxdwb3/qSbXEJWlMbeERJe5qDDH9323ldhr/ygjYvrz3FW54Wf2YMbCW77DTtFLgmR7nRJ2qQai3ycLTih9l1gcDvMTVdJRK4cQFkaIQpezImQdtUkgJJJdLX13bMuTknAGrRJhkwDmb8JhMW12PYiFzHjrb2IrtLLLlmfgYR9acHEZ5HVqWKIfzSRWWFf/RK3uX9pc+qhmFaDHCCN5CJ7KdDHSLIKn7gbQGp4UKIiIBoGD8KgbwGsDvnn8DkEXXawhDIG4nKO9IHF0VgutvwkBw9se3pOETWhIY1lCJ0/iz782DGni5tXq+UX40fPtMQSpnPb5aFunzplBkVELYMbpO0rvjpafX8QKscLj75hIiNQ==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: G1EDRCp8K72w6UaV30vFpD7gGkRO1+zCMoAJbb21aDOYdM/JGnvC63yljP/l/Fg8K5s28fBNlRQ4NrRHC05mfG2Af5CJMjkkkHnxlC0hs9dqVRZ4pcdf7VSDC48Abll4a0oKvfRQXpsUZ66aMIwkZaNEkfr2cS5NzyJsSbsZ6inG/turFuZ1dCI7qgG+GjR0
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

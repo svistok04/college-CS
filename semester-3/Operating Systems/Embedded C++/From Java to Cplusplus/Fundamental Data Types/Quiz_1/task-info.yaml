@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 1
+    is_correct: false
+  - text: 2
+    is_correct: false
+  - text: 3
+    is_correct: false
+  - text: 4
+    is_correct: false
+  - text: 8
+    is_correct: false
+  - text: It is machine dependent.
+    is_correct: true
+quiz_header: How many bytes has the <code> long </code> data type ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutOSusGe0gpSELVyjuAPOUxdwb3/qSbXEJWlMbeERJe5qIX/U2lbVJiP/L7FZlV6IXu6Nz2I1fueqxGNp9GNxx2EmmKmbLSPPF6OY8SA/TvhpTLOIRatHi1kD4eI+VROxrfYFQ+f4wgH9FM9jxa/HZzwgUE7yHZXQaIh9uR1soCdMNSTGxBxNTLU74nJad5AbSAoSLyOn2voh4Hos6BYtKg5Q64DpzW1x4LVUTTp+A5Y7/EhdUCmPwjsOhscQRwMEetPtGlKyrNdXtjokpzH/jOkLSDM2i6CxMsTAoe5l5DvGadctr2onu5kxMxg1iKMG3IqCgEYrba0BFtb8jhl7w39c2mP/Y8cpo/an2CO3TWZw46g/qenYKILrkRE3km+R4Q==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: G1EDRCp8K72w6UaV30vFpD7gGkRO1+zCMoAJbb21aDMQmhdvE/7zsGQTw/kKq9vh4j5dRfaNYJL2RB4KWfj23EnTz4Rt2HRrvMbjCLRGcIksf9zGd3d4KgcbJYMkGnzBWQIVMXZcitR7wRNELcrkKuSXFSbLe+ro+Lv/lH0YYEIPC+ttAnfsQENakRLaWuEv
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

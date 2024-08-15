@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "5, 5, 1, 2, 3, 4"
+    is_correct: false
+  - text: "5, 5, 6, 1, 2, 3, 4"
+    is_correct: false
+  - text: "5, 5, 6, 1, 2, 4"
+    is_correct: true
+  - text: "5, 5, 6, 1, 3, 4"
+    is_correct: false
+  - text: "5, 5, 6, 1, 2, 3"
+    is_correct: false
+quiz_header: What is the content of the vector at the end of the program ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutKjDuonwcaxjfV+FW1RFjsmZ8+aXPaSe/od93oUnqBRGpJBKxScygc3DFzUflGtxTX2cyDEyhyO6Ler+3CFlDR/7KwPDOVd4Hdo7ZmMtJkUKzHgQ4mfknUPUZT23w1PQphzHIo7vKb4i4KVXt7RM2a4u2RoqUDXI23Z5JKApRtmQKpmkWqZqB8I435p2r9BEC/hpv6CVuysVUOKVjU2gBMftlkgMT3uNgSVRLTTVqr8PkkexSeBfPGDB142nHv8+VzHEYHLLmLDF9rMX7OhAmk2rYP2/8XyAniXQr9b2m0ffdA20Pr6U3eAD0Rd1IypCxBQw5TbsaIubjX+OcwXFnWVHKjFGOupfTl+whbsTpnIU
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: G1EDRCp8K72w6UaV30vFpMTeCOpgKAGmBTx/sm6Wxo9DEVB18XFOWtJOM7EouYFsAbKeKwNxXksxbg13/A3/waCF6ZQbJhmxfWrlIarEuY1VeF1lccbL/4KVqxjXJ1JHMTn3Eit8Dsc8/r7PYBX0QiB1Vy1FeOUgB2aTKnoByuIWf9PwvsQhJeQXDD6FpbkarJgz+4pdXKl+g9e0aok1AZ6z1tyuWrf1jY7HSHJPadGibnYhDPvg/ug9EGWAkDpv9HjgVfu/E/mTpgZlRr1ES4HNdDldhXyNUnwvxgSR/jivSH7Up0hUhDRlHyv0DeXinb+qn+9liwJPJjBUXv9KmSdOQAQb0EiYtR3/22dd0Zz62MOsUXMmk89mxXnWiI7VVhQAWfTdxGtISkdsnFvE9aEJQ8bB3zZUWhsIdEzpUgi23X/gFAzI9i2/vsjTjFQxDoXPjD62sKuAzX+oQ13NDZ/f0/NNfmwMeecdhqJ3sGBDIR1Wpd0aRd/2U1h9AvIYwizFDv4xpO5sjYiamp2Of4gwooaoCW7mYV3eVe13xXM=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

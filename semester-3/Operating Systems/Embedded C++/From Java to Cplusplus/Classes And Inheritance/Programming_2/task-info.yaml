@@ -1,0 +1,71 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: jdv+0FU2fIig/lNwEVdelHVb+btN0f22Z9nE4D5dj/u2ejKJoE705ld6NoZ9fVPsjup0yMDyTxrMaRCer5nm7oNLJ81b0wCpHvGK9N72x4f8H1NRBsv/dxeT23e5mBUdq1Sz+Zv+2lJ/x86tjEEcb3Ind/d5OyzISXb7GPxJAYI=
+    learner_created: false
+  - name: test/input.txt
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutPnc9QJbV9nLERtAyximqoDVUABHmxs3pmGe+vvz3K36BePug9BHeTQfri6xaScLFzRLKLPCELONcbSzaTI7PZneA/5U/B7ZPVoCebBRmDGrZ+7qsetr8KaXopEqQ2PL3YKRrN8DaB4CI2EeCm48VCRPXaHu4IVt3JORRdRSPNpEnfEDuC5Fhf/WmnNDyanxTYAudegeRHLmg4WC0GHKSxEhECEkCoX+cVNs/zYPosC1N4CQWMfSt9PiZwLZdsM3pfR4q4e+P4iC0KA+w9cvLmDu3jZc/gkXNfwdRHsTTfXeC+4dAmfFCOMiBkjUejxrrPLi+lfQkUs4KrxJHQvnY6r04ZVP5NokmmNuEaYIt8wspctKjlpiLhB8RGpIhhrupz2tvhh5AT8N1gnnzok7Hz4=
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    placeholders:
+      - offset: 47
+        length: 30
+        placeholder_text: /* Write the print() method */
+        initial_state:
+          length: 30
+          offset: 47
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: OyQiNH5HX7yFNDRsxQ+gQvlICELeDpUA3EIurvBXxbg=
+      - offset: 82
+        length: 32
+        placeholder_text: /* Write the Switch interface */
+        initial_state:
+          length: 32
+          offset: 82
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: tk3wvKe8vSayMGq7XU6Tx4eieA4b+kejO3pbcNY1I4a/uGBk4SOiNjS6+FpEIEiQg8MedYzVRXccd+W4YrQXvZS3sXnGwNoO92p4Lrv5q0IQwBoLblxu3wXXWERH8K1n
+      - offset: 116
+        length: 36
+        placeholder_text: /* Write the Led class definition */
+        initial_state:
+          length: 36
+          offset: 116
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: TvFn/iRwsYBYRJEGskvrvhGcmxk8Tz6ed4YTOsZbnVs1wW8fuJnSrinNNueqE+Ok
+      - offset: 359
+        length: 31
+        placeholder_text: /* Write the turnOn() method */
+        initial_state:
+          length: 31
+          offset: 359
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: pXwdUriZlmvGKJ4GVIwLfq7x+vuIfdttPBNSNEUfWRt9hWEKFPhhuOO8lNsCj/b8MpzzRxrksELDpfj9SFyZ2Q==
+      - offset: 391
+        length: 30
+        placeholder_text: /* Write the turnOff method */
+        initial_state:
+          length: 30
+          offset: 391
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 2DF8CKiCAew7olAYmHmDvQkJ3SEzvrDsx6mStCfEMSnjRhuA9A8ahy2y57rUrQMo4cVqQycjssMjzim8jGOBTw==
+    encrypted_text: G1EDRCp8K72w6UaV30vFpHTcT5yFhzj4q3LsA/6VfBoGL5Uqk2kqQK8RgUk8a3hENsyDXgWUWIqZbo3636aUa5TnrqZkCzk24HBS0tyYVvngxgOmEhyQpVpPKzl4eoqeoiG797rmesq+fTMlXJ8v4ZAzOXumLnY//kBdhCNbMVWLiacDw7OOZ7NWHmScutjo7yqG1i9c8O6uSqqQ0thzNf6pH4h+ohMxMMnWwAuRucqyCAHfzgpjeFF8pzdufbdDM2a4PUzyOuGFMXbJO4N7kEyjGUePzDQTVkRzrjmgCampV2az7FcC7KSuD5NPpsf/rjrYzWCLxghNTpvnTrUzik4dCwI0yLA0iQa7Nf46xORcLDqai3VxpqnooCMdbFwO1jX04JoiZzsITiw7sN3HH7GZxmyn8AsiFjrz/fk2FQY+FD6QvI4PttiNtw1Hh71O22DWkjmA0nFettVWcPonwmCK8Z9Mrvto39wbieRjfpPPAR9AKwyNwASF0cvpMH/4l9wCblrm3wIDE8DwadLIHzEPOPMb+5JZQ4qZSHknp7dEspiExtw1nehjWSRdwQsVJ8otDqU5r2AbLFmH3svQyNzz65rU7AEh3f4rZKE3JGzDvuQkgb2R6ct4/yPm1rSPipkZihGxs1YzeyyLJjw3NiVoD5VDhdDQ3YJLKTe5acPE7tt4SYzm4LNXFA95IblI3AJnHK9uGLDSpGlGinvHws68UA2iUO7GCfgJPlb/F+CBB1pC9QDPGm7MBuP6o4jpAO7/2WgrYstrxkwYGYErEEy0vB1NZhedD/kTAHon0v5EYZxTBGBTFJUdUVJnpAh/sAZAYZhwuvXNC9Sg2g+ykA9lHplWEa7gDaneUOnKOMbwt5z8wpvm6gxRGAtiJlvhzsZ3CAiFF2Y3zi4bjtzAvHxQaj6QH4b9et4GWbM/X6L7peLu388HlaxCPBsP91MfpAORd2VvO+B9x5B4hAoncDOYZmaEqB+QLg9OJ4SRBCLwDrxBTyWh0wlBr2BSegCFFIdAHMgbTKw4NCWLCOQecn2eoAZMU/iY4XPenRAET0Zum9iLTxBc3ht5ba4rX1PVWu/zNVSv2saeslq8y6e/1fam30wtSYOY3c4vXBbiW9WcQKuGTGwPxjZHR9kSzEuZcIPU87TT89JvgDgmKLctlvYq5juR3mSxOXqdgchVUiwmg5shbWYIfxbQyQ6DIIZp
+    learner_created: false
+status: Unchecked
+record: -1

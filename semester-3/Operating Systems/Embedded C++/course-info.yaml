@@ -1,0 +1,21 @@
+type: marketplace
+title: Embedded C++
+language: English
+summary: "This is an introductory C++ course for programming embedded systems.   The\
+  \ course is a support for programming lectures that use C++ as programming language\
+  \ at HEIA-FR / HES-SO. The course covers core C++ features targeting in particular\
+  \ programming of embedded systems. \n\nThis course offers exercises that will be\
+  \ done in part during class time. It is a complement to the course given in the\
+  \ classroom and not a   replacement. \n\nThe exercises present theoretical concepts\
+  \ using   examples, propose programming problems to be solved and answers to be\
+  \ given to questions (in the form of multiple choices). \n\nThe prerequisites for\
+  \ this course are basic C programming skills. The course sometimes refers to Java\
+  \ concepts for students with a Java background. However, Java programming skills\
+  \ is not a prerequisite to the course."
+programming_language: C/C++
+environment: Catch
+content:
+  - From Java to Cplusplus
+  - Improving Code Quality
+mode: Study
+feedback_link: https://plugins.jetbrains.com/plugin/22621-embedded-c-/reviews

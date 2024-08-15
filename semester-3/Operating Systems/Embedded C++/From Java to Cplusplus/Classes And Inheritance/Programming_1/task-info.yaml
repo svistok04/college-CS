@@ -1,0 +1,61 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: M7fxIr/vptAQtcEJ1+cnWav+kkw7bh6WGcJZfa/Kh/DW+EXpMiXdKwRE4LHwaAxWxeiimtVMsqJPargCPoKj4u8vLtG+n3+FuYswvdkap6s=
+    learner_created: false
+  - name: test/input.txt
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutPnc9QJbV9nLERtAyximqoDVUABHmxs3pmGe+vvz3K36liT1sJKpKW/XaPt7NJUYyrKPxWXH70y3qpMA99RdQU6NKoaRZESLx04jrgdyKuH0mTiXsWArwxHLla72z9fJHVdcwMgbl3P4RPQClNo7Kn57iwmsI7VXktRkRo/jCA5PmlUtP4UBZbKqfOYPlxIWAg0tH0DOyWqkXXqVBUKWU4/i7ELPgd49XePMKEstQRedHDAOgZiTfzSIgxZlI/f8+JcoZVHmce2PCup4/v1ouW3zCZBc4Jvs/natcJOKtvYj/y1gkHq9gwxMr/N+vOnbc9/SKxwXDLcCTRQehnGC8fJQgscLfobKScLdoZ7WHJqUNcZefop2gB8IuO4m9vhK+t7AbcfPX3KbwFTf4DV93XU=
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    placeholders:
+      - offset: 612
+        length: 45
+        placeholder_text: /* Add call to constructor of mother class */
+        initial_state:
+          length: 45
+          offset: 612
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: HVcon/WvP7F/yb3TdLcZElBIjvjdo4ZSAGJdD35WUZI=
+      - offset: 666
+        length: 57
+        placeholder_text: /* Override the print() method for the expected result */
+        initial_state:
+          length: 57
+          offset: 666
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 39lGYr/xhU4hZE9x5iuHcBupb7iAPSgoqAHd4HVUw0okhXB2ohuLHf48fRhtIRbd8S4ULOg1JjowBuPgZKqdwZaqgL12U3mHfJT0OBaa/c1ofI1S9qbYfbubzb7TjubwUajLIDx15tYVQxJgVJydaTOvU4c5pVKtYfQ51KVI8GMz6CkMkT8sK3VLBaxQPl+Hzd7J93uPDRs3xIbHrdabDuhCkJHlBa63iCNTnfS3QnCwmUuN0/8kniy6kxqOK1ReNoQDs7st/8GID/tmstuXObNPsY3ELEkytFuUQ4qPUak=
+      - offset: 944
+        length: 45
+        placeholder_text: /* Add call to constructor of mother class */
+        initial_state:
+          length: 45
+          offset: 944
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: HVcon/WvP7F/yb3TdLcZElBIjvjdo4ZSAGJdD35WUZI=
+      - offset: 999
+        length: 57
+        placeholder_text: /* Add the declaration of the overriden print() method */
+        initial_state:
+          length: 57
+          offset: 999
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 39lGYr/xhU4hZE9x5iuHcJ6FIZlQJ07DfxToSzKf6KI=
+    encrypted_text: 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
+    learner_created: false
+status: Unchecked
+record: -1

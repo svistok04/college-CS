@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "<code>i</code> = 2, <code>d.x</code> = 0."
+    is_correct: false
+  - text: "<code>i</code> = 3, <code>d.x</code> = 0."
+    is_correct: false
+  - text: "<code>i</code> = 2, <code>d.x</code> = 1."
+    is_correct: false
+  - text: "<code>i</code> = 3, <code>d.x</code> = 1."
+    is_correct: true
+quiz_header: What are the values of <code>i</code> and <code>d.x</code> at the end
+  of the program ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutKILILZlnSgCzE6zTYfNsvrTOQRcLBh/ltO4hxoAv0J7tskpMjYmYxzVCt6DsgdJT0ZLPsoroP1KbWmaxrlGilni01RxgCvg655YC+niCZoiiyxFmwLR7PsRZVy7ImwqndWuGs6M3+JzSvOofcC1pfgPN0JGrJxVevabIiBy2eD0S5aUhoCaHV9iyLkGhdrYWjYFKT0G3/4FEmXU40jPts3zUdz7SFEMwCJeHo4nNyyN5sIfV5fDpeueBRN9nq1BNNJa0ZVLnzy7zPVzlyKPRFqSu5Bx3u0APhmPet0L2ncazCXu9jl8ShqHr44K9iYlw89Nd6DsbErL8m0c2nTvnrDp2exRZ4pSBqxC3EqeNtzG0CQB+NRVjloAFat3A2yUNDGmuPm6RyAXvkfZ3mGKZtw=
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: G1EDRCp8K72w6UaV30vFpA8lMG63QGgILW3z1RZW+jwku24LrChMGfQwtjdaIiUMuhNQcNA8trWmRhlXRbn5HjKxc062zohS9GqP+slnp+hc8Mm3LsFDujhSBlKx2Ah/biNe3dse/ESOl2nkH3qESWNfDU/l0+U6TWTQAKUC0zoCNvFAFRavP2I4ORKdHkjiLx57wDsqaKDAj/VvzPLr+wWcM3ogwouYbMoX9ZDwee6fBaxAdosLtTTOuO1og2yt6XUwBn8Mykp+nWuPjLRjO8pU2LDlX9J+o8K1swcEJ5k=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "true"
+    is_correct: true
+  - text: "false"
+    is_correct: false
+quiz_header: What is the value of <code> x </code> at the end of the program ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutOSusGe0gpSELVyjuAPOUxdwb3/qSbXEJWlMbeERJe5qR6MNYxJe6wFlSTfV2ucw9s2UBEo11VflPMo7lCWuESQYvdMcaS0q856SB3pV5Z9c7I3yhjIYpiaDAhGgnFZ6n0EHQ6ZgRtN4XaUVK8lhHLnKZNuxxYHD6/8sEd3wEZHmXk4NV34urujogbRUApQyjC5+kjKZrgriOhJMLTL/04D2QNi40/HbNYnZ/BeIQmkByLVe7cmhIFUi89ePWKmlkaXN1mP8MS3HKS3JHX7WgrtlpreCqUTv6JsoZUMKiggTneTRCPxa+WdjqaAfc6p0+hO3TAdqogLx0d/stRRD2tdY0D+2JbL+CtcZ5RA7+l8jDjb8i931pc67dCKrpCXuPw==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: NscarvyTUjJfia3nY5UxMVCGU+Q0+8b9gNs3MtRj/Gd28EmXnl9QriCmHj+5sNpBKrX9YqM4f9ZqQWP4Nini2aETPJnbdJJ9vl1FzfTtMVh3IP1tB/xxd0MhVE9uwSwYFUL6AgJTqvTHNp9Ef6m1tAdQU5hsnkYgwZIAJxit/C91ayG6mjXM6MLxU+RXwIEf6iRL8MtCbAznWjKg5hq5LnktbKScft4mqu/kvfjguOw=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

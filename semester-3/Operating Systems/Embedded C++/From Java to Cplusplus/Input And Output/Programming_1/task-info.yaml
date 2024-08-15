@@ -1,0 +1,53 @@
+type: output
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutFSDvvEHudTDaezHXoyN0OFr6iQhsStuwPSeIaZi2to6eqqdK8AY6ACqcHOq6sBm7Vo6zIwIBcWiONwZxZmA+hpeqvLjtjWQ39rfURPn54AXVf0c7ouC3YK9EsQ9wwMyyHsZjSqXgD5L62jsEicvZiZ4jEmhXXzxjZNGRj7OxZf590WMoV0LSUn9BlhCafo7DCRttPBw2OQX4R7/z3/MA0wh5mppwqXzGmeZPTHbaEsC/anIR1qPc8zzqZu7LY/2rpsyZI4i8sTg4R4r4FRA8gEk0/UnOUyZfHezyPpDoOwvUj7WbxJJtZAR6U0Ku0IAFpPNbFJCc2WqatI2lqZLnLI4tkM186m/PKFpVrc3cu8MSiWWTBPR50eKh1v+1BT1zw==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    placeholders:
+      - offset: 191
+        length: 24
+        placeholder_text: /* Get the user input */
+        initial_state:
+          length: 24
+          offset: 191
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: MIixbHJys3QvbfUZxTDrPlsBUxJB3Txrl0Zho30bJ92WyU8jw8pIKrBt+jIBPDrT3W/8V7z6WcE5ToeWO2kBnichMy5+qF5r3WwXi2jWDqS7bBLOYc1nbY5Tyl2aiPZW8QJXL+AEHUqHSyzzmyLKYg==
+      - offset: 319
+        length: 43
+        placeholder_text: /* Put the message in the standard error */
+        initial_state:
+          length: 43
+          offset: 319
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: uq/89hFukemgESJuybUyGA==
+      - offset: 495
+        length: 43
+        placeholder_text: /* Put the message in the standard error */
+        initial_state:
+          length: 43
+          offset: 495
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: uq/89hFukemgESJuybUyGA==
+      - offset: 655
+        length: 44
+        placeholder_text: /* Put the message in the standard output */
+        initial_state:
+          length: 44
+          offset: 655
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: aW8uKXekkGbL1QdpmTG1TQ==
+    encrypted_text: G1EDRCp8K72w6UaV30vFpI1uJtNYv2m0HRLE7pSiNzEk91vqR+KEzfKX83/wR/JEMBEAXIh61i91ZtMUrNSIB75OLzM8RAKB3KSzE+RTD5bk8su3lF29TSss2Eavq46I2xQW5AIQvoFS9aHZcET6IzA+GGr+t6BSX7xwdz+dJfp/gAg2E2ck6lzn9jFxe/eruGz0OSfNfrguDjtKHv4j3deMFL0gXTiDfwrttbCRmjbu18KQRZePbLopeFRFOJN3+G0oWM3NSBartT2v+1OuKLImNF4cgYDu3kQQmxtD0lXSRNY79+wLUWS5L21lTpSnghQXuP5kP9HGPWdHdUR7ZKZLhZygg5NNq6dE53j7k1LQXF+BqruwYdoxWKWWDZQaiN3bsSqvGa2C2/1osHIZAvaRPg+jH8DlvwOMBjbDEQhGpqz8czl5R0+qikEMYIHPTueDqMI/7f/BXFaJU0GnfrzPt4pggPdWNIzcX8V9oZ1FQVy1Yg/SmRMYb0vdeswR2ywGmfbPIhBYiLkwH5c3iHnaVRk3kpjINw2mSiyXd6hVQSTY0ahMHF/gAVYpfLm02vJEXm5TZxtDkwr3gWNatQdvQiGdsmVDRec4WanyrXBo+7+yxsZKo0wHo3OpIpzw8T7U+7Vw/qhAWdhPmKEQUBzIKyZ4O4okqp/87Z/UuY6tMN15dOhO9OAiR4rFOZaudnUDNTL2VSO/Ohh2Q2hHDo9WTO1bFz1bjE/P4H8OIcdhxjvqXHYdh08G2Ewg7cxdyjG4YjoUUAsblFxcUsp2ie0gpyWTRsXnSylorfz6J5JJg+gCz3AfRx0wcMtq8ux6e30xtEw5Q5KffrLqeojrU4+DbEx5Nhr/XFDfYF6BycQzQiUSO7Mc3im64C7H4W02kfEh72JpXlsM6XO/O77jv3H6w5YAXgl8BMxKIrsskgarBeYuBjh0WZM+CdWSR3xiFM0z5j2qtWhl4rqY3EHnz9PPfl1pfFTk3INNmROjArf4WIGrKlZwX9Jb/1xx8L8mv1BDswjb/nRJuvQ9rbtfjg==
+    learner_created: false
+status: Unchecked
+record: -1

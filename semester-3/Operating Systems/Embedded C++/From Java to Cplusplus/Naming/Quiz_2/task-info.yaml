@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Namespaces are useful to avoid name conflicts.
+    is_correct: true
+  - text: Namespaces can't be nested.
+    is_correct: false
+  - text: <code>std::cout</code> means that <code>cout</code> is in the <code>std</code>
+      namespace.
+    is_correct: true
+  - text: "<code>namespace A { }</code> means that all classes and methods defined in\
+    \ the brackets are in the namespace A."
+    is_correct: true
+quiz_header: Which statements are correct ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutIGDBON/QVIyXcXxr6+218gNlZbiHav71xJ0rN8eTIg3TcsQF/va4mHpQ3u20WHTGF+zn8LvuFVliPGWj5EUpCgyFzc2eQ/xlEIO1ONQslAKzAuzA+O3HRAm4V91Jrmc7Ch0pq7bCHQr6Hzz8cqCWNANY9N4czeAZXwXmChKNz/LDqB/mz73IbkoGyixHHd3+CK6hqmNP5i+QQRxOhdQap0leAXOWpX3uqK+LGyK0YOEK+sY/GQmV6CdPrpya5qkezVaORPdWEPdpJxOhXJbS1B7E1TN941AyXJ3eFxiFTnJCeKskfWJYZragSzzFo/h90Du8ORwfb86gKS5I2zzylTarHfwQ87/h+Nv+3BjaKQD
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7A+KPOC+KfutLn0kCtYNht4=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

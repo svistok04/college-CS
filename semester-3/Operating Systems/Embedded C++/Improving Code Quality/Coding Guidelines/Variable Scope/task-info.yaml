@@ -1,0 +1,24 @@
+type: theory
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oTBzCxpuHAp+M+uRXTkODPzWW0D0J5m1DiqIVcZUXsx58PGaQlEQKZmnVvuUVsUe0Z8ftSmC7oMugBRPNT1C9bjODdKwSxQkCtCx+Vfho6tlhjGzKChJPRFmZ8iJkyjchM7LP1M/FXs0D+WnCNvdFOgEvyH1R6If/hEqutEugLLTMxWQVMD/beTvEypX2G5KoDtK8suHQIm/D2EzZnhwk4ETGIojr/FuecWM/j9c/J5ZbgwaziuaiLA08lL3v1p6QP/OQAA1t9ft+eh0JsEnlF6n8B1IXOAOIGxnZ+ZH6rMoBcxmEOiYCPxb5Aqtc90lFeYOwKY3QgGlvo7oSu/OW1iUdrr1ohJsOJIZMIdhYq89OowPX/FgCYitAvVnzul2k0LbsnIlKiC3QVLpqaw3xiQ/JzJhBlp1sdDj736yPkiFQ+H0jpg1yRfOBwgGfrZbpE=
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    placeholders:
+      - offset: 355
+        length: 35
+        placeholder_text: /* int x; // hides first local x */
+        initial_state:
+          length: 35
+          offset: 355
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: d2zcNdvr8MlGJqh7muOwkKTk5IIOJqBC7vIpxxEJaLg=
+    encrypted_text: G1EDRCp8K72w6UaV30vFpHVI2uqkWcH3yoLrIZe2wfIyjWorqXZQ9asdlfMEwVRKSmKUeEetxuZZo0AohSVgBvWlpddYWGOwO3+KYohFXozHNT64jq34OeVjSwHimexMVKyZSBTlSlK2GSD0M/5DiL3LH3bkIwTYdxxUa8Zi541tQ3UBB+z85JW9dSJ0267SBHyuxzDgn9rTWSBtiu5bZwya6JuUqLb1z/JNoPgeH8EWCg0ErTXfu1qSMd2XKfrNe23i2v7jLIvEYpMKEbTa/+GW0S8929oN+hVxksPqYcsuHAt/hdLA/0gmd9lGkChY82jpvkB1ni9DgBvGVyruI4LpmmfeOh83azBfWpO6RoUjlJ0hHh7xxC/uUWRLZF7a3qIbbqGO5Nk/79sA/2jj4w5jE6Ou8ycMNXnKL0426Amx06GDLJOd9sK0UQynz5uWOG69nVo7F+vGC8tXCeUJ9Mow19NLItEfExKViX5SdKujEPD3oH7KU79Fd5dJKiM/qN838YS4U2WM/gF71lqsEoKL7LN66Ohgybvz/KLO5VgwHt5YhYs0ciKMr1RDjxwItH/p8pTLiV5bSHFOx7st/IYLXuPrUw2WMpIgqlS5Z7acDJRRDIW/GObDOG9vVBVoquD06UE1MZ65TUXEf2kc9uWSyfnN/aM1j9ztTR6yYPKlcGQZpzUG0gGgxN2JM6pUSVP4aq4e+fs7JE/ZecqEpATg1+1DyPTouGxXEjG+U7Ld2VMEZa4ly/JJ1oeA8Y4eqIq2yvQmgAkIlvPTVu5ybyIPaDQVQj3yAlYvqT0P8gouSRt6XPiXnZPAp3nsbWET1EtsovkX0HFig+f2blnbGwF6yEQBWzuwMDLyb9tClvecbhxCJYoy3qaOxzH++ZqtSS/thcW/dR3gZCmW0t+qAEXm2dkVNCAtndpD5xyyqOCrgkOqpIDopKuC0lnP+8TkkZiwLfdjntFOr41dAF2i1Em0GNf8nn+j4XuvrLdpcyQGb9BQlQX2WLeTvy/5yU5PJ+qgNY401YbDhIEtXwrHukh3LAHopve0xJV7aN+TXUa4xmHK11vanuZaVziKYDlKq4xA7Hne3P/1lMMdYnY+y9HZJ714ru6PSzwT9wLjNS101gnh/uZoixBxxdn+KhrGvQFi4aXoadgo9uSceiXX2iVVQ19AKZYRy1Pu5O7LYhuhO6vtXFdqG+eiK4/WFXUbJZqKWCFz9fDz3Our+tnCX6Ggg7rdguLEGly7xU9k7hhu32tqs3ygIbRPdvOg7W09KkCWtyzUKCxwn0e25H5e7inH/A7vsHALkF+MIZXl4BRIHoTZgJ8iQlI4atReESlExZ8+7GiJ7QpHd/8os1/JrQ==
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

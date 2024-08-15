@@ -1,0 +1,116 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: eWmhoCQm6Y7CJWyDkad1M06B8IQsiPcuL0Mgqx5oRQk=
+    learner_created: false
+  - name: test/input.txt
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutJNMkbKeU+jjss9oa36brTGpuVlgRLgHGKZcszUyEn96o3ipbqhtThkVbUt7M/AECYXZAxocZpHt9c29kpf+ci7sLKn+L+pU+W0wiCrcWJbEBDNPyD1Gt2dOuW/qAavbzele/AMtFymXcka5qqep7LzRkQOWuIzl9myxpTs0JaoN+wffOTdXJRoxhG4Y8mCvdpzxk/HlqHmys4v0blv6GQM8N2UHT/+MCzi89UqRJxh9uWvcJofdijX3f00AOK+PSVAZrfMBQRXRHTqIOqPVP04/GsRE1Vzym0xMElzsoxtaYQDIhuA/MU/LIBo/gwtxUkPSojitvK9+fYvu96T4BBaVPxqbc4b6oqZwSRS6PBSJWdQ9FnQurJ/FxgvPC+o7AyxQzBt7Tq7bGTB5t+dYbKBtJLXM6geA3SwjtQv82iRb9XO1EVzV3uo7QkM/uHhWPdGy6qSGNYrHNPXFJZbz6Ok=
+    learner_created: false
+  - name: src/definitions.h
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 44
+        placeholder_text: /* Write the right preprocessor directive */
+        initial_state:
+          length: 44
+          offset: 0
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: mGzjwAOdYMXbCXgQZIFhxw==
+      - offset: 46
+        length: 44
+        placeholder_text: /* Write the right preprocessor directive */
+        initial_state:
+          length: 44
+          offset: 46
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: mdyGdB+Dpn4Vv73ouKCBCA==
+      - offset: 117
+        length: 44
+        placeholder_text: /* Write the right preprocessor directive */
+        initial_state:
+          length: 44
+          offset: 117
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 5SqmbBNURA24lEA8IcyFuw==
+      - offset: 189
+        length: 44
+        placeholder_text: /* Write the right preprocessor directive */
+        initial_state:
+          length: 44
+          offset: 189
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 5SqmbBNURA24lEA8IcyFuw==
+      - offset: 246
+        length: 44
+        placeholder_text: /* Write the right preprocessor directive */
+        initial_state:
+          length: 44
+          offset: 246
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: Itfnwi8SwzxsLM6yamAUdQ==
+    encrypted_text: x73mkIrks5bLdUOtAYf2578nMjSQfQ5VKZZOMv4/c+L8GwixXFZKQQcce4cPj3HH+5X5NTjpw8ShG64QdgPBkqhA2LkLW7OP5CE0zKOgOxjj6yha33Y/eVpxPWXqdOzkXaECaIpcWps/fIRZ4JoN4q86TJ/fqF39mOnb7PHhkc6UnCZ2fwi9nPb40lcUsBegCnZGC5cwEJmfUcUBBWmLBVqCGDO0KnaGPE/OMvTumIs+C06+RFmLUEh0gC/tYNw9Lb+3Sn1ToL5pWg0/IMevIbCpdyPuf4i/1B8SUL+Y4Bj6yW6Qqu3MEoDjVnZDP6DlXIfENbMcRIy6/TlTKxwKuXodIbr0hXPEMEBfvMh//ep0zqnOPMlQqZUAn9GCTf4Denc7mpYzyLyDtzTd8R0b+k4dhGiOuxGx+eHRIPGtVYw=
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    placeholders:
+      - offset: 20
+        length: 44
+        placeholder_text: /* Write the right preprocessor directive */
+        initial_state:
+          length: 44
+          offset: 20
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: P5pPD3uanStXLHl0XqJ7YQ==
+      - offset: 95
+        length: 44
+        placeholder_text: /* Write the right preprocessor directive */
+        initial_state:
+          length: 44
+          offset: 95
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: itc2Tydf3v4nrWSx2yrNzg==
+      - offset: 200
+        length: 44
+        placeholder_text: /* Write the right preprocessor directive */
+        initial_state:
+          length: 44
+          offset: 200
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: cq57nqPabiViavTq+ji2KA==
+      - offset: 297
+        length: 44
+        placeholder_text: /* Write the right preprocessor directive */
+        initial_state:
+          length: 44
+          offset: 297
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: Itfnwi8SwzxsLM6yamAUdQ==
+    encrypted_text: G1EDRCp8K72w6UaV30vFpItKzepTfSW+QisKQwf086gnuAn67uJv6iseDToMP3EvYQwpoVI6lKvnBzf87478DnwCPFRw6EGMwCfu5WOsgYEEj71wDqUxSt5sstHkfuwuMohsC+KFcwlznYj2fq1ienzIvcdM6xWW6bw2WbFD7t1yK9h5fBT2MQXqHvukCoXQVsakbFR0jU+SxmmWEE6BFOK04n/cZto2tnSFkvGVQYWJjbD6LhW5HvRFn2yQF1j0r/9bLsnuY9KMMqOYU/GdiLWtqvzIAm3cCq8ZmmawixvePM7fNkC74zNG6S4/slq/BqtA2I+uOmxGalqsXHWU6zPFkuH36lBo7gyyfs0hq2Nl0c6H/AribUGf4THzNRAIYeGk0pM0Oc2hr6jyN1Q/p3M38ypDOPZ2pnrTbQuA9Y85kDUWsSZ3zvnHm4D5xpRvTnXfG74gplXONPArma8JIojGqNC/ntcLrRNK+FsSCyU=
+    learner_created: false
+status: Unchecked
+record: -1

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g "CMakeFiles/From_Java_to_Cplusplus-Naming-Files-run.dir/src/main.cpp.o" "CMakeFiles/From_Java_to_Cplusplus-Naming-Files-run.dir/src/point.cpp.o" -o From_Java_to_Cplusplus-Naming-Files-run 

@@ -1,0 +1,51 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: nAmp9uUZ8pQLY9nnDCSHq0A/vMOeoJikqpxLUaC1nv2oSxjU4STR/XNRg0Z75Chr
+    learner_created: false
+  - name: test/input.txt
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutKoH+lEwpO4Fp+2r0mOQ9dMZFq2Z6LbBGMEjpuWynHrqCbHaruP9vp48N9VZ5R8ul7uQ5aWkMFABrhoebDWpc79JY3yiImIW63Xsz3pvmcPCCxxGQ0la/7AFhbichSx9z3fVKkVoEMV0X2rPkRsYLuYrNueD0BqiXcsKeiERvXA4jM7hii8fCtflsbLN9+lNtoOu5TBg0mnf9dFH2NOaqooA6wQ312YeWUHdInEhgCSWCeSjrgahiZwCGfh11pcS9SkwS0wfv6Qzzy7gttndXKbiaZoD50uEbdmo2EX4d9kL1eu0gce7eMbLs1FaFfZvtSnPn+QA/Y1O6AuC4wxXOsTXKnhIztEgg+PTmkQb9nToGCYEFec7FqcbUuQHgM2Jrw==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    placeholders:
+      - offset: 157
+        length: 20
+        placeholder_text: /* Fill the array */
+        initial_state:
+          length: 20
+          offset: 157
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: oXIFvGdlTPBZPCtd5B6JMaiVuQjOwyWEEpAvIp64oqcXPWI6RCeNgkmdbH8MLrP99MLsPdZfEXuGtQ/ykEZAaBfwngbZ7YOnBTys7XIn4wIApFw6Zb2eFK99bYhV6c4dmgaoFpdnxj+ITrSLkK3yM+Bglzx7pPDjOM0NNH1t61++cIGpzuSrtjfxdF7lKlQt
+      - offset: 675
+        length: 45
+        placeholder_text: /* Delete the dynamically allocated arrays */
+        initial_state:
+          length: 45
+          offset: 675
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: wPGz3OcaohO+2DvOc9rNNXtZRQZlPOsOMrg6tk6Z50g=
+      - offset: 807
+        length: 20
+        placeholder_text: /* Fill the array */
+        initial_state:
+          length: 20
+          offset: 807
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: IJDg7fCDrsQxy+iwy3aOKOAPMguouq/VSwEtZy2P4oh7XS50wyntQmhKL4OrhOY1rfWD7Mvfnu7GRvcjF4Celjbp4vz0TIlgib8pB29DtciniQFVRowdsdsfJfZCRUx5TNzb/dMv3lO6Ig79UMFMJkRQAy3O3qcbK0vRbcoLzM87TiQ0IBgTO1RhumddEjiYQs/KLsy8NXAy+HouY00eWw5FWDPybvlL34gTpoA639k=
+    encrypted_text: G1EDRCp8K72w6UaV30vFpMTeCOpgKAGmBTx/sm6Wxo+zFohzgCLxfK8V+MmQYyWR/kBoZnAd+qtEp0cOmqenE1axmBO98F6KiQcrfYKqLTu2Z0bRnV4veikFHQTg3Zd86tjE9amxOcA/Ak3fxGnJIfILL4H9j+iEgXdVsQn6OJ6YxdNJcaPY36gYEKko9ZdiJ0h2kEr9XrocxAX6Kk66wmGe2GtsZ1xl1lNkEbNuuvRo7IezRwPd2EYgGu2VEjq56Vky88B9qKQaJaXpi+1glntPJ4xHxF+Wv6ly3oW692abVZXLX5IT5tja8J9rmHYa1tHxSRnC3tMx/m7tnydH+GEquMDnthHCf6OE4UrI7AdWZjhEXAIgLRoPYOD0ki8fpKZyB1C5/da4nc1WQeBg/pMwdyP76sbGkH4OkqQx9F9WC0vFxc8d+sFbGLpQibAERCuUQ2INbVw1JTYR4Dfbp1KJrcURXnisfq8oBdA74mkOBY4g7HHfw0jO6gJ9k3Nfc+u2CZl8Z8YJN4mvoMvSnc3yqx1jqxm6RsvqC2EJmLz0VMig6VEQRvmQKjVm7x29E/5XWiEihut+5iNfl0A676+y3tSRMT4n572EfFFLT2eM7tptfJwyxWIdvtsKcM89D1yyBr4xtov3Q0msQgZKTXTl2hnc0BgiZ39ilAYSSzfm8elij9W8tKmp0YNOthTvDm5hDF/gM5+ch55Y99sg1+Ionnsmp+38o+kCWMxL2sh3YN4r9rFA7oID9R4tWlXejW9jcKyvS5zfLoFCNnRbHkMjNtwmTjqCW6DFhsPt2wZnSPebRFEcIXoRSaQwd0kp1FE2lZ8qgxktNeind+espTy1CPNWMzhyIPg3IoKsGYEQovZjiDF1bgEsVxOpvveq2gnhd7ER1VTtDgwlICwR1F9e71h1JTr/ll2v+W0EohMguLsghcTQQMsss3p0QaAJXAKJoeCPSdBTQi0AU/KjCMwCkp8vh3NnfvgJZapvs5TpciBKlYvkUXfFADa5wY6v9nxcBgKzHYXKLwt/Tot7CQ8ZhEhNi1k7a+nqL/NbLBcL2wGJ487UAYeyvo6NU9Oug9q6aDmg5NDfrZslEkRbAfD0ne8ERPortWkxzf+ozwhAVO49C23tWbxqtMqnb+nE/WPCs5ichbpQFHhxJnPNCzGjJ0hEYxKszP2VbRpYTIlaqA3rYdIQv5UHWNMKrYqzS88YRYlLMKqULgh+k5Yk+nDCWvPWSBitUDFivYxCagGH+C9LU5aBIMja1O4kRu4lBXt0Gp901n5+4/mYEor1UbVCattimekUG5IfAuuuFKWq54TXgmArY8e/kgG0nB03PYMq8SURYG2RfdFcNE70/L4IroDvUdn3ty83+NsaRNHfHcyDJt9O4c+4hu+lz8Y4MzLiyyXJKlTZ2de90jggOdi1fVbJ2sJOFyQl5aZtUyRQVxh1P+MIUjpNuw7MeczuT0S4x1rX4RPpdr2oSqcMbV57+X4XVZTsNEzAjj9FgWKb7oAdxCIP81HXqQwcjcpLWvFaSOzRLrTai5J/RmejJOQTJBzqddtKy6eZVVPoOaqNiGPgerhIbr2aHG+5qnVe1lAyC1kEcSyAPCIabs8nBcScWTAEZatlwmZ9R5YREsYtRi8CXivR8Vb97Tm4FqFmTFKb9fj+2UWkt93dy+L5isjRS9khP7RL1nCTDmQ/C3GO/Ln8hDwKcCkVzE4VByAOmOohxXisnbfZuCfTF1Ta4YmXmq9PormDDp85Jskm+hY=
+    learner_created: false
+status: Unchecked
+record: -1

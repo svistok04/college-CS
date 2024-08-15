@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Correct
+    is_correct: true
+  - text: Incorrect
+    is_correct: false
+quiz_header: Which statements are correct ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oQoFRKe2eN6m6ZOnFBlnbw7cQaaAMBIqmyyK+0E7bNQN4xSdQrEw/DC6Xi+VgppFONEjfu80zKV3GURS/1i1pG8mpkcZ5f8L2480Xdl9LnaaDPSyykuxRhVevU83sbr9VW05xU/JiE1Hi866l+d1HKP720wXxAVV+i/88RF+ihtzbEIVRH1D319RRDm637WCrUxVsTS63P81lpsGRbFBBcLnoReLIJ3tHCeg6dsh09d5HbsO8bQqX8nvH5Wgm2l99YpTiUrLG9H9AIuC/nHURjzNNXdtv8xvexDhjcWdWq0kt4b7Y8hOHuE1TMlQiLUcQELMiH2m4dr0xbGTo+Jp/LId+TpiwkU/Xxok4hidHLrjJ02OCpPzvQ+sPIZDvaW74wUg6q+OIUxqDPwysaKl5Hy
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7C0ZfdApwpl0ZoXlifAfmSrGUYzv6mf/Gp4TUmHv62XSZD0oSg8tP+bwaxRGF/91PA==
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

@@ -1,0 +1,13 @@
+type: theory
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutKJUOqlJPG/hi2dG++LUflEOyDp2gobb6/obB0nSYKKpyooLeRj+RwAvP1oYkue6wQHZhhA9mnb2jD/cTxMeBaoG6D8mTXrQQnTgGxU6K1oqBWNY1mIvZXjlvjV7voanHFSXMb/AmqNT6fTNELHhZripUsgGxMvx/7Tm87N+hT/H6fq26HzwHJLwiuZo7wycaxGdjR7buJMmSA2SQ3gDCETsGCaXh/Dc8RAV2o5m5aANCjVKU9jNTA/7Hgz+uUYXx3eH41tDBeOaCpe1se32SKr/iDisn5Zagd+flIJs0yox2BsmFAdW1582KtTWppIk5nrEwJ1o7pEdzfbRA7/ynkbUyeF2Kdb+7PeBumF/aSHHoQY1NVSzRLwE1KIb+vGfew==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: G1EDRCp8K72w6UaV30vFpMTeCOpgKAGmBTx/sm6Wxo9DEVB18XFOWtJOM7EouYFsAbKeKwNxXksxbg13/A3/wXFU77jMl8iAp8Z+AAfOAjZzggGgUQL1aFWUSIvjcZXC9VuvK4RFtA7JJ44xboXx6askF6EUa486/KUxJNmBSlKZUlhltRu+xvuBKWCRdDTTicVySXe1Pdwn7iA6hsCrxVQpuxf1u8va0hm0FoKSKj7cxN/NH/WRJeT2l9hcl4aFTuGaqkx7YwhBKJ5PaXscP7g6e+FeLSLy56RCtS+k4gRZju/l9DfEsXKKQv3wx4waXqZDIJoDxputMeYoTDYEO854uaZzff4QfQnZK0d9/m3/+Jgo/g8gl6KQaZfxZeXHXVa9UtQWo2S29KSK4BfVJ59JSwn+ekm9onnGAXI2sH9ljhXmUyHDoKrTd+c7KRHbdcyMQnMVU5fFpLnoz+8xxdZ0ttlspt3slyD5DAgGGXE=
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

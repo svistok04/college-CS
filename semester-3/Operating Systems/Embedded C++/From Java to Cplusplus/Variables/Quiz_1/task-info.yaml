@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: C++ is a strongly typed language like Java.
+    is_correct: true
+  - text: "In C++, variables are always stored on the stack."
+    is_correct: false
+  - text: "In C++, global variables are stored on the heap."
+    is_correct: false
+  - text: "In C++, it's better to declare global variables with the <code>const</code>\
+    \ or <code>constexpr</code> keywords than the <code>define</code> keyword."
+    is_correct: true
+quiz_header: Which statements are correct ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutDx4weGPmcEnEdASlJK0NnON5kvRjlvmPpbNl22HYUlVomHpKjhwrxL0cjCmcDed4TvnqQkdgAYOfaB/PgaxeeiXanDsOjLjQB4tdBq0k6wS4Le2ii7ruY88w9DrRmJ2sB/bldF57NP+N2euHf4EfrqLZPA5JJXSXEtQvsSJ9IXfl9iByj4KgOgDTKm4aP4+1HTAdMM8IFpWR3AvBJO3hqW9FZVui6Bh40Bmfbhxvf8c8Uh7JNK/C5VilOGVu291MvxTr0k0yrm2X0UbVMHxHv5fy/+4wY96QzJytML89kyCpdz9UR9MOf07FTmQZE9Xd0DaGwgGOr5J8pf0/NLgZFPPQtznz0y6xFBGVhmsuj93IMLPU2QDGcWCL6dGhumEMA==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7A+KPOC+KfutLn0kCtYNht4=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

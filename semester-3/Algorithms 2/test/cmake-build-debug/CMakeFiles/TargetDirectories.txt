@@ -1,0 +1,3 @@
+/home/marling/Documents/college-CS/semester-3/Algorithms 2/testtt/cmake-build-debug/CMakeFiles/testtt.dir
+/home/marling/Documents/college-CS/semester-3/Algorithms 2/testtt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/marling/Documents/college-CS/semester-3/Algorithms 2/testtt/cmake-build-debug/CMakeFiles/rebuild_cache.dir

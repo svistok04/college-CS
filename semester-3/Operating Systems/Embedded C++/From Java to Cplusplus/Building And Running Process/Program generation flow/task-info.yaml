@@ -1,0 +1,17 @@
+type: theory
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutJNMkbKeU+jjss9oa36brTGpuVlgRLgHGKZcszUyEn96u1xnL4oj2QE6szeB5JS4RMkVX7xDZtKivevPpJ+CrDydVaTumaLx+yG3fZRXJUgwlCVCF6Im6iikPJoV41Ss2lCvd0NbnfFkWmOA/17ieEmIX6Kuyox61YdYzu5ik17y8bMew7R89nXhUm+Si9ACUHmU8O7ywkXuG8J1O5xeasAru9NbKXlPUFOvPVTIag9jUdtPlssdF2v7VKGtcX8JY/xVdMFq49XD5u8iVlo6EPydCoJ0tl0w8vd7P3HYlLf4PYYos5/oMZZuQNd6K8ckFDgI+MT5qgBEMcyAMRVmtdvIcvNvhgx9KoVXUwESF6vt9iPAJmzkPWEzDq8khlBgqNqRYSlk8O2NHkAib46oAzi8heNuNqKJGBFYpSO6seP1
+    learner_created: false
+  - name: build_process.png
+    visible: true
+    is_binary: true
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7A+KPOC+KfutLn0kCtYNht4=
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

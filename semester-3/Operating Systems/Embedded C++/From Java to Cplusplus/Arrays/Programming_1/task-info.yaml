@@ -1,0 +1,71 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: v4EZvs1byaSmqfmEUKd06g==
+    learner_created: false
+  - name: test/input.txt
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutKoH+lEwpO4Fp+2r0mOQ9dNWhlgosZSjhoRXiYiEF0E+YxXMj+IXuUyHRj8bcdnXfaxzM1WCYq7UiW4SFEDoDSq1KpDbhCTgjlYoihHAQJpbfvRgwcnoaUCA9a8RfjdikaLxjDbYmkmGJb+v9XImvXpjtzKsxhF4XbpLC1XNHYKS4vI1qg9IKonsluED6NShAai8xBSZ8PVNiVlS0rDIDN5JeoYxCemTM0FqrjwLju9QHr9phD6ICxd3imVnx6J5dT9qP2Byu2lNwKLLJDk/RATspS+f9b24Hlo5QHuT1twMnVN8NZNTKwpNcdHVGvGcDPYtQaLtWjwLB4jvVAjQzuDL//g9BYTeoYDINSfOPNwItMHhh9/yD46C3wD5uppx7g==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    placeholders:
+      - offset: 176
+        length: 39
+        placeholder_text: /* Search the min value of the array */
+        initial_state:
+          length: 39
+          offset: 176
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: T28dtPTuTz3uda4GkQIBXhtR0fEA7rEENABqPhEmgqof+Nhjuwq9Q1qnEo3yCEXFEKoCtbBWalc0arp3K8jlGhkhoTsdx6mnPvTGDn8H+ikx7rNR2y1rT9Om45suZDFSNo/3/lp/eK0XpADcCwkKk4BbXZmskm11IYJ6pzJFgKAoZQfa6UlHyF3ld3r+zbpiyhpzP5k6WRBBmfBkv7b3jw==
+      - offset: 334
+        length: 39
+        placeholder_text: /* Search the max value of the array */
+        initial_state:
+          length: 39
+          offset: 334
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: GErz/JLVk6lfF8K1GUk51aEwiaPebMGgdh+w7rt+IpXUYeoZ7/ukJDS+YvzwtiMciq3RM8IWvFHGmAcT75ejVIKlPjCFGqiTyoSw5YtojWAhdHhK8rXceXhuKLqwCO8MdVhRH9MdebHhyFrY8raJrVBL5KB2UzyYQL3u7CriwvmrJLbxR/YEZF2rRHQVUcwyOOkQm2GsrPi8cyGQVKVD/w==
+      - offset: 480
+        length: 49
+        placeholder_text: /* Swap the content of the given array into v2 */
+        initial_state:
+          length: 49
+          offset: 480
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: IJDg7fCDrsQxy+iwy3aOKOXptvikNHGqkrm++wo6TzUwB93UW7Ten9XVGtC7EAImpFnyL6CX//soIaQRqrunC14lfkMK+avjP7lnebAecsE=
+      - offset: 668
+        length: 35
+        placeholder_text: /* Compute the size of the array */
+        initial_state:
+          length: 35
+          offset: 668
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: qt3mJWoukWrh3zjrRMLrSD76yghbSRMgxDfoUcRm/fY=
+      - offset: 961
+        length: 36
+        placeholder_text: /* Delete the array from the heap */
+        initial_state:
+          length: 36
+          offset: 961
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: +qVdXHFLw9iQ9T7ufJNP6LmQJHFgBTLB5Mh7OZf7cfE=
+    encrypted_text: G1EDRCp8K72w6UaV30vFpI1uJtNYv2m0HRLE7pSiNzHF0FPRi6A25NvoHwCE/tWqqTqR+kEUZQkpP4GX3iflhBe0em1/3uoCp0395PCAzBcBzdPuBt9So+lE/868bySyGh/XSGfTRkl0aBTLFTnKqe6CLABkrlH4sauNHIBkxnsFz3eaS57VGVLgvvRFAVof2YxuruFe7tkUoBDwIMdtnQTXkZybf9h3XvJaDPlbONRwtdntrdwPxcoxWSxWSxciQz+Shifc65BU2oAHlutPmpKYVh2OKaiWP1naR+eVR2ASG/dqOSGpdPxynTwzHf8hGrb/j/ig/hiXT7W+Iknd5iMWvCQe+ntv4fAALt8TtLCA1TvtfLXTAhewjzDzvkdH8HNmG0CRvVfR6xSyKDkGdlKjzsFTt2rdoWUrmzNvWj4n0L7A28K6BrPlLm+w0HK+geEhD8Rz2dGovoZOGCKFkIjCC8clOfwhsu229AVWpx9ErVk+qEUJhjV8gW9CXHp7ZQkzYsw6Wnua7FC3s2daXw1hf79mtWtPzUMySl9g6gY7CRLEUgapuZKK1zlF5dAhXdwT+gH4Ch8c9Lfv4++omLOMewlF76OjAFVPgiWplfFTTl6nWouwVJqDyeJ/s7yvmpb3FD3WfJsfwAPjAumEsDC9N3O/g/lWzHDBE9h8qLpgI+YJnc74vlbWR3HL+pSlMsg+nigoFwamkoBCgu9HzClnzSyBJxLm8CbHKxQILKcSsrgOgzdKYN6/puo7nTGXOJAtvKWx4hR5kcY9aZbJNPbPhBCWuhtouujbyLwJDYiKbaYIMQcLD2dh5rSD1bAAY1/rUAhRf1wVzC0xhgV+feeLXtxPdTALPgMM37s3W5sD7ApVsllUbO6yi6oP+C8MxWTA7yQl/iShcpb129yS7xWWFUQIo4n7HO9zmPwhn6dS9RP+fMVxn7qegy6FWDEEKnNLTvwe48dK6bBZYRpaOoeQlnHv2UBuNQ3Nr2k5o034WOrf2HYOwrqJLdHQuEw4o1U9gWUGaI8ZqipvK4gl0UMN9BhR3gFjHT6uOcq9C91ZeX4notZpM5UkuWQGaZIXlz1gtK42096vqbUKjYMkV1NOhCLrkbYeU96xjB4inJWYQrpw4ep9QM7FwRHyhmuCFTJblEazGNGGU8gQiYGTZFjukeg3RBN3yUWlwhp8FI3z6VIUEU9MQH+ZH8SiXM/ppgXwJKcBUqtQxiCKA4g/OUibkUOzTyXvRvloFwKs2DVKx2fFj+vUCNdgS54dlLJu5p874n16x0605w41ii+d0Z6sYweVLVQ654d92i7fMyzlWNllPnBSHnXY5y/RawGWyk7GsD6aqhbAdMN7PSHp648Kz3ybKRmqRPVUDthyu2dn0rKoTMWye91hdlR+thRLlO77yVZ9OyDXzuPz7fE7Q9e1m8E6MohxTZIcc/OLvRCAUfOplvfu2+WdpAHuIc4WUHcgAwKqHop8UQnyegbqSr0G8d0F5mV30hMQzWFfO8G9RemYeBECGvY07ZQwjjj8xgxjmJ8PcIqJwonDRze7ZnPRqVCbjfqO8f+f4sRa6Avel5xalB3kKEPJ4PwnH18gis6OZU2ZNLTrptPV2tLpBg==
+    learner_created: false
+status: Unchecked
+record: -1

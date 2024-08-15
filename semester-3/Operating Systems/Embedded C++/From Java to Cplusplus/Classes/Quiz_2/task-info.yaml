@@ -1,0 +1,34 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "The attribute values of d1 are number = -1, s = \"a\"."
+    is_correct: true
+  - text: "The attribute values of d1 are number = -1, s = \"b\"."
+    is_correct: false
+  - text: "The attribute values of d1 are number = 1, s = \"Toto\"."
+    is_correct: false
+  - text: "The attribute values of d2 are number = 2, s = \"a\"."
+    is_correct: false
+  - text: "The attribute values of d2 are number = 2, s = \"b\"."
+    is_correct: true
+  - text: "The attribute values of d2 are number = 1, s = \"b\"."
+    is_correct: false
+  - text: "The attribute values of d3 are number = -1, s = \"a\"."
+    is_correct: false
+  - text: "The attribute values of d1 are number = 1, s = \"b\"."
+    is_correct: false
+  - text: "The attribute values of d3 are number = 1, s = \"Toto\"."
+    is_correct: true
+quiz_header: What are the correct statements ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutPFZkwOE78dB7SKXU1sD8udpEixQzWYKvO9EZ23Kspa4eB9GWXnN3pjGWQyvezyOagfOzP0YIUdf/0QVy7nR3fJk8Fg13S5EJRh5UZrkvAMiiNnA9lqPmRyGQ7l+8KiNsbYRk+YkdVbsu3duITYp6lrYpGbkCabBzKnOyMqfov7UyaYN0ej3+pZ3F7XDA/l1eLRvUYptA55Vsj/N4zRFubyTvrIGSFnmAd+POyNjaO2wSayaEhqHtt70hWVZSYO3bWUrQgMp3YOKfGU0Pv/y/ZqumFH9sX1PWtA2lKRvOolVDF50keHJoLBL203+oK7aKwmnDaeuMb+p4w8/oVRtEXxup/MdVmVCEKP9JMLh1wxC
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: NscarvyTUjJfia3nY5UxMXF07xUMzuNXkOCAnC1AJL2nG7FjSYNFoi+U3hOUEZqwLfvkRJGTCE7g74P5ISArAlnQq4jTwfG/Ft8WwObDo86sa1jZvd3mO1m69bo4pioFG5140A4K4ro9XBk4VUlo/yPvIpIWlilP1sBhsVgvUlgZKYZQIPuymJsnBmpLv2Ad/u/A1S1FhPldFW0Kq8lRFMqvao6pSo9XAHKvccuqUJZVlyxA4QIKaPPiHLdsPkMMH6IJQg+1o4keCPk/H5UIuRWfAW0/V0OuOfMnQJOqDuLfZ8Grg7gXa9YzvpCzPKkx8mSKz75rt/m7Ko8mTCIQ0ZeCvtQLEWtCZYQZp4RNW2iSg9jbwIDx2PMfntM7mMBWTa+JsdsFCFTBvSEcEjtQq2yRB2hCUDT4pVJSEhFr/u+qBUlkzk/LEB3fkqvj2pOsZjm1I+Fit9YzBdUThhseB9sbt6eUoSJZN0X5kP+rntc=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

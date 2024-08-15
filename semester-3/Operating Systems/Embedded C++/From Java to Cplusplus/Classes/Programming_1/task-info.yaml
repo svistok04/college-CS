@@ -1,0 +1,61 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    encrypted_text: 9TOMWvVB7DcpbSbwUaqOh4T0glLCf2epOyDuuXbNlH69niSKvrNlQ54taeZXpibE
+    learner_created: false
+  - name: test/input.txt
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutOty61TatROXP7GdQQXYXJDrenH7ghEujmBviTnujS7Z/2ZVvUuJttY1e+/C+ft0fqkZCRf0EUZVBBXZf8bxVLVYzMWmWH/NJfEBRH3EbvhNIXJeNEzrw61lN6jVAb2SvYGjntt3S9C28s0fssVnfpYbH5mCxrVwafI28goJaE3id27KUOSOR8m/EhUiVhEh7B+JR2NAZF3iTIov+XWmqWoykFzs5Nj4QMipslJcDvaudMeSEOJ5nsLLzkjy6wGePpettK9y6ZM+Q0gpPyInYuxD3W8XSQKGuT/C9Qik9xy/8tIhgqSCKs7+nb5KBABEMkRS+HKaEWasR3YNHBx4/cuvYKwlmOewNGlfXUO4RygbQSbs23IOPcSS84aj6d98yA==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    placeholders:
+      - offset: 82
+        length: 46
+        placeholder_text: /* Write the constructor without parameters */
+        initial_state:
+          length: 46
+          offset: 82
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: zP61s3eTZI9a6A3oofF8Z4JIUWyLX7dCyeaCOnCEkf32tYzbb6EQg8GNkbMME1V7Z5ASh/uAKu50fbihcxDjTO01ztXOzXncP9fFzIOysZU=
+      - offset: 129
+        length: 44
+        placeholder_text: /* Write the constructor with parameters  */
+        initial_state:
+          length: 44
+          offset: 129
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: CCvINR8giXmDvL+g0ey1sWhMkEEegzU8xPJ+SlPW8cj+4HBnsQxMD5LtuJJ3fK9SodzmBJzu0HDmyvAwkaXtCwcgp2xa1FExsP1qnqhSM91tDv6o+08ZVYT3asNEERFAux0frlebA2LrMg6x+j/b2BjjbOy1JBlAJNtOD5x5bboWlD1qGhHiHoKwzjB6rRfOm8XGmgfmR1XI2dD2hwD2BMAe9v8+O7wo8ZIdvtiJdTo=
+      - offset: 197
+        length: 29
+        placeholder_text: /* Write the name() method */
+        initial_state:
+          length: 29
+          offset: 197
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: MIixbHJys3QvbfUZxTDrPnEy0zwjytt75eTNCoVwhEBq1h5MJ8inNVlqXDNsjzcsVM9t6sjHVBQYsflorLcjQ8GdagsZyA94460/kEaA1ZU=
+      - offset: 264
+        length: 32
+        placeholder_text: /* Write the isMajor() method */
+        initial_state:
+          length: 32
+          offset: 264
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: n2agSCzWroZUAkJDNW3rzrkp49l4XXDbBmFlsTuSexWSrBjGvF/fCArnzihPQx14
+    encrypted_text: G1EDRCp8K72w6UaV30vFpI1uJtNYv2m0HRLE7pSiNzHkleX0TthqadyisY3IpP41AU88tvP9BWtNSvgsrReKsQDg1vyn6jGK9PZMHoUKqei48LXHvcXzM1EcDcAYmF9ni7Tiq820fh3Xc/m1LY4qR1d93khSupVnSC2kw3SzmxVaD7sVBVqNcuta8LFZEsUF6ITmL3QMG0Qt8KO9SArAW/t+FY8Ndi6LL8uEhzNjTxwessV4YpFhno19j3mskjZ74JIU0dKU2syRqJCHphVhIz/MYYy/ghEyHGA9AIIbevdpjOG/vDyiFEDUUqK/8HjzSsFRRxhpsaIYpdM0mujzzCuprAM9Oc9rmumfvEWMXJ45j6DJo1qNhOKRgCSCOchnZg/MODW67gpv86L5ADMx9jxo1yMIWoag4ZtW3KrdD9B7rQspyw7HElR8Y9ZqvFPMHEhtYYnV7ZBfpUD5WHpLx+xw4okbszoAGJb6TnGyYy+IARE0lk05lzghPbNPV82kvS2C1niCyOnvhNnmy3Tb9sJUicb77lS28c7h1E4rDRwjwDm1HyqjUdknLrF+hk9cx7JSTpAMQBsK9wnIPJm+scTu0BPveT5LWVlf6wTd8YVAstPZnQUoCbc1YASXQwFxTHcAf26+rooqdmnEAIe5FRDBCsMe/v9WfqNXIaaM2QH8xuXZl0j4uXdci+4XNv5U8XK3mga9GOuaoiM18VpCavuZ1vg9U4yb+DQRhRklJ4vwvtCH5MMoIPsTeL/he6EFUj2lgWhdvD9SpC7MZm1hsQolfS16gyaww+cJMU9zxX8GtxYAQLV9maJe71eaC/MrMDUnZj9eTg6CvP8csjtqkA==
+    learner_created: false
+status: Unchecked
+record: -1

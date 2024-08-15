@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: A B C Af Af
+    is_correct: false
+  - text: A B C Bf Cf
+    is_correct: false
+  - text: A A B A B C Af Af
+    is_correct: false
+  - text: A A B A B C Bf Cf
+    is_correct: true
+quiz_header: What is the output of this program ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutPnc9QJbV9nLERtAyximqoCS49aIVVCtjOCF+/NfvQDEUiApk4MeUhnvgVT5nAJj+2UEqJ7RPKplkPQlqnJUk016jk4803CQWoZezs8XN4TnSQk1s7hPbGz0K9e8cg/VblR+68WqI4CtS3/3kT80pLJbu2s2HLUStgiot+vrXX0PfjeJVDfSvCMAV9KENf2kA5lN3IHf1xB1buRe1zp9jbFRFtB+fvab3RKPiMh8KT6YXoyRpTAlBqqeeWFhm3alLpEC+hgV9O9q30MC/88E9sqw7s+X+aKsaWzYY9A1uuekQCXYq4bCYeQvX7VTKZHWrrkQVmfvXqDluTui34jPnJjGRtFBhdIVVHDB7ioCEZA56yVmmLvh5zUht76Wb/kjfg==
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: G1EDRCp8K72w6UaV30vFpORuhCouRuOVjwe/w9TISIxGWVp/8aoNhrWa/B9jX5InBZKLW4puSXski2TjY8S0V2REIY1i0v2viVHiZS4vpUwVuAKrLQWxpEQNjbgnXGhXxpzH9XyycYrmU2+H3vnyfDTn6OGkFy+ABsRa10cDSU+0CF1F4z+VW4aZop2lEooWTLkIfKtITqloLG2mqbN5Ub7xBAzVHzZrwbZkigFxrPxiCriuiaXZByJHVrstpm9MRA0rOaVyRDQqQ7uadvFyTlDSOKWq8EMx6rjc+wtk5lO6FjmunsGq19TEJYD4TDazq5FkEZuMbe0eSILvlSo/pofO6u8ezuCh8xccilBgjPl1MW3wVDH7kqlDQ3fHMZ/GrAK2KAH8YRju/dFOJ6kiUw0WAsIjiLvYfMRrB1v8s0JieUFyGBVw+ucCdeZPTbiH7/XKBy1ahrZS/r1MSEjHZqjxnOta+s1xBTF2rsNg0Tv44bJWdNsYl+fHngWzFo8epOW1ff52nm0TRxr1Bcw/V7YkwdD7RSKwJ+0mN7pUcQ3TzkUU64XBbTDs6IKcLsVITgJMsp36FwFrVAxyDEWSpiuHSm2a2Wpt9YPUWz3aIMUgutlMIo+25RHeh1u8ZETnBgjBR7SAaxUlsL2J0aI8+HLvri1OlJnmRCWkOYuFlIA=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

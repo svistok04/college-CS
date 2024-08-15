@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: C++ is an object-oriented language.
+    is_correct: true
+  - text: The usage of access modifiers like <code>public</code> or <code>private</code>
+      are the same as in Java.
+    is_correct: false
+  - text: It's possible to define several constructors in C++.
+    is_correct: true
+  - text: "In C++, the class's attributes can't be modified in a method tagged with\
+    \ the keyword <code>const</code>"
+    is_correct: true
+quiz_header: Which statements are correct ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutPFZkwOE78dB7SKXU1sD8uewTQxJy2OP8nSXPomBTSN6ncO4A0ZLlfMS79L0DusHCzRYP4GUoe6fsBWtJVvCwAJdx7Wn/ZeeAtNuHgUACHHtbwPOYuykVJTIMxGr7Dv0ZZVddvirhYv4eEW8+CS0jC6tPRMmAroKuJ/msQHJpneEWoLUHP0frEvchu7pZ/I5jrNLH10Rg2MqzcGDvOCXzmPPEoGRxFwTuXxKIcmf5g/VO8AXFZeslXcJ9d4rVZL3uhJHZXPTb/WsQcxUz407YlHggsGO020a+lp8HgVEGCjq2nl5hHQNWZWCoiVls2kqvTEeBOAMqWBxqvHBRyK7l/jHCJYzHj2MHQsC/8uty2QB
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7A+KPOC+KfutLn0kCtYNht4=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

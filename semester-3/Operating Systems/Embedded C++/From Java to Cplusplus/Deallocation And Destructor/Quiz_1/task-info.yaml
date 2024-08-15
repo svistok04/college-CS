@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: C++ has a garbage collector like Java.
+    is_correct: false
+  - text: The <code>delete</code> calls explicitly the destructor of the object.
+    is_correct: true
+  - text: Each class has only one destructor.
+    is_correct: true
+  - text: The destructor is implicitly called at the end of the object's lifetime when
+      it is created on the heap.
+    is_correct: false
+quiz_header: Which statements are correct ?
+files:
+  - name: CMakeLists.txt
+    visible: false
+    encrypted_text: SFQsvbCzAxH06IHZ31X7VYJiXt1G4dXOtGy1KgiP+oRpZ9VB5SVDs1dbHfN7mbAaJJfbZyMhUoEfubybJdYutG1XFBIN6hgPg+8YOwu+VlWJ/YovLh7dW23jzY5gKeeyb4PrKZqlSUUEaNZ8QxFRb5iuwopVAbDWO5yiWSst2d31nuZvCzu/ofvlCBYA9MWjXIZbjOsmfn/9z5XvZrKbngocj5i0aRzUi8d8GLblwIDoeBAhM5Hrx9fzDGPrjEXSFGlqcycP4eu6cEQcKA0BVGo6lXFUCnsXDn62GdgtET32wxB3XDsLnmrpf8efCwmQrTZcazhtQWh6pIuWK74cFJH//bIHX7gkpXe8cWXeyaQkXSK0cK/u/RPQsOfbqgVjGNZi6vBYzCmnjoRrSstWg3a+eVf6fPbP+OwZdViG5j8TshUe2IfWHJVFbpKYLprpHFKQs80JbM9CC5bDRnHF770t1RZNZ+xjSEJWoJULYA8=
+    learner_created: false
+  - name: src/main.cpp
+    visible: true
+    encrypted_text: 9HEd8zkvNQRoCO6WiLdN7A+KPOC+KfutLn0kCtYNht4=
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true
