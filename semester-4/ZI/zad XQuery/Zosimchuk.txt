@@ -1,0 +1,165 @@
+Cwiczenie I bookstore.xml
+1. Wyszukaj książki wydane po 1980 roku droższe od 50. Wyświetl rok ich wydania, tytuł i cenę. Listę uporządkuj rosnąco według roku.
+for $x in /bookstore//book
+where $x/year>1980 and $x/price>50
+order by $x/year
+return <li>{data($x/year), data($x/title), data($x/price)}</li>
+
+1994 The Wind-Up Bird Chronicle 55.99
+2005 In the miso soup 100.00
+
+2. Utwórz listę książek nieposiadających oznaczenia wersji językowej. Podaj ich pozycję w dokumencie, autora i tytuł.
+for $x at $pos in /bookstore//book
+where not(exists($x//title/@lang))
+order by $x/year
+return <li>{$pos, "autor:", data($x/author), "tytuł:" ,data($x/title)}</li>
+
+13 autor: tytuł: Heavy matter
+1 autor: Frank Herbert tytuł: Dune
+8 autor: Stephen King tytuł: The Shining
+9 autor: Ryū Murakami tytuł: In the miso soup
+11 autor: tytuł: Discipline
+12 autor: tytuł: Discipline II
+
+3. Oblicz ile wynosi średnia cena pozycji znajdujących się na półkach w księgarni.
+let $a := avg(/bookstore//book/price)
+return $a
+
+58.92153846153846
+
+4. Sporządź spis książek, których tytuł rozpoczyna się od ‘The’. Pokaż ich tytuły, autorów oraz cenę. Listę uporządkuj według cen.
+for $x in /bookstore//book
+where starts-with($x/title, "The")
+order by $x/year
+return concat("tytuł: ", data($x/title), ", autor: ", data($x/author), ", cena: ", data($x/price))
+
+tytuł: The Lord of the Rings, autor: J. R. R. Tolkien, cena: 45.00
+tytuł: The Shining, autor: Stephen King, cena: 45.00
+tytuł: The Dark Tower II: The Drawing of the Three, autor: Stephen King, cena: 30.99
+tytuł: The Dark Tower: The Gunslinger, autor: Stephen King, cena: 30.00
+tytuł: The Wind-Up Bird Chronicle, autor: Haruki Murakami, cena: 55.99
+
+5. Wyszukaj książki sklasyfikowane jako horrory. Podaj ich pozycję w dokumencie, autora i tytuł.
+for $x at $pos in /bookstore//book
+where contains($x/@category, "horror")
+order by $x/year
+return <li>{$pos, concat("autor: ", data($x/author), ", tytuł:", data($x/title))}</li>
+
+8 autor: Stephen King, tytuł:The Shining
+7 autor: Stephen King, tytuł:The Dark Tower II: The Drawing of the Three
+6 autor: Stephen King, tytuł:The Dark Tower: The Gunslinger
+
+6. Sporządź spis bibliograficzny według wzoru: autor (rok), tytuł. Pozycje uporządkuj wg roku.
+for $x in /bookstore//book
+order by $x/year
+return concat(data($x/author), " (", data($x/year), "), ", data($x/title))
+
+ (1854), Heavy matter
+J. R. R. Tolkien (1954), The Lord of the Rings
+Frank Herbert (1965), Dune
+Stephen King (1977), The Shining
+Stephen King (1982), The Dark Tower II: The Drawing of the Three
+Winston Groom (1986), Forrest Gump
+Stephen King (1987), The Dark Tower: The Gunslinger
+Haruki Murakami (1994), The Wind-Up Bird Chronicle
+Jacek Doe (2000), Robot Bob
+Jacek Dukaj (2004), Perfekcyjna Niedoskonałość
+Ryū Murakami (2005), In the miso soup
+ (), Discipline
+ (), Discipline II
+
+7. W ramach promocji nastąpi zmiana cen (obniżka o 20%) dla książek o cenie niższej od 30.
+a) Wyświetl listę książek objętych promocją, podając ich tytuł, starą i nową cenę. Listę uporządkuj alfabetycznie według tytułów książek.
+for $x in /bookstore//book
+where $x/price < 30
+let $new_price := $x/price * 0.8
+order by $x/title
+return <li>{data($x/title), data($x/price), data($new_price)}</li>
+
+Forrest Gump 20.00 16
+Robot Bob 15.00 12
+
+b) Pokaż tytuły i ceny wszystkich książki, dodatkowo podając nową cenę dla książek przecenionych (spełniających warunek promocji).
+for $x in /bookstore//book
+return
+  if ($x/price < 30) then
+    let $new_price := $x/price * 0.8
+    return concat(data($x/title), " stara cena: ", data($x/price), ", nowa cena: ", data($new_price))
+  else
+    concat(data($x/title), " stara cena: ", data($x/price))
+
+Dune stara cena: 45.00
+The Lord of the Rings stara cena: 45.00
+Forrest Gump stara cena: 20.00, nowa cena: 16
+Perfekcyjna Niedoskonałość stara cena: 35.00
+Robot Bob stara cena: 15.00, nowa cena: 12
+The Dark Tower: The Gunslinger stara cena: 30.00
+The Dark Tower II: The Drawing of the Three stara cena: 30.99
+The Shining stara cena: 45.00
+In the miso soup stara cena: 100.00
+The Wind-Up Bird Chronicle stara cena: 55.99
+Discipline stara cena: 120.00
+Discipline II stara cena: 125.00
+Heavy matter stara cena: 99.00
+
+8. Utwórz zestawienie cen dla wszystkich pozycji znajdujących się na półkach, a na koniec podaj ich sumę.
+let $prices := /bookstore/shelves//book/price
+let $sum := sum($prices)
+return (
+    <li>{
+        for $price in $prices
+        return (
+            <li>{(data($price), '&#xA;')}</li>
+        )
+    }</li>,
+    <li>{"suma wszystkich razem", $sum}</li>
+)
+
+45.00
+45.00
+20.00
+35.00
+15.00
+30.00
+30.99
+
+suma wszystkich razem 220.99
+
+Cwiczenie II pracownicy.xml
+1 Podaj liczbę wszystkich pracowników firmy.
+let $count := count(/firma//pracownik)
+return $count
+
+47
+
+2. Utwórz listę wszystkich pracowników księgowości.
+for $oddzial in /firma/oddział
+where $oddzial/nazwa = "Księgowość"
+return (
+    for $pracownik in $oddzial/pracownik
+    return concat(data($pracownik/imię), " ", data($pracownik/nazwisko))
+)
+
+Dawid Paszkiewicz
+Monika Domżałowicz
+Marek Kącki
+Tomasz Woźniak
+Maciej Chmielnicki
+Patrycja Ślusarek
+Robert Koper
+
+3. Sporządź wykaz kierowników działów.
+for $oddzial in /firma/oddział
+for $pracownik in $oddzial/pracownik
+where contains($pracownik/@stanowisko, "kierownik")
+return concat(data($oddzial/nazwa), ": ", data($pracownik/imię), " ", data($pracownik/nazwisko))
+
+Księgowość: Monika Domżałowicz
+Oddział Mazowiecki: Kacper Bolesta
+Oddział Pomorski: Dagmara Koper
+Oddział Pomorski: Katarzyna Jakubowska
+Oddział Łódzki: Mateusz Wesołowski
+Oddział Śląski: Damian Rybak
+Oddział Śląski: Andżelika Olejnik
+
+

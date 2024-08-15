@@ -1,0 +1,41 @@
+W trakcie tego zadania skutecznie zaimplementowałem algorytm kodów Hamminga (7, 4) bez użycia macierzy, (7, 4) z użyciem macierzy i (15, 11) z użyciem macierzy, co pozwoliło na kodowanie i dekodowanie danych.
+Napotkałem jednak trudności przy implementacji algorytmu z wykorzystaniem macierzy: wprowadzone błędy nie były poprawnie korygowane we wszystkich przypadkach.
+
+Hamming code(7, 4) without matrices
+Input: [0, 0, 0, 1]
+position 1 syndrome: 1 decoded [0, 0, 0, 0]
+position 2 syndrome: 2 decoded [0, 0, 0, 0]
+position 3 syndrome: 3 decoded [0, 0, 0, 0]
+position 4 syndrome: 4 decoded [0, 0, 0, 0]
+position 5 syndrome: 5 decoded [0, 0, 0, 0]
+position 6 syndrome: 6 decoded [0, 0, 0, 0]
+position 7 syndrome: 7 decoded [0, 0, 0, 0]
+
+Hamming code(7, 4) with matrices
+Input: [1, 0, 1, 0]
+position 1 syndrome: 1  decoded [1, 0, 1, 0]
+position 2 syndrome: 2  decoded [1, 0, 1, 0]
+position 3 syndrome: 4  decoded [0, 0, 1, 0] <---- błąd
+position 4 syndrome: 3  decoded [0, 0, 1, 0] <---- błąd
+position 5 syndrome: 5  decoded [1, 0, 1, 0]
+position 6 syndrome: 6  decoded [1, 0, 1, 0]
+position 7 syndrome: 7  decoded [1, 0, 1, 0]
+
+Hamming code(15, 11) with matrices
+Input: [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0]
+position 1 syndrome: 1  decoded [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0]
+position 2 syndrome: 2  decoded [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0]
+position 3 syndrome: 4  decoded [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0] <---- błąd
+position 4 syndrome: 8  decoded [0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0] <---- błąd
+position 5 syndrome: 3  decoded [1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0] <---- błąd
+position 6 syndrome: 5  decoded [1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0] <---- błąd
+position 7 syndrome: 6  decoded [0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0] <---- błąd
+position 8 syndrome: 7  decoded [0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0] <---- błąd
+position 9 syndrome: 9  decoded [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0]
+position 10 syndrome: 10  decoded [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0]
+position 11 syndrome: 11  decoded [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0]
+position 12 syndrome: 12  decoded [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0]
+position 13 syndrome: 13  decoded [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0]
+position 14 syndrome: 14  decoded [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0]
+
+Podsumowując, realizacja tego laboratorium pozwoliła mi nauczyć się, jak zaimplementować różne kody Hamminga za pomocą algorytmów, z użyciem macierzy i bez, chociaż nie udało mi się naprawić problemu w implementacji z macierzami.

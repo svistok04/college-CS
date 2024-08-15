@@ -1,0 +1,15 @@
+W trakcie tego laboratorium zaimplementowałem algorytm dyskretnego przekształcenia Fouriera (DFT), który przekształca sygnał z domeny czasu do domeny częstotliwości i umożliwia jego analizę. W tym przypadku, za pomocą wyników z DFT obliczyłem widmo amplitudowe (amplituda sygnału w dziedzinie częstotliwości) oraz jego reprezentację w skali decybelowej. Dlatego również wygenerowałem skalę częstotliwości, aby zwizualizować wyniki. To pozwala lepiej zrozumieć charakterystykę sygnału, na przykład umożliwia łatwą identyfikację jego dominujących i słabych składowych.
+Ponadto, porównałem czas wykonania obliczeń z wykorzystaniem DFT i FFT, co wykazało, że FFT jest znacznie szybszy (o rząd wielkości 100-, 1000- a nawet 10000-krotnie) przy dużej ilości próbek, co jest bardziej realistyczne w praktycznych zastosowaniach.
+To laboratorium nauczyło mnie interpretacji i analizy składowych różnych sygnałów przy użyciu DFT oraz generowania widm amplitudowych. Uświadomiło mi także znaczenie algorytmów transformacji Fouriera, zwłaszcza jak istotne jest wykorzystanie FFT dla efektywności obliczeniowej.
+Group    | DFT           | FFT
+---------|---------------|---------------
+x        |  92.082984 ms | 0.357871 ms
+y        |  91.781405 ms | 0.347464 ms
+z        |  93.152965 ms | 0.355706 ms
+v        |  93.098349 ms | 0.354029 ms
+u        |  92.604704 ms | 0.366741 ms
+b1       |  92.463693 ms | 0.350607 ms
+b2       | 106.029127 ms | 0.386716 ms
+b3       |  99.780632 ms | 0.379243 ms
+---------|---------------|---------------
+All      | 760.993859 ms | 2.898377 ms

@@ -1,0 +1,12 @@
+Signal: za
+3dB: 99.8614 Hz to 100.1384 Hz and equals 0.2770 Hz
+6dB: 99.7228 Hz to 100.2768 Hz and equals 0.5540 Hz
+12dB: 99.4456 Hz to 100.5536 Hz and equals 1.1080 Hz
+Signal: zp
+3dB: 95.9895 Hz to 98.9849 Hz and equals 2.9953 Hz
+6dB: 95.9790 Hz to 104.0200 Hz and equals 8.0410 Hz
+12dB: 95.9580 Hz to 104.0404 Hz and equals 8.0824 Hz
+Signal: zf
+3dB: 109.8016 Hz to 110.2240 Hz and equals 0.4224 Hz
+6dB: 109.6033 Hz to 110.4481 Hz and equals 0.8448 Hz
+12dB: 109.2065 Hz to 110.8961 Hz and equals 1.6896 Hz

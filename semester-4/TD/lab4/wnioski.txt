@@ -1,0 +1,20 @@
+W trakcie tego laboratorium zaimpłementowałem kod do trzech metod modulacji sygnałem cyfrowym: amplitudy (ASK), częstotliwości (FSK) i fazy (PSK). Każda z tych metod działa w sposób podobny do metod modulacji z poprzedniego laboratorium, z tą różnicą, że sygnałem modulującym (wiadomością) jest sygnał cyfrowy, który moduluje analogowy sygnał nośny. Cały ten proces nazywa się kluczowaniem. W tym celu opracowałem funkcję, która konwertuje tekstową wiadomość na 7-bitową reprezentację ASCII dla każdego symbolu.
+W przypadku tego programu:
+Amplituda sygnału jest skalowana dwukrotnie, jeśli bit wiadomości to 1, i pozostaje niezmieniona, jeśli to 0.
+Częstotliwość sygnału zmienia się na f_n2, jeśli bit wiadomości to 1, i na f_n1, jeśli to 0.
+Faza sygnału przesuwa się o pi, jeśli bit wiadomości to 1, i nie ulega zmianie, jeśli to 0.
+Również wyliczyłem szerokość pasma sygnału przy spadku decybelowym:
+Signal: za
+3dB: 99.8614 Hz to 100.1384 Hz and equals 0.2770 Hz
+6dB: 99.7228 Hz to 100.2768 Hz and equals 0.5540 Hz
+12dB: 99.4456 Hz to 100.5536 Hz and equals 1.1080 Hz
+Signal: zp
+3dB: 95.9895 Hz to 98.9849 Hz and equals 2.9953 Hz
+6dB: 95.9790 Hz to 104.0200 Hz and equals 8.0410 Hz
+12dB: 95.9580 Hz to 104.0404 Hz and equals 8.0824 Hz
+Signal: zf
+3dB: 109.8016 Hz to 110.2240 Hz and equals 0.4224 Hz
+6dB: 109.6033 Hz to 110.4481 Hz and equals 0.8448 Hz
+12dB: 109.2065 Hz to 110.8961 Hz and equals 1.6896 Hz
+Okazało się, że w przypadku kluczowania szerokość pasma prążków jest większa niż w przypadku zwykłej modulacji. Zauważyłem także, że w przypadku ASK, w przeciwieństwie do AM, oprócz częstotliwości dominującej, istnieje wiele pasm bocznych, a nie tylko dwa.
+Podsumowując, laboratorium to nauczyło mnie, że istnieją również metody modulacji wykorzystujące sygnał cyfrowy, które nazywają się metodami kluczowania. Miałem możliwość porównania ich działania z metodami modulacji sygnałem analogowym i lepiej zrozumieć ich zastosowania.

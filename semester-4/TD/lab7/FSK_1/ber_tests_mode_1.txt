@@ -1,0 +1,23 @@
+simulating BER over alpha with constant beta = 5 and mode 1
+Alpha: 0, BER: 0.00000
+Alpha: 0.1, BER: 0.00000
+Alpha: 0.2, BER: 0.00000
+Alpha: 0.30000000000000004, BER: 0.00000
+Alpha: 0.4, BER: 0.00000
+Alpha: 0.5, BER: 0.00000
+Alpha: 0.6, BER: 0.00000
+Alpha: 0.7, BER: 0.00000
+Alpha: 0.7999999999999999, BER: 0.00000
+Alpha: 0.8999999999999999, BER: 0.00000
+Alpha: 0.9999999999999999, BER: 0.00000
+simulating BER over beta with constant alpha = 0.5 and mode 1
+Beta: 0, BER: 0.00000
+Beta: 1, BER: 0.00000
+Beta: 2, BER: 0.00000
+Beta: 3, BER: 0.00000
+Beta: 4, BER: 0.00000
+Beta: 5, BER: 0.00000
+Beta: 6, BER: 0.00000
+Beta: 7, BER: 0.00000
+Beta: 8, BER: 0.00000
+Beta: 9, BER: 0.00000

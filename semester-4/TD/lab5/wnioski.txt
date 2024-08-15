@@ -1,0 +1,9 @@
+W trakcie tego laboratorium zaimplementowałem demodulatory dla trzech metod modulacji sygnałem cyfrowym: ASK, PSK i FSK. Każda z tych metod pozwala na odzyskanie oryginalnej cyfrowej wiadomości z zmodulowanego sygnału. W każdym przypadku demodulacja polega na mnożeniu zmodulowanego sygnału przez falę nośną, całkowaniu i porównaniu z progiem.
+
+- Dla ASK mnożenie zmodulowanego sygnału przez falę nośną przekształca sygnał, tak że amplituda staje się dodatnia i proporcjonalna do wartości bitu. Następnie całkowanie pomaga wygładzić sygnał. W końcu, porównanie z progiem pozwala znaleźć oryginalną wiadomość.
+
+- Dla PSK mnożenie zmodulowanego sygnału przez falę nośną ujawnia zmiany fazy sygnału. Następnie całkowanie znowu wygładza sygnał, i ostateczny wynik jest porównany z progiem, co pozwala na określenie, w jakich okresach odbyło się przesunięcie fazy.
+
+- Dla FSK mnożenie zmodulowanego sygnału przez fale nośne odpowiadające różnym częstotliwościom używanym do reprezentacji bitów '1' i '0' pozwala na rozdzielenie sygnałów odpowiadających tym częstotliwościom. Całkowanie tych sygnałów również pozwala na wygładzenie i wyodrębnienie dominujących częstotliwości (w przypadku tej demodulacji było to najbardziej użyteczne w porównaniu do innych metod, ponieważ przed całkowaniem analiza sygnałów była bardzo trudna). Po odjęciu wyników całowania możemy zidentyfikować, która częstotliwość była dominująca w danym okresie bitu i jaki to był bit.
+
+Podsumowując, to laboratorium nauczyło mnie, jak zaimplementować metody demodulacji po modulacji kluczowanej oraz zrozumieć, jak każdy krok procesu przyczynia się do odzyskania oryginalnej cyfrowej wiadomości.

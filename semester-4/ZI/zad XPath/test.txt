@@ -1,0 +1,120 @@
+1. //book
+<book category="sci:fi">
+         <title>Dune</title>
+         <author>Frank Herbert</author>
+         <year>1965</year>
+         <price>45.00</price>
+      </book>
+<book category="fantasy" country="United Kingdom">
+         <title lang="en">The Lord of the Rings</title>
+         <author>J. R. R. Tolkien</author>
+         <year>1954</year>
+         <price>45.00</price>
+      </book>
+<book category="drama">
+         <title lang="en">Forrest Gump</title>
+         <author>Winston Groom</author>
+         <year>1986</year>
+         <price>20.00</price>
+      </book>
+<book category="sci:fi" country="Poland">
+         <title lang="pl">Perfekcyjna Niedoskonałość</title>
+         <author>Jacek Dukaj</author>
+         <year>2004</year>
+         <price>35.00</price>
+      </book>
+<book category="sci:fi drama">
+         <title lang="pl">Robot Bob</title>
+         <author>Jacek Doe</author>
+         <year>2000</year>
+         <price>15.00</price>
+      </book>
+<book category="dark fantasy, sci:fi, horror, western">
+         <title lang="en">The Dark Tower: The Gunslinger</title>
+         <author>Stephen King</author>
+         <year>1987</year>
+         <price>30.00</price>
+      </book>
+<book category="dark fantasy, sci:fi, horror, western">
+         <title lang="en">The Dark Tower II: The Drawing of the Three</title>
+         <author>Stephen King</author>
+         <year>1982</year>
+         <price>30.99</price>
+      </book>
+<book category="gothic novel, psychological horror">
+         <title>The Shining</title>
+         <author>Stephen King</author>
+         <year>1977</year>
+         <price>45.00</price>
+      </book>
+<book category="Thriller, Suspense">
+         <title>In the miso soup</title>
+         <author>Ryū Murakami</author>
+         <year>2005</year>
+         <price>100.00</price>
+      </book>
+<book category="magical realism">
+         <title lang="en">The Wind:Up Bird Chronicle</title>
+         <author>Haruki Murakami</author>
+         <year>1994</year>
+         <price>55.99</price>
+      </book>
+<book cover="soft">
+         <title>Discipline</title>
+         <alt>
+            <title>Discipline: Way of freedom</title>
+         </alt>
+         <price>120.00</price>
+      </book>
+<book cover="hard">
+         <title>Discipline II</title>
+         <price>125.00</price>
+      </book>
+<book cover="hard">
+         <title language="en">Heavy matter</title>
+         <year>1854</year>
+         <price>99.00</price>
+      </book>
+
+2. //title
+<title>Dune</title>
+<title lang="en">The Lord of the Rings</title>
+<title lang="en">Forrest Gump</title>
+<title lang="pl">Perfekcyjna Niedoskonałość</title>
+<title lang="pl">Robot Bob</title>
+<title lang="en">The Dark Tower: The Gunslinger</title>
+<title lang="en">The Dark Tower II: The Drawing of the Three</title>
+<title lang="en">How to program stuff</title>
+<title>The Shining</title>
+<title lang="en">How to program other stuff</title>
+<title>In the miso soup</title>
+<title lang="en">The Wind:Up Bird Chronicle</title>
+<title lang="en">How to prepare your garden for Eternal Autumn</title>
+<title>Discipline</title>
+<title>Discipline: Way of freedom</title>
+<title>Discipline II</title>
+<title language="en">Heavy matter</title>
+<title>Codex Nitriensis</title>
+<title>Codex Zacynthius</title>
+<title>Codex X</title>
+<title>Codex 10</title>
+
+3. //book/author[not(contains(text(), 'Frank Herbert'))]
+<author>J. R. R. Tolkien</author>
+<author>Winston Groom</author>
+<author>Jacek Dukaj</author>
+<author>Jacek Doe</author>
+<author>Stephen King</author>
+<author>Stephen King</author>
+<author>Stephen King</author>
+<author>Ryū Murakami</author>
+<author>Haruki Murakami</author>
+
+4.//book[author[contains(text(), 'Stephen King')] and year>1985]/title
+<title lang="en">The Dark Tower: The Gunslinger</title>
+
+5. //book/title[@lang='pl']
+<title lang="pl">Perfekcyjna Niedoskonałość</title>
+<title lang="pl">Robot Bob</title>
+
+6. //book[author[contains(text(), 'Jacek')]]/author

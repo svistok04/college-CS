@@ -1,0 +1,141 @@
+bookstore.xml
+7. //book[contains(@category, 'western') and author[contains(text(), 'Stephen King')]]
+<book category="dark fantasy, sci:fi, horror, western">
+         <title lang="en">The Dark Tower: The Gunslinger</title>
+         <author>Stephen King</author>
+         <year>1987</year>
+         <price>30.00</price>
+      </book>
+<book category="dark fantasy, sci:fi, horror, western">
+         <title lang="en">The Dark Tower II: The Drawing of the Three</title>
+         <author>Stephen King</author>
+         <year>1982</year>
+         <price>30.99</price>
+      </book>
+
+8. //book[title[starts-with(text(), 'The')]]/title
+<title lang="en">The Lord of the Rings</title>
+<title lang="en">The Dark Tower: The Gunslinger</title>
+<title lang="en">The Dark Tower II: The Drawing of the Three</title>
+<title>The Shining</title>
+<title lang="en">The Wind:Up Bird Chronicle</title>
+
+9. //book[price<45][2]
+<book category="sci:fi" country="Poland">
+         <title lang="pl">Perfekcyjna Niedoskonałość</title>
+         <author>Jacek Dukaj</author>
+         <year>2004</year>
+         <price>35.00</price>
+      </book>
+
+10. //book[title[@lang='en'] and price<=30] | //magazine[title[@lang='en'] and price<=30]
+<book category="drama">
+         <title lang="en">Forrest Gump</title>
+         <author>Winston Groom</author>
+         <year>1986</year>
+         <price>20.00</price>
+      </book>
+<book category="dark fantasy, sci:fi, horror, western">
+         <title lang="en">The Dark Tower: The Gunslinger</title>
+         <author>Stephen King</author>
+         <year>1987</year>
+         <price>30.00</price>
+      </book>
+<magazine category="IT">
+         <title lang="en">How to program stuff</title>
+         <author>John Doe</author>
+         <year>1991</year>
+         <price>10.00</price>
+      </magazine>
+<magazine category="IT">
+         <title lang="en">How to program other stuff</title>
+         <author>John Brooklyn Sawyer</author>
+         <year>1992</year>
+         <price>20.00</price>
+      </magazine>
+<magazine category="gardening">
+         <title lang="en">How to prepare your garden for Eternal Autumn</title>
+         <author>Bethany Covenant</author>
+         <year>1998</year>
+         <price>21.00</price>
+      </magazine>
+
+11. //book[contains(@category, 'sci-fi') and contains(@category, 'fantasy')]
+<book category="dark fantasy, sci:fi, horror, western">
+         <title lang="en">The Dark Tower: The Gunslinger</title>
+         <author>Stephen King</author>
+         <year>1987</year>
+         <price>30.00</price>
+      </book>
+<book category="dark fantasy, sci:fi, horror, western">
+         <title lang="en">The Dark Tower II: The Drawing of the Three</title>
+         <author>Stephen King</author>
+         <year>1982</year>
+         <price>30.99</price>
+      </book>
+
+12. //book[string-length(title)<12] // lub również //book[string-length(title)<12 and string-length(alt/title)<12]
+<book category="sci:fi">
+         <title>Dune</title>
+         <author>Frank Herbert</author>
+         <year>1965</year>
+         <price>45.00</price>
+      </book>
+<book category="sci:fi drama">
+         <title lang="pl">Robot Bob</title>
+         <author>Jacek Doe</author>
+         <year>2000</year>
+         <price>15.00</price>
+      </book>
+<book category="gothic novel, psychological horror">
+         <title>The Shining</title>
+         <author>Stephen King</author>
+         <year>1977</year>
+         <price>45.00</price>
+      </book>
+<book cover="soft">
+         <title>Discipline</title>
+         <alt>
+            <title>Discipline: Way of freedom</title>
+         </alt>
+         <price>120.00</price>
+      </book>
+
+13. count(//shelves/book)
+7.0
+
+14. sum(//lost/*/price)
+177.0
+
+
+Katalog_CD.xml
+1. //CD[COUNTRY[contains(text(), 'UK')]]
+
+1a. count(//CD[COUNTRY[contains(text(), 'UK')]])
+13
+
+1b. //CD[COUNTRY[contains(text(), 'UK')]]/ARTIST
+<ARTIST>Bonnie Tyler</ARTIST>
+<ARTIST>Gary Moore</ARTIST>
+<ARTIST>Bee Gees</ARTIST>
+<ARTIST>Dr.Hook</ARTIST>
+<ARTIST>Rod Stewart</ARTIST>
+<ARTIST>Kenny Rogers</ARTIST>
+<ARTIST>Van Morrison</ARTIST>
+<ARTIST>Cat Stevens</ARTIST>
+<ARTIST>Sam Brown</ARTIST>
+<ARTIST>T'Pau</ARTIST>
+<ARTIST>Tina Turner</ARTIST>
+<ARTIST>Luciano Pavarotti</ARTIST>
+<ARTIST>The Communards</ARTIST>
+
+1c. sum(//CD[COUNTRY[contains(text(), 'UK')]]/PRICE)
+116.8
+
+2. //CD[YEAR<1990 and PRICE < 10]/TITLE
+
+2a. //CD[YEAR<1990 and PRICE < 10][1]/TITLE
+<TITLE>Hide your heart</TITLE>
+
+2b. sum(//CD[YEAR=1987]/PRICE) div count(//CD[YEAR=1987]/PRICE)
+8.2

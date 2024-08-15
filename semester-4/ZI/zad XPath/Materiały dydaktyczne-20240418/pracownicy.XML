@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<firma>
+	<nazwa>Fima_XYZ</nazwa>
+	<oddział id="ksi">
+		<nazwa>Księgowość</nazwa>
+		<pracownik stanowisko="starszy referent" id="102103">
+			<imię>Dawid</imię><nazwisko>Paszkiewicz</nazwisko>
+			<telefon typ="biuro">+48223213203</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>paszkiewicz@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="kierownik" id="102104">
+			<imię>Monika</imię><nazwisko>Domżałowicz</nazwisko>
+			<telefon typ="biuro">+48223213200</telefon>
+			<telefon typ="kom">+48501502513</telefon>
+			<email>mdom@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="starszy referent" id="102106">
+			<imię>Marek</imię><nazwisko>Kącki</nazwisko>
+			<telefon typ="biuro">+48223213212</telefon>
+			<telefon typ="kom">+48501502524</telefon>
+			<email>kacki@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="młodszy referent" id="102107">
+			<imię>Tomasz</imię><nazwisko>Woźniak</nazwisko>
+			<telefon typ="biuro">+48223213234</telefon>
+			<telefon typ="kom">+48501502544</telefon>
+			<email>wozniak@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="młodszy referent" id="102108">
+			<imię>Maciej</imię><nazwisko>Chmielnicki</nazwisko>
+			<telefon typ="biuro">+48223213236</telefon>
+			<telefon typ="kom">+48501502527</telefon>
+			<email>chmiel@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="młodszy referent" id="102109">
+			<imię>Patrycja</imię><nazwisko>Ślusarek</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502594</telefon>
+			<email>paszkiewicz@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="asystent techniczny" id="102113">
+			<imię>Robert</imię><nazwisko>Koper</nazwisko>
+			<telefon typ="kom">+48501502111</telefon>
+			<email>paszkiewicz@superfirma.pll</email>
+		</pracownik>
+	</oddział>
+	<oddział id="maz">
+		<nazwa>Oddział Mazowiecki</nazwa>
+		<pracownik stanowisko="kierownik" id="105100">
+			<imię>Kacper</imię><nazwisko>Bolesta</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>paszkiewicz@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="asystent" id="105101">
+			<imię>Adam</imię><nazwisko>Głębocki</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>paszkiewicz@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="105102">
+			<imię>Dariusz</imię><nazwisko>Dylewski</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>paszkiewicz@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="105103">
+			<imię>Monika</imię><nazwisko>Operlein</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>paszkiewicz@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="105104">
+			<imię>Roksana</imię><nazwisko>Sadowska</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>paszkiewicz@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="105105">
+			<imię>Marcin</imię><nazwisko>Bielecki</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>paszkiewicz@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="105106">
+			<imię>Michał</imię><nazwisko>Glanert</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>paszkiewicz@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="105107">
+			<imię>Olgierd</imię><nazwisko>Stańczyc</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>paszkiewicz@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="105108">
+			<imię>Monika</imię><nazwisko>Domagalska</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>paszkiewicz@superfirma.pll</email>
+		</pracownik>
+	</oddział>
+	<oddział id="pom">
+		<nazwa>Oddział Pomorski</nazwa>
+		<pracownik stanowisko="kierownik" id="106101">
+			<imię>Dagmara</imię><nazwisko>Koper</nazwisko>
+			<telefon typ="biuro">+48223213215</telefon>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>koper@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="kierownik" id="106104">
+			<imię>Katarzyna</imię><nazwisko>Jakubowska</nazwisko>
+			<telefon typ="biuro">+48223413216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>kjakubowska@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="asystent" id="106103">
+			<imię>Krzysztof</imię><nazwisko>Okuniewski</nazwisko>
+			<telefon typ="biuro">+48223213236</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>okuniewski@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="106107">
+			<imię>Gabriela</imię><nazwisko>Awgul</nazwisko>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>awgul@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="106106">
+			<imię>Jakub</imię><nazwisko>Łakomy</nazwisko>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>jakub@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="106108">
+			<imię>Ryszard</imię><nazwisko>Bąbel</nazwisko>
+			<telefon typ="biuro">+48223213226</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>rb@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="106113">
+			<imię>Justyna</imię><nazwisko>Kuziemkowska</nazwisko>
+			<telefon typ="biuro">+48223213227</telefon>
+			<telefon typ="kom">+48501502527</telefon>
+			<email>kuziemkowska@superfirma.pll</email>
+		</pracownik>
+	</oddział>
+	<oddział id="lod">
+		<nazwa>Oddział Łódzki</nazwa>
+		<pracownik stanowisko="kierownik" id="107173">
+			<imię>Mateusz</imię><nazwisko>Wesołowski</nazwisko>
+			<telefon typ="biuro">+48223253200</telefon>
+			<telefon typ="kom">+48501502513</telefon>
+			<email>wesolowski@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="marketing" id="107103">
+			<imię>Karolina</imię><nazwisko>Ziemichód</nazwisko>
+			<telefon typ="biuro">+48223213203</telefon>
+			<email>ziemichod@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="107104">
+			<imię>Jakub</imię><nazwisko>Brucki</nazwisko>
+			<telefon typ="biuro">+48223215216</telefon>
+			<telefon typ="kom">+48501502529</telefon>
+			<email>brucki@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="107105">
+			<imię>Mateusz</imię><nazwisko>Wiraszka</nazwisko>
+			<telefon typ="kom">+48501502530</telefon>
+			<email>wiraszka@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="107106">
+			<imię>Radosław</imię><nazwisko>Szwedo</nazwisko>
+			<telefon typ="kom">+48501502531</telefon>
+			<email>szwedo@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="praktykant" id="107107">
+			<imię>Ryszard</imię><nazwisko>Zachciał</nazwisko>
+			<telefon typ="kom">+48501502532</telefon>
+			<email>rzachcial@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="107108">
+			<imię>Radosław</imię><nazwisko>Serafin</nazwisko>
+			<telefon typ="kom">+48501502533</telefon>
+			<email>serafin@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="107109">
+			<imię>Mateusz</imię><nazwisko>Blank</nazwisko>
+			<telefon typ="biuro">+48223213276</telefon>
+			<telefon typ="kom">+48501502534</telefon>
+			<email>blank@superfirma.pll</email>
+		</pracownik>
+	</oddział>
+	<oddział id="kat">
+		<nazwa>Oddział Śląski</nazwa>
+		<pracownik stanowisko="kierownik" id="108100">
+			<imię>Damian</imię><nazwisko>Rybak</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>rybak@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="kierownik" id="108101">
+			<imię>Andżelika</imię><nazwisko>Olejnik</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>olejnik@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="asystent" id="108103">
+			<imię>Paulina</imię><nazwisko>Szymanek</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>szymanek@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="108104">
+			<imię>Mariusz</imię><nazwisko>Karliński</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>mkar@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="108105">
+			<imię>Patrycja</imię><nazwisko>Włodarski</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>wlodarski@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="108106">
+			<imię>Karolina</imię><nazwisko>Czupryńska</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>karolinacz@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="108107">
+			<imię>Anna</imię><nazwisko>Bąbel</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>ababel@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="108108">
+			<imię>Bartosz</imię><nazwisko>Malinowski</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>bmal@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="108109">
+			<imię>Łukasz</imię><nazwisko>Ostrowski</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>ostrowski@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="108110">
+			<imię>Karol</imię><nazwisko>Liberski</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>liberski@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="handlowiec" id="108113">
+			<imię>Andżelika</imię><nazwisko>Lidwin</nazwisko>
+			<telefon typ="biuro">+48223213216</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>alidwin@superfirma.pll</email>
+		</pracownik>
+	</oddział>
+	<centrala>
+		<pracownik stanowisko="kierownik" id="102104">
+			<imię>Monika</imię><nazwisko>Domagała</nazwisko>
+			<telefon typ="biuro">+48223213200</telefon>
+			<telefon typ="kom">+48501502513</telefon>
+			<email>mdom2@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="starszy referent" id="102105">
+			<imię>Arkadiusz</imię><nazwisko>Gierasimczyk</nazwisko>
+			<telefon typ="biuro">+48223213213</telefon>
+			<telefon typ="kom">+48501502503</telefon>
+			<email>gieras@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="starszy referent" id="102106">
+			<imię>Marek</imię><nazwisko>Kącki</nazwisko>
+			<telefon typ="biuro">+48223213212</telefon>
+			<telefon typ="kom">+48501502524</telefon>
+			<email>kacki@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="młodszy referent" id="102107">
+			<imię>Tomasz</imię><nazwisko>Woźniak</nazwisko>
+			<telefon typ="biuro">+48223213234</telefon>
+			<telefon typ="kom">+48501502544</telefon>
+			<email>wozniak@superfirma.pll</email>
+		</pracownik>
+		<pracownik stanowisko="młodszy referent" id="102108">
+			<imię>Maciej</imię><nazwisko>Chmielnicki</nazwisko>
+			<telefon typ="biuro">+48223213236</telefon>
+			<telefon typ="kom">+48501502527</telefon>
+			<email>chmiel@superfirma.pll</email>
+		</pracownik>
+	</centrala>
+</firma>

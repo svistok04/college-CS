@@ -1,0 +1,8 @@
+W ramach tego laboratorium przeprowadziłem symulację systemu transmyjnego, obejmującą kodowanie nadmiarowe, modulację, transmisję przez kanał z zakłóceniami (AWGN i tłumienie), demodulację i dekodowanie. Testowane metody modulacji to ASK, PSK i FSK. Symulacje były wykonywane dla dwóch trybów: (1) najpierw AWGN, potem tłumienie oraz (2) najpierw tłumienie, potem AWGN.
+
+Testowanie BER:
+- ASK: BER jest wysoki dla wszystkich testów, zarówno dla niskich wartości alfa i beta;
+- FSK: BER równia się 0 w trybie 1 i nie jest wysoki w trybie 2 (nie przekraca 40%)
+- PSK: BER też równia się 0 w trybie 1 i jest trochę wyższy od wartości z FSK w trybie 2
+
+Podsumowując, te wyniki wskazują, że FSK jest najbardziej skuteczną metodą modulacji sygnału ze względu na odporność w warunkach zakłóceń, co wynika z jego konstrukcji. PSK też okazał się dobry, a ASK najgorszy. Wynika to z tego, że szum i tłumienie zakłócają najbardziej amplitudę, a nie częstotliwość lub fazę.

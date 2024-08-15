@@ -1,0 +1,56 @@
+W trakcie tego laboratorium zaimplementowałem kod do modulacji sygnału wiadomości na trzy sposoby: modulacji amplitudy, modulacji fazy oraz modulacji częstotliwości. Każda z tych technik zmienia pewien parametr sygnału, zgodnie z ich nazwami. Modulacja służy przesyłaniu informacji poprzez sygnał nośny, który jest zmieniany z wykorzystaniem tych technik. To koduje wiadomość, ale również zwiększa efektywność jej transmisji .
+Wszystkie te modulacje są zależne od wartości funkcji modulowanej wiadomości m(t), czyli są to tzw. modulacje chwilowe, a skala modulacji różni się w każdej chwili czasu, dodatkowo przeskalowana przez współczynniki modulacji (k_A, k_P, k_F). Wartości podanej funkcji cos(2pi*f_m*t) mieszczą się w przedziale od -1 do 1, co oznacza, że współczynnik wszystkich modulacji będzie mnożony przez wartość z tego przedziału w każdym momencie czasu, co stanowi faktyczny współczynnik w każdym punkcie.
+Modulacja amplitudy skaluje amplitudę sygnału w każdym punkcie w zależności od wartości sygnału wiadomości w danym punkcie oraz współczynnika k_A. W tym przypadku skalowanie może mieć zakres od -k_A + 1 do k_A + 1.
+Modulacja fazy przesuwa fazę sygnału w każdym punkcie w zależności od współczynnika k_P i wartości sygnału wiadomości w danym punkcie. W tym przypadku przesunięcie może wynosić od -k_P do k_P radianów.
+Modulacja częstotliwości zmienia częstotliwość sygnału w każdym punkcie w zależności od współczynnika k_F, wartości sygnału wiadomości w danym punkcie oraz częstotliwości wiadomości f_m (np. 75 Hz). W tym przypadku zmiana częstotliwości może wynosić od -k_F/75 do k_F/75 Hz.
+Zauważyłem, że modulacje fazy i częstotliwości są bardzo podobne. Rzeczewiście są one podtypami modulacji kątowej, które są używane w zależności od potrzeb.
+Również nauczyłem się wyliczać szerokośč pasma sygnału przy spadku decybelowym i napisałem kod, który robi to bardzo dokladnie na dwa sposoby:
+Using Amplitude spectrum                           | Using dB spectrum
+-------------------------------------------------- | -------------------------------------------
+Signal: za_a                                       |
+3 dB:  331.12 Hz to 334.87 Hz and equals 3.7497 Hz | 331.37 Hz to 334.62 Hz and equals 3.2510 Hz
+6 dB:  330.50 Hz to 335.49 Hz and equals 4.9946 Hz | 330.74 Hz to 335.25 Hz and equals 4.5086 Hz
+12 dB: 328.73 Hz to 337.22 Hz and equals 8.4869 Hz | 328.87 Hz to 337.07 Hz and equals 8.2020 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zp_a                                       |
+3 dB:  331.12 Hz to 334.87 Hz and equals 3.7497 Hz | 331.37 Hz to 334.62 Hz and equals 3.2510 Hz
+6 dB:  330.50 Hz to 335.49 Hz and equals 4.9946 Hz | 330.74 Hz to 335.25 Hz and equals 4.5085 Hz
+12 dB: 328.73 Hz to 337.22 Hz and equals 8.4866 Hz | 328.87 Hz to 337.07 Hz and equals 8.2018 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zf_a                                       |
+3 dB:  331.12 Hz to 334.87 Hz and equals 3.7497 Hz | 331.37 Hz to 334.62 Hz and equals 3.2510 Hz
+6 dB:  330.50 Hz to 335.49 Hz and equals 4.9946 Hz | 330.74 Hz to 335.25 Hz and equals 4.5086 Hz
+12 dB: 328.73 Hz to 337.22 Hz and equals 8.4869 Hz | 328.87 Hz to 337.07 Hz and equals 8.2020 Hz
+-----------------------------------------------------------------------------------------------
+Signal: za_b                                       |
+3 dB:  313.41 Hz to 314.59 Hz and equals 1.1880 Hz | 313.84 Hz to 314.17 Hz and equals 0.3226 Hz
+6 dB:  312.99 Hz to 315.02 Hz and equals 2.0281 Hz | 313.69 Hz to 314.33 Hz and equals 0.6451 Hz
+12 dB: 312.48 Hz to 315.52 Hz and equals 3.0421 Hz | 313.37 Hz to 314.66 Hz and equals 1.2902 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zp_b                                       |
+3 dB:  351.40 Hz to 352.59 Hz and equals 1.1921 Hz | 351.82 Hz to 352.16 Hz and equals 0.3387 Hz
+6 dB:  350.98 Hz to 353.01 Hz and equals 2.0350 Hz | 351.64 Hz to 352.32 Hz and equals 0.6773 Hz
+12 dB: 350.47 Hz to 353.52 Hz and equals 3.0525 Hz | 351.28 Hz to 352.64 Hz and equals 1.3546 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zf_b                                       |
+3 dB:  331.12 Hz to 334.87 Hz and equals 3.7497 Hz | 331.37 Hz to 334.62 Hz and equals 3.2510 Hz
+6 dB:  330.50 Hz to 335.49 Hz and equals 4.9946 Hz | 330.74 Hz to 335.25 Hz and equals 4.5086 Hz
+12 dB: 328.73 Hz to 337.22 Hz and equals 8.4868 Hz | 328.87 Hz to 337.07 Hz and equals 8.2020 Hz
+-----------------------------------------------------------------------------------------------
+Signal: za_c                                       |
+3 dB:  313.41 Hz to 314.59 Hz and equals 1.1753 Hz | 313.88 Hz to 314.12 Hz and equals 0.2397 Hz
+6 dB:  313.00 Hz to 315.00 Hz and equals 2.0063 Hz | 313.76 Hz to 314.24 Hz and equals 0.4794 Hz
+12 dB: 312.50 Hz to 315.51 Hz and equals 3.0095 Hz | 313.53 Hz to 314.49 Hz and equals 0.9588 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zp_c                                       |
+3 dB:  465.41 Hz to 466.60 Hz and equals 1.1957 Hz | 465.84 Hz to 466.19 Hz and equals 0.3517 Hz
+6 dB:  464.99 Hz to 467.03 Hz and equals 2.0412 Hz | 465.68 Hz to 466.38 Hz and equals 0.7033 Hz
+12 dB: 464.48 Hz to 467.54 Hz and equals 3.0618 Hz | 465.35 Hz to 466.76 Hz and equals 1.4066 Hz
+-----------------------------------------------------------------------------------------------
+Signal: zf_c                                       |
+3 dB:  331.12 Hz to 334.87 Hz and equals 3.7482 Hz | 331.37 Hz to 334.62 Hz and equals 3.2495 Hz
+6 dB:  330.50 Hz to 335.49 Hz and equals 4.9930 Hz | 330.74 Hz to 335.24 Hz and equals 4.5063 Hz
+12 dB: 328.73 Hz to 337.21 Hz and equals 8.4756 Hz | 328.87 Hz to 337.06 Hz and equals 8.1898 Hz
+-----------------------------------------------------------------------------------------------
+Te wartości okazały się różne od siebie,na  co również miały wpływ wprowadzone wartości sygnałów.
+W końcu, to laboratorium nauczyło mnie podstaw wykorzystania modulacji sygnałów. Zrozumiałem, jak dzialają trzy głowne technik: modulacja amplitudy, modulacja fazy i modulacja częstotliwości. Udało mi się zaprogramować te techniki i zaobserwować efekty ich działania na wykresach. Dodatkowo, nauczyłem się pojęcia szerokości pasma i wyliczyłem je dla różnych sygnałow, na rożne sposoby i z różnym poziomem spadku decybeli.
