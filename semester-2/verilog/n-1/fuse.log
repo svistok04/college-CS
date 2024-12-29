@@ -1,9 +1,0 @@
-Running: C:\XilinxISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Studenci/zv53855/n-1/test_isim_beh.exe -prj C:/Studenci/zv53855/n-1/test_beh.prj work.test work.glbl 
-ISim P.20131013 (signature 0x7708f090)
-Number of CPUs detected in this system: 12
-Turning on mult-threading, number of parallel sub-compilation jobs: 24 
-Determining compilation order of HDL files
-Analyzing Verilog file "C:/Studenci/zv53855/n-1/../../53814/Module.v" into library work
-ERROR:HDLCompiler:806 - "C:/Studenci/zv53855/n-1/../../53814/Module.v" Line 30: Syntax error near ";".
-ERROR:HDLCompiler:598 - "C:/Studenci/zv53855/n-1/../../53814/Module.v" Line 21: Module <Module> ignored due to previous errors.
-Verilog file C:/Studenci/zv53855/n-1/../../53814/Module.v ignored due to errors
