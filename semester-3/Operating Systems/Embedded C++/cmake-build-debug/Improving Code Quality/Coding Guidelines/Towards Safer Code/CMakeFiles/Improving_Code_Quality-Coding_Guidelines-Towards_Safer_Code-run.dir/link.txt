@@ -1,1 +1,0 @@
-/usr/bin/c++ -g "CMakeFiles/Improving_Code_Quality-Coding_Guidelines-Towards_Safer_Code-run.dir/src/main.cpp.o" -o Improving_Code_Quality-Coding_Guidelines-Towards_Safer_Code-run 

@@ -1,8 +1,0 @@
-#pragma once
-
-#ifndef EMBEDDED_C__DEFINITIONS_H
-#define EMBEDDED_C__DEFINITIONS_H
-
-#define TABLE_SIZE 10
-
-#endif //EMBEDDED_C__DEFINITIONS_H
