@@ -1,0 +1,63 @@
+# Python cache files
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environment directories
+venv/
+env/
+.virtualenv/
+
+# JetBrains (PyCharm) project files
+.idea/
+*.iml
+
+# Byte-compiled and temporary files
+*.log
+*.pot
+*.out
+*.class
+
+# Package and distribution directories
+build/
+dist/
+*.egg-info/
+*.eggs/
+
+# Test result files
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+.nox/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variable files
+.env
+.env.*
+.secret
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Generated files from profiling/debugging
+*.prof
+*.profraw
+*.pstats
+
+# Ignore MyPy and other type-checking artifacts
+.mypy_cache/
+.dmypy.json
+.dmypy/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore temporary files or user-specific files
+*.tmp
+*.swp
+*~

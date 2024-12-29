@@ -1,0 +1,19 @@
+# JetBrains (IntelliJ IDEA) project files
+.idea/
+*.iml
+
+# Compiled files
+*.class
+
+# Output directories
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Bytecode and temporary files
+*.log
+*.tmp
+*.swp
+
+# OS-specific files
+.DS_Store
