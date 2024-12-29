@@ -1,0 +1,22 @@
+# Ignore build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Ignore generated files
+CMakeLists.txt.user
+CMakeCache.txt
+compile_commands.json
+
+# Ignore CLion specific files
+.idea/
+*.iml
+workspace.xml
+*.ipr
+*.iws
+
+# Ignore compiled object files and executables
+*.o
+*.obj
+*.exe
+*.out
