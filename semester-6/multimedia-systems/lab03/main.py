@@ -362,7 +362,7 @@ def main():
         img_type = row['Type']
         scales = row['ScaleFactors']
 
-        folder = 'IMG_BIG' if img_type == 'Downscaling' else 'IMG_SMALL'
+        folder = '../IMG_BIG' if img_type == 'Downscaling' else '../IMG_SMALL'
         path = os.path.join(folder, filename)
         img = plt.imread(path)
 
@@ -398,7 +398,7 @@ def main():
 
 main()
 
-# img = plt.imread("IMG_SMALL/SMALL_0003.png")
+# img = plt.imread("../IMG_SMALL/SMALL_0003.png")
 # plt.imshow(img)
 # plt.show()
 #
@@ -409,7 +409,7 @@ main()
 
 
 #
-# img = plt.imread('IMG_SMALL/SMALL_0009.jpg')
+# img = plt.imread('../IMG_SMALL/SMALL_0009.jpg')
 # # img= np.zeros((11,11,3),dtype=np.uint8)
 # # img[5,5,:] = 255
 # fig = plt.figure(figsize=(16, 4))
@@ -440,7 +440,7 @@ main()
 # plt.show()
 # print(time.time() - f)
 #
-# img = plt.imread('IMG_BIG/BIG_0002.jpg')
+# img = plt.imread('../IMG_BIG/BIG_0002.jpg')
 # # t = time.time()
 # plt.imshow(img)
 # plt.show()

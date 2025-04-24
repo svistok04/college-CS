@@ -7,42 +7,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 def get_size(obj, seen=None):
-  return {
-  "nvim-neo-tree/neo-tree.nvim",
-  dependencies = {
-    "nvim-lua/plenary.nvim",
-    "nvim-tree/nvim-web-devicons",
-    "MunifTanjim/nui.nvim",
-  },
-
-  config = function()
-    require("neo-tree").setup({
-      close_if_last_window = true,
-      filesystem = {
-        filtered_items = {
-          visible = true,
-          hide_dotfiles = false,
-          hide_gitignored = false,
-        },
-        follow_current_file = {
-          enabled = true,
-        },
-        use_libuv_file_watcher = true,
-        hijack_netrw_behavior = "open_default", -- ← THIS LINE ADDED
-      },
-    })
-
-    -- Ensure root detection respects .nvimroot
-    vim.g.root_spec = { { ".nvimroot", ".git", ".venv", "pyproject.toml" }, "lsp", "cwd" }
-    vim.api.nvim_create_autocmd("User", {
-      pattern = "AlphaReady",
-      callback = function()
-        -- Do nothing if Alpha is about to be shown
-      end,
-    })
-    -- Auto-open Neo-tree when no files are opened
-  end,
-}  """Recursively finds size of objects"""
+    """Recursively finds size of objects"""
     size = sys.getsizeof(obj)
     if seen is None:
         seen = set()

@@ -3,14 +3,14 @@ import matplotlib.pyplot as plt
 import cv2
 
 
-img1 = plt.imread('IMG_INTRO/A1.png')
+img1 = plt.imread('../IMG_INTRO/A1.png')
 print('plt, float32')
 print(img1.dtype)
 print(img1.shape)
 print(np.min(img1), np.max(img1))
 
 
-img2 = cv2.imread('IMG_INTRO/A1.png')
+img2 = cv2.imread('../IMG_INTRO/A1.png')
 print('cv, uint8')
 print(img2.dtype)
 print(img2.shape)
@@ -66,7 +66,7 @@ Y1 = 0.299 * R + 0.587 * G + 0.114 * B
 Y2 = 0.2126 * R + 0.7152 * G + 0.0722 * B
 
 
-img = cv2.imread('IMG_INTRO/A4.jpg')
+img = cv2.imread('../IMG_INTRO/A4.jpg')
 
 from docx import Document
 from docx.shared import Inches
@@ -117,7 +117,7 @@ def plotImgFromCV(img_RGB):
 
 plotImgFromCV(img)
 
-img = cv2.imread('IMG_INTRO/B01.png')
+img = cv2.imread('../IMG_INTRO/B01.png')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 fragment = img[10:210, 100:300].copy()
 # plt.imshow(fragment)
@@ -143,7 +143,7 @@ document = Document()
 document.add_heading('Zmień ten tytuł',0)
 
 for index, row in df.iterrows():
-    img = plt.imread(f'IMG_INTRO/{row['Filename'][0]}')
+    img = plt.imread(f'../IMG_INTRO/{row['Filename'][0]}')
     document.add_heading(f'Plik - {row['Filename']}',2)
     if row['Grayscale']:
         pass

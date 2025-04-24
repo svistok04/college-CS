@@ -222,7 +222,7 @@ def main():
         image_type = row['ImageType']
         print(filename)
 
-        folder = 'IMG_GS' if image_type == 'Grayscale' else 'IMG_SMALL'
+        folder = '../IMG_GS' if image_type == 'Grayscale' else '../IMG_SMALL'
         path = os.path.join(folder, filename)
 
         img = cv2.imread(path, cv2.IMREAD_GRAYSCALE if image_type == 'Grayscale' else cv2.IMREAD_COLOR)
@@ -257,7 +257,7 @@ main()
 #
 # print(colorFit(np.array([0.25, 0.25, 0.5]), pallet16))
 #
-# img = cv2.imread('IMG_GS/GS_0001.tif', cv2.IMREAD_GRAYSCALE)
+# img = cv2.imread('../IMG_GS/GS_0001.tif', cv2.IMREAD_GRAYSCALE)
 # img = img.astype(np.float32) / 255.0
 # plt.imshow(img, cmap='gray')
 # plt.show()
@@ -283,7 +283,7 @@ main()
 
 # plt.show()
 #
-# img = cv2.imread('IMG_GS/GS_0001.tif', cv2.IMREAD_GRAYSCALE)
+# img = cv2.imread('../IMG_GS/GS_0001.tif', cv2.IMREAD_GRAYSCALE)
 # img = img.astype(np.float32) / 255.0
 #
 # dithered = dithering_random(img)
@@ -312,7 +312,7 @@ main()
 #     [4*M2 + 3, 4*M2 + 1]
 # ])
 
-# img = cv2.imread('IMG_GS/GS_0001.tif', cv2.IMREAD_GRAYSCALE)
+# img = cv2.imread('../IMG_GS/GS_0001.tif', cv2.IMREAD_GRAYSCALE)
 # img = img.astype(np.float32) / 255.0
 #
 # ordered = dithering_order(img, M1, palette)

@@ -4,7 +4,7 @@ import scipy.fftpack
 import sounddevice as sd
 import soundfile as sf
 
-data, fs = sf.read('SOUND_INTRO/sound1.wav', dtype='float32')
+data, fs = sf.read('../SOUND_INTRO/sound1.wav', dtype='float32')
 
 print(data.dtype)
 print(data.shape)
@@ -34,7 +34,7 @@ sound_mix = (data[:, 0] + data[:, 1]) / 2
 
 # widmo
 
-data, fs = sf.read('SIN/sin_440Hz.wav', dtype=np.int32)
+data, fs = sf.read('../SIN/sin_440Hz.wav', dtype=np.int32)
 # plt.figure()
 # plt.subplot(2,1,1)
 # plt.plot(np.arange(0,data.shape[0])/fs,data)
@@ -87,7 +87,7 @@ def plotAudio(Signal, Fs, TimeMargin=[0,0.02], fsize=2**8):
 
     return memfile, max_freq, max_amplitude
 
-# data, fs = sf.read('SIN/sin_8000Hz.wav', dtype=np.int32)
+# data, fs = sf.read('../SIN/sin_8000Hz.wav', dtype=np.int32)
 # plotAudio(data, fs, [0, 0.0005])
 
 
@@ -103,7 +103,7 @@ for file in files:
     for Fsize in fsize:
         for i,Margin in enumerate(Margins):
             document.add_heading(f'Time margin {Margin}, fsize {Fsize}',3) # nagłówek sekcji, mozę być poziom wyżej
-            data,fs = sf.read(f'SIN/{file}')
+            data,fs = sf.read(f'../SIN/{file}')
             print(i, Fsize)
             memfile, max_freq, max_amplitude = plotAudio(data, fs, Margin, Fsize)
 

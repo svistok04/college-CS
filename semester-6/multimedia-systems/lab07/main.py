@@ -154,7 +154,7 @@ def save_audio(file_path, data, sample_rate):
     pass
 
 # def get_all_files():
-#     return glob(f"'SING/*1.wav")
+#     return glob(f"../SING/*1.wav")
 
 def main():
     pass
@@ -203,7 +203,6 @@ def test():
     dpcm_encoded_pred = dpcm_compress_predict(original, bit_depth, mean_predict, pred_n)
     dpcm_decoded_pred = dpcm_decompress_predict(dpcm_encoded_pred, mean_predict, pred_n)
 
-    # Plot all
     plot_sine_compression(
         original,
         a_decompressed,

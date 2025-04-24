@@ -103,10 +103,10 @@ def main():
     decimation_steps = [2, 4, 6, 10, 24]
     interp_fs = [2000, 4000, 8000, 11999, 16000, 16953, 24000, 41000]
     files = [
-        'SIN/sin_60Hz.wav',
-        'SIN/sin_440Hz.wav',
-        'SIN/sin_8000Hz.wav',
-        'SIN/sin_combined.wav'
+        '../SIN/sin_60Hz.wav',
+        '../SIN/sin_440Hz.wav',
+        '../SIN/sin_8000Hz.wav',
+        '../SIN/sin_combined.wav'
     ]
 
     time_margins = [[0, 0.02],
@@ -222,6 +222,6 @@ for f in test_files:
     test_hearing_variants(f)
 
 
-# data1, fs1 = sf.read('SIN/sin_8000Hz.wav')
+# data1, fs1 = sf.read('../SIN/sin_8000Hz.wav')
 # print(len(data) / fs)
 # print(data[:111])
