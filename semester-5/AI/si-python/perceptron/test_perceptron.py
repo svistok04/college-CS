@@ -41,7 +41,7 @@ def test_linear():
     plt.scatter(X[:, 0], X[:, 1], c=y, marker='.')
     plt.show()
 
-def test_non_linear(learning_rate=0.01, dimensions=70, k_max=2000, sigma=0.2):
+def test_non_linear(learning_rate=1.0, dimensions=60, k_max=10000, sigma=0.2):
     np.random.seed(0)
     t = time.time()
     X, y = fake_data_sinus(m=2000)

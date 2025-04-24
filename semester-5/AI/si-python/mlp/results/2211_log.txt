@@ -1,0 +1,9 @@
+EXPERIMENT 2211 START
+DATA SETTINGS: domain=4.71238898038469, noise_std=0.1, m_train=1000, m_test=10000
+APPROXIMATOR: MLPApproximator(structure=[128, 64, 32], activation_name=relu, targets_activation_name=linear, 
+initialization_name=uniform, algo_name=sgd_simple, learning_rate=0.001, n_epochs=1000, batch_size=10)
+FIT [total of weights (params): 10753]
+---
+EPOCH 1/1000:
+[epoch 1/1000, batch 1/100 -> loss before: 20.679362556386955, loss after: 77.08346318902849]
+EXPERIMENT FAILED: NaN detected in gradients at epoch 1, batch 8.

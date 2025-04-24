@@ -7,7 +7,7 @@ class MLPApproximator(BaseEstimator, RegressorMixin):
 
     ALGO_NAMES = ["sgd_simple", "sgd_momentum", "rmsprop", "adam"]
 
-    def __init__(self, structure=[16, 8, 4], activation_name="relu", targets_activation_name="linear", initialization_name="uniform",
+    def __init__(self, structure=[16, 8, 4], activation_name="sigmoid", targets_activation_name="linear", initialization_name="uniform",
                  algo_name="sgd_simple", learning_rate=1e-2,  n_epochs=100, batch_size=10, seed=0,
                  verbosity_e=100, verbosity_b=10):
         self.structure = structure
@@ -38,7 +38,7 @@ class MLPApproximator(BaseEstimator, RegressorMixin):
     def __str__(self):
         txt = f"{self.__class__.__name__}(structure={self.structure},"
         txt += "\n" if len(self.structure) > 32 else " "
-        txt += f"activation_name={self.activation_name}, targets_activation_name={self.targets_activation_name}, initialization_name={self.initialization_name}, "
+        txt += f"activation_name={self.activation_name}, targets_activation_name={self.targets_activation_name}, \ninitialization_name={self.initialization_name}, "
         txt += f"algo_name={self.algo_name}, learning_rate={self.learning_rate}, n_epochs={self.n_epochs}, batch_size={self.batch_size})"
         if self.n_params:
             txt += f" [n_params: {self.n_params}]"
@@ -84,11 +84,11 @@ class MLPApproximator(BaseEstimator, RegressorMixin):
 
     @staticmethod
     def relu(S):
-        pass # TODO
+        return np.maximum(0, S)
 
     @staticmethod
     def relu_d(phi_S):
-        pass # TODO
+        return (phi_S > 0).astype(np.float32)
 
     @staticmethod
     def linear(S):
@@ -114,22 +114,53 @@ class MLPApproximator(BaseEstimator, RegressorMixin):
         self.weights0_[l] = self.weights0_[l] - self.learning_rate * self.gradients0[l]
 
     def pre_algo_sgd_momentum(self):
-        pass # TODO (homework)
+        self.momentum_v = [np.zeros_like(w) for w in self.weights_]
+        self.momentum_v0 = [np.zeros_like(w0) for w0 in self.weights0_]
 
     def algo_sgd_momentum(self, l):
-        pass # TODO: self.weights_[l], self.weights0_[l] to be updated (l is a layer index)
+        self.momentum_v[l] = self.momentum_beta * self.momentum_v[l] + (1 - self.momentum_beta) * self.gradients[l]
+        self.weights_[l] = self.weights_[l] - self.learning_rate * self.momentum_v[l]
+
+        self.momentum_v0[l] = self.momentum_beta * self.momentum_v0[l] + (1 - self.momentum_beta) * self.gradients0[l]
+        self.weights0_[l] = self.weights0_[l] - self.learning_rate * self.momentum_v0[l]
 
     def pre_algo_rmsprop(self):
-        pass # TODO (homework)
+        self.rmsprop_v = [np.zeros_like(w) for w in self.weights_]
+        self.rmsprop_v0 = [np.zeros_like(w0) for w0 in self.weights0_]
 
     def algo_rmsprop(self, l):
-        pass # TODO: self.weights_[l], self.weights0_[l] to be updated (l is a layer index)
+        self.rmsprop_v[l] = self.rmsprop_beta * self.rmsprop_v[l] + (1 - self.rmsprop_beta) * (self.gradients[l] ** 2)
+        self.weights_[l] = self.weights_[l] - self.learning_rate * self.gradients[l] / (np.sqrt(self.rmsprop_v[l]) + self.rmsprop_epsilon)
+
+        self.rmsprop_v0[l] = self.rmsprop_beta * self.rmsprop_v0[l] + (1 - self.rmsprop_beta) * (self.gradients0[l] ** 2)
+        self.weights0_[l] = self.weights0_[l] - self.learning_rate * self.gradients0[l] / (np.sqrt(self.rmsprop_v0[l]) + self.rmsprop_epsilon)
 
     def pre_algo_adam(self):
-        pass # TODO (homework)
+        self.adam_m = [np.zeros_like(w) for w in self.weights_]
+        self.adam_v = [np.zeros_like(w) for w in self.weights_]
+        self.adam_m0 = [np.zeros_like(w0) for w0 in self.weights0_]
+        self.adam_v0 = [np.zeros_like(w0) for w0 in self.weights0_]
+        self.adam_t = 1
 
     def algo_adam(self, l):
-        pass # TODO: self.weights_[l], self.weights0_[l] to be updated (l is a layer index)
+        self.adam_m[l] = self.adam_beta1 * (self.adam_m[l] + (1 - self.adam_beta1) * self.gradients[l])
+        self.adam_v[l] = self.adam_beta2 * (self.adam_v[l] + (1 - self.adam_beta2) * self.gradients[l] ** 2)
+
+        m_hat = self.adam_m[l] / (1 - self.adam_beta1 ** (self.adam_t + 1))
+        v_hat = self.adam_v[l] / (1 - self.adam_beta2 ** (self.adam_t + 1))
+
+        self.weights_[l] = self.weights_[l] - self.learning_rate * m_hat / (np.sqrt(v_hat) + self.adam_epsilon)
+
+        self.adam_m0[l] = self.adam_beta1 * (self.adam_m0[l] + (1 - self.adam_beta1) * self.gradients0[l])
+        self.adam_v0[l] = self.adam_beta2 * (self.adam_v0[l] + (1 - self.adam_beta2) * self.gradients0[l] ** 2)
+
+        m_hat0 = self.adam_m0[l] / (1 - self.adam_beta1 ** (self.adam_t + 1))
+        v_hat0 = self.adam_v0[l] / (1 - self.adam_beta2 ** (self.adam_t + 1))
+
+        self.weights0_[l] = self.weights0_[l] - self.learning_rate * m_hat0 / (np.sqrt(v_hat0) + self.adam_epsilon)
+
+        if l == len(self.weights_) - 1:
+            self.adam_t += 1
 
     def fit(self, X, y):
         np.random.seed(self.seed)
@@ -180,6 +211,7 @@ class MLPApproximator(BaseEstimator, RegressorMixin):
                 self.forward(X_b)
                 loss_b_before = np.mean(self.loss_(self.signals[-1], y_b))
                 self.backward(y_b)
+
                 for l in range(1, len(self.structure) + 2):
                     self.algo_(l)
                 if (e % self.verbosity_e == 0 or e == self.n_epochs - 1) and b % self.verbosity_b == 0:
@@ -219,14 +251,12 @@ class MLPApproximator(BaseEstimator, RegressorMixin):
         L = len(self.structure)
         b = y_b.shape[0]
         ones = np.ones((b, 1), dtype=np.float32)
-        for l in range(L, 0, -1): # l = L, L - 1, ..., 1
+        for l in range(L + 1, 0, -1): # l = L, L - 1, ..., 1
             S_lm1 = self.signals[l - 1]
             if l > 1:
                 self.deltas[l - 1] = self.activation_d_(S_lm1) * (self.deltas[l].dot(self.weights_[l]))
             self.gradients[l] = self.deltas[l].T.dot(S_lm1)
-            self.gradients0[l] = self.weights_[l].T.dot(ones)
-
-# TODO: carry out backward computations throughout layers
+            self.gradients0[l] = self.deltas[l].T.dot(ones)
 
     def predict(self, X):
         self.forward(X)
