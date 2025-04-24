@@ -1,3 +1,4 @@
+#include <CL/cl_platform.h>
 #include <stdio.h>
 #include <stdlib.h>
  
@@ -17,70 +18,119 @@ const char kernelSourceCode[]=
 "}																				\n"
 ;
 
+void list_available_platforms(cl_platform_id* platforms, cl_uint num_platforms) {
+  for (cl_uint i = 0; i < num_platforms; ++i) {
+    char* name = NULL;
+    size_t infoSize;
+    clGetPlatformInfo(platforms[i], CL_PLATFORM_NAME, 0, NULL, &infoSize);
+    name = (char*)malloc(infoSize);
+    printf("%u. %s", i+1, name);
+    free(name);
+  }
+}
+
+void list_platform_info(cl_platform_id platform) {
+  printf();
+
+}
+
+void list_device_info(cl_device_id device) {
+  printf();
+  
+}
+
+void list_available_devices() {
+  printf();
+}
 
 //program wykonywany na HOSCIE - host program
 int main(void) {
-    cl_uint clui_num_platforms{};
-    cl_int cli_err_num;
-    cli_err_num = clGetPlatformIDs(0, NULL, &clui_num_platforms);
-    if (cli_err_num != CL_SUCCESS) {
-        printf("No OpenCL detected, err code %d \n", cli_err_num);
-        //return cli_err_num;
+    cl_uint num_platforms = 0;
+    cl_int err = clGetPlatformIDs(0, NULL, &num_platforms);
+    if (err != CL_SUCCESS || num_platforms == 0) {
+        printf("No OpenCL platforms found. Error code: %d\n", err);
+        return 1;
     }
-    printf("Num of platforms available %d\n", clui_num_platforms);
-    cl_platform_id* opencl_platforms = (cl_platform_id*)malloc(clui_num_platforms * sizeof(cl_platform_id));
-    cli_err_num = clGetPlatformIDs(clui_num_platforms, opencl_platforms, NULL);
-    printf("First platform ID: %d\n", opencl_platforms[0]);
-    char* profile = NULL;
-    size_t infoSize;
-    clGetPlatformInfo(opencl_platforms[0], CL_PLATFORM_NAME, NULL, profile, &infoSize);
-    profile = (char*)malloc(infoSize);
-    clGetPlatformInfo(opencl_platforms[0], CL_PLATFORM_NAME, infoSize, profile, NULL);
-    printf("Platform name %s\n", profile);
-    clGetPlatformInfo(opencl_platforms[0], CL_PLATFORM_VENDOR, NULL, profile, &infoSize);
-    profile = (char*)malloc(infoSize);
-    clGetPlatformInfo(opencl_platforms[0], CL_PLATFORM_VENDOR, infoSize, profile, NULL);
-    printf("Platform vendor %s\n", profile);
-    clGetPlatformInfo(opencl_platforms[0], CL_PLATFORM_VERSION, NULL, profile, &infoSize);
-    profile = (char*)malloc(infoSize);
-    clGetPlatformInfo(opencl_platforms[0], CL_PLATFORM_VERSION, infoSize, profile, NULL);
-    printf("Platform version %s\n", profile);
-    cl_uint clui_num_devices;
-    cli_err_num = clGetDeviceIDs(opencl_platforms[0], CL_DEVICE_TYPE_ALL, 0, NULL, &clui_num_devices);
-    if (cli_err_num != CL_SUCCESS) {
-        printf("No OpenCL detected, err code %d \n", cli_err_num);
-        //return cli_err_num;
+
+    printf("Number of platforms available: %u\n", num_platforms);
+
+    cl_platform_id* platforms = (cl_platform_id*)malloc(sizeof(cl_platform_id) * num_platforms);
+    clGetPlatformIDs(num_platforms, platforms, NULL);
+
+    for (cl_uint i = 0; i < num_platforms; ++i) {
+        printf("\nPlatform %u\n", i);
+
+        char* info = NULL;
+        size_t infoSize;
+
+        clGetPlatformInfo(platforms[i], CL_PLATFORM_NAME, 0, NULL, &infoSize);
+        info = (char*)malloc(infoSize);
+        clGetPlatformInfo(platforms[i], CL_PLATFORM_NAME, infoSize, info, NULL);
+        printf("Platform name: %s\n", info);
+        free(info);
+
+        clGetPlatformInfo(platforms[i], CL_PLATFORM_VENDOR, 0, NULL, &infoSize);
+        info = (char*)malloc(infoSize);
+        clGetPlatformInfo(platforms[i], CL_PLATFORM_VENDOR, infoSize, info, NULL);
+        printf("Platform vendor: %s\n", info);
+        free(info);
+
+        clGetPlatformInfo(platforms[i], CL_PLATFORM_VERSION, 0, NULL, &infoSize);
+        info = (char*)malloc(infoSize);
+        clGetPlatformInfo(platforms[i], CL_PLATFORM_VERSION, infoSize, info, NULL);
+        printf("Platform version: %s\n", info);
+        free(info);
+
+        cl_uint num_devices = 0;
+        err = clGetDeviceIDs(platforms[i], CL_DEVICE_TYPE_ALL, 0, NULL, &num_devices);
+        if (err != CL_SUCCESS || num_devices == 0) {
+            printf("No devices found on this platform. Error code: %d\n", err);
+            continue;
+        }
+
+        printf("Number of devices on this platform: %u\n", num_devices);
+
+        cl_device_id* devices = (cl_device_id*)malloc(sizeof(cl_device_id) * num_devices);
+        clGetDeviceIDs(platforms[i], CL_DEVICE_TYPE_ALL, num_devices, devices, NULL);
+
+        for (cl_uint j = 0; j < num_devices; ++j) {
+            printf("\nDevice %u\n", j);
+
+            clGetDeviceInfo(devices[j], CL_DEVICE_NAME, 0, NULL, &infoSize);
+            info = (char*)malloc(infoSize);
+            clGetDeviceInfo(devices[j], CL_DEVICE_NAME, infoSize, info, NULL);
+            printf("  Device name: %s\n", info);
+            free(info);
+
+            clGetDeviceInfo(devices[j], CL_DEVICE_VENDOR, 0, NULL, &infoSize);
+            info = (char*)malloc(infoSize);
+            clGetDeviceInfo(devices[j], CL_DEVICE_VENDOR, infoSize, info, NULL);
+            printf("  Device vendor: %s\n", info);
+            free(info);
+
+            clGetDeviceInfo(devices[j], CL_DRIVER_VERSION, 0, NULL, &infoSize);
+            info = (char*)malloc(infoSize);
+            clGetDeviceInfo(devices[j], CL_DRIVER_VERSION, infoSize, info, NULL);
+            printf("  Driver version: %s\n", info);
+            free(info);
+
+            clGetDeviceInfo(devices[j], CL_DEVICE_VERSION, 0, NULL, &infoSize);
+            info = (char*)malloc(infoSize);
+            clGetDeviceInfo(devices[j], CL_DEVICE_VERSION, infoSize, info, NULL);
+            printf("  Device version: %s\n", info);
+            free(info);
+
+            clGetDeviceInfo(devices[j], CL_DEVICE_OPENCL_C_VERSION, 0, NULL, &infoSize);
+            info = (char*)malloc(infoSize);
+            clGetDeviceInfo(devices[j], CL_DEVICE_OPENCL_C_VERSION, infoSize, info, NULL);
+            printf("  OpenCL C version: %s\n", info);
+            free(info);
+        }
+
+        free(devices);
     }
-    printf("Num of devices on this platform available: %d\n", clui_num_devices);
-    cl_device_id* platform_devices = (cl_device_id*)malloc(clui_num_devices * sizeof(cl_device_id));
-    cli_err_num = clGetDeviceIDs(opencl_platforms[0], CL_DEVICE_TYPE_ALL, clui_num_devices, platform_devices, NULL);
-    if (cli_err_num != CL_SUCCESS) {
-        printf("No OpenCL detected, err code %d \n", cli_err_num);
-        //return cli_err_num;
-    }
-    printf("First device ID: %d\n", platform_devices[0]);
-    clGetDeviceInfo(platform_devices[0], CL_DEVICE_NAME, NULL, profile, &infoSize);
-    profile = (char*)malloc(infoSize);
-    clGetDeviceInfo(platform_devices[0], CL_DEVICE_NAME, infoSize, profile, NULL);
-    printf("Device name %s\n", profile);
-    free(profile);
-    clGetDeviceInfo(platform_devices[0], CL_DEVICE_VENDOR, NULL, profile, &infoSize);
-    profile = (char*)malloc(infoSize);
-    clGetDeviceInfo(platform_devices[0], CL_DEVICE_VENDOR, infoSize, profile, NULL);
-    printf("Device vendor %s\n", profile);
-    clGetDeviceInfo(platform_devices[0], CL_DRIVER_VERSION, NULL, profile, &infoSize);
-    profile = (char*)malloc(infoSize);
-    clGetDeviceInfo(platform_devices[0], CL_DRIVER_VERSION, infoSize, profile, NULL);
-    printf("Device driver version %s\n", profile);
-    clGetDeviceInfo(platform_devices[0], CL_DEVICE_VERSION, NULL, profile, &infoSize);
-    profile = (char*)malloc(infoSize);
-    clGetDeviceInfo(platform_devices[0], CL_DEVICE_VERSION, infoSize, profile, NULL);
-    printf("Device version %s\n", profile);
-    clGetDeviceInfo(platform_devices[0], CL_DEVICE_OPENCL_C_VERSION, NULL, profile, &infoSize);
-    profile = (char*)malloc(infoSize);
-    clGetDeviceInfo(platform_devices[0], CL_DEVICE_OPENCL_C_VERSION, infoSize, profile, NULL);
-    printf("Device OpenCL C version %s\n", profile);
-    // Create the two input vectors
+
+    free(platforms);   // Create the two input vectors
     int i;
     int *A = (int*)malloc(sizeof(int)*vector_len); 
     int *B = (int*)malloc(sizeof(int)*vector_len);
