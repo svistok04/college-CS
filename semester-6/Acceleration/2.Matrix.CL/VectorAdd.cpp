@@ -1,5 +1,7 @@
 #include <CL/cl_platform.h>
+#include <cctype>
 #include <cstddef>
+#include <cstdint>
 #include <cstring>
 #include <stdio.h>
 #include <stdlib.h>
@@ -59,12 +61,11 @@ void list_available_devices(device_entry* devices, cl_uint num_devices);
 void menu();
 void run_vector_add_on_device(cl_device_id dev, cl_ulong vector_len);
 cl_ulong get_max_vector_len(cl_device_id dev);
+size_t read_size_t_safely(const char* prompt);
 //program wykonywany na HOSCIE - host program
 int main(void) {
   init_opencl();
   menu();
-  char buf[100];
-  fgets(buf, 100, stdin);
   free(devices);
   free(platforms);
   return 0;
@@ -76,7 +77,6 @@ void clear_screen() {
 
 void wait_for_enter() {
   printf("\nPress Enter to return to menu...");
-  getchar();
   getchar();
 }
 
@@ -284,7 +284,7 @@ void list_device_info(cl_device_id device) {
 }
 
 void menu() {
-  int choice = -1;
+  size_t choice = SIZE_MAX;
   while (choice != 0) {
     clear_screen();
     printf("\n==== OpenCL Menu ====\n");
@@ -292,16 +292,14 @@ void menu() {
     printf("2. List devices\n");
     printf("3. Run test\n");
     printf("0. Exit\n");
-    printf("Choose an option: ");
-    scanf("%d", &choice);
-    switch (choice) {
+    choice = read_size_t_safely("Choose an option: ");
+
+    switch ((int)choice) {
       case 1: {
         clear_screen();
         list_available_platforms(platforms, total_platforms);
-        printf("Enter platform number (0 to cancel): ");
-        int index;
-        scanf("%d", &index);
-        if (index > 0 && index <= (int)total_platforms) {
+        size_t index = read_size_t_safely("Enter platform number (0 to cancel): ");
+        if (index > 0 && index <= total_platforms) {
           clear_screen();
           list_platform_info(platforms[index - 1]);
         } else if (index == 0) {
@@ -315,10 +313,8 @@ void menu() {
       case 2: {
         clear_screen();
         list_available_devices(devices, total_devices);
-        printf("Enter device number (0 to cancel): ");
-        int index;
-        scanf("%d", &index);
-        if (index > 0 && index <= (int)total_devices) {
+        size_t index = read_size_t_safely("Enter device number (0 to cancel): ");
+        if (index > 0 && index <= total_devices) {
           clear_screen();
           list_device_info(devices[index - 1].device);
         } else if (index == 0) {
@@ -331,7 +327,7 @@ void menu() {
       }
       case 3: {
         clear_screen();
-        int sub_choice = -1;
+        size_t sub_choice = SIZE_MAX;
         while (sub_choice != 0) {
           printf("\n[Run Test Menu]\n");
           printf("1. Run on all devices\n");
@@ -341,15 +337,12 @@ void menu() {
             printf("%u. Run on device %u: %s\n", i + 2, i, name);
           }
           printf("0. Back to main menu\n");
-          printf("Choose an option: ");
-          scanf("%d", &sub_choice);
-
+          sub_choice = read_size_t_safely("Choose an option: ");
           clear_screen();
 
           size_t user_len;
           if (sub_choice > 0) {
-            printf("Enter vector length (0 for max per device): ");
-            scanf("%zu", &user_len);
+            user_len = read_size_t_safely("Enter vector length (0 for max per device): ");
             clear_screen();
           }
 
@@ -368,7 +361,7 @@ void menu() {
             }
             wait_for_enter();
             clear_screen();
-          } else if (sub_choice >= 2 && sub_choice < (int)(total_devices + 2)) {
+          } else if (sub_choice >= 2 && sub_choice < (total_devices + 2)) {
             cl_uint target = sub_choice - 2;
             printf("Running test on device %u...\n", target);
             cl_ulong max_len = get_max_vector_len(devices[target].device);
@@ -520,4 +513,38 @@ cl_ulong get_max_vector_len(cl_device_id dev) {
   cl_ulong safe_len = max_alloc / (3 * sizeof(int));
   if (safe_len > 32 * 1024 * 1024) safe_len = 32 * 1024 * 1024;
   return safe_len;
+}
+
+size_t read_size_t_safely(const char* prompt) {
+  char buffer[128];
+  while (1) {
+    printf("%s", prompt);
+    if (!fgets(buffer, sizeof(buffer), stdin)) {
+      printf("Input error.\n");
+      continue;
+    }
+
+    size_t len = strlen(buffer);
+    if (len > 0 && buffer[len - 1] == '\n')
+      buffer[len - 1] = '\0';
+
+    char* ptr = buffer;
+    while (isspace(*ptr)) ptr++;
+
+    if (*ptr == '\0') {
+      printf("Empty input. Please enter a number.\n");
+      continue;
+    }
+
+    char* endptr;
+    unsigned long long temp = strtoull(ptr, &endptr, 10);
+
+    while (isspace(*endptr)) endptr++;
+    if (*endptr != '\0') {
+      printf("Invalid input. Please enter a non-negative integer.\n");
+      continue;
+    }
+
+    return (size_t)temp;
+  }
 }
