@@ -1,9 +1,9 @@
 CXX = g++
-CXXFLAGS = -Wall -std=c++17
+CXXFLAGS = -Wall -std=c++17 -D CL_TARGET_OPENCL_VERSION=300
 LDFLAGS = -lOpenCL
 
-TARGET = VectorAdd
-SRC = VectorAdd.cpp
+TARGET = matrix_mul
+SRC = matrix_mul.cpp
 
 all: $(TARGET)
 
