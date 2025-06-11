@@ -57,8 +57,8 @@ void run_matrix_mul_naive_nn(
     clSVMFree(context, A);
     clSVMFree(context, B);
     clSVMFree(context, C);
-    free((void*)kernel_source_code);
-    free((void*)error_context);
+    free(kernel_source_code);
+    free(error_context);
     CHECK_CL_ERROR(ret, "Build program");
   }
 
@@ -113,6 +113,6 @@ void run_matrix_mul_naive_nn(
     CHECK_CL_ERROR(first_error, error_context);
   }
 
-  free((void*)kernel_source_code);
-  free((void*)error_context);
+  free(kernel_source_code);
+  free(error_context);
 }
