@@ -1,0 +1,1 @@
+# zadanie z macierzy lab - 6,7
