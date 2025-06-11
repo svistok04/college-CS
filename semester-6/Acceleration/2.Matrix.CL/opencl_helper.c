@@ -1,15 +1,9 @@
 #include "opencl_helper.h"
 
-const char *kernel_source_code =
-  #include "matrix_mul_naive_NN.cl"
-;
-
-
-cl_platform_id* platforms = nullptr;
-device_entry* devices = nullptr;
+cl_platform_id* platforms = NULL;
+device_entry* devices = NULL;
 cl_uint total_platforms = 0;
 cl_uint total_devices = 0;
-const size_t LOCAL_ITEM_SIZE[2] = {16, 16};
 
 int init_opencl() {
   cl_int err = clGetPlatformIDs(0, NULL, &total_platforms);
@@ -77,8 +71,45 @@ void print_device_info_str(cl_device_id device, cl_device_info param, const char
   free(value);
 }
 
+int validate_matmul_dims(size_t N, size_t K, size_t M, size_t byte_cap) {
+    size_t total_bytes = (N*K + K*M + N*M) * sizeof(float);
+    return total_bytes <= byte_cap;
+}
+
 size_t round_up(size_t val, size_t multiple) {
   return (val + multiple - 1) / multiple * multiple;
+}
+
+void calc_dims_for_cap(
+    size_t cap,
+    double prop_N, double prop_K, double prop_M,
+    size_t* out_N, size_t* out_K, size_t* out_M)
+{
+    double max_factor = (double)cap / sizeof(float);
+    double biggest = fmax(prop_N * prop_K, fmax(prop_K * prop_M, prop_N * prop_M));
+    size_t S = (size_t)sqrt(max_factor / biggest);
+
+    *out_N = (size_t)(prop_N * S);
+    *out_K = (size_t)(prop_K * S);
+    *out_M = (size_t)(prop_M * S);
+}
+
+void print_run_summary(size_t N, size_t K, size_t M, double exec_time_ms) {
+    size_t bytes_A = N * K * sizeof(float);
+    size_t bytes_B = K * M * sizeof(float);
+    size_t bytes_C = N * M * sizeof(float);
+
+    double mb_A = bytes_A / (1024.0 * 1024.0);
+    double mb_B = bytes_B / (1024.0 * 1024.0);
+    double mb_C = bytes_C / (1024.0 * 1024.0);
+
+    printf("\n===== Matrix Multiply Summary =====\n");
+    printf(" A: %zu x %zu (%.2f MB)\n", N, K, mb_A);
+    printf(" B: %zu x %zu (%.2f MB)\n", K, M, mb_B);
+    printf(" C: %zu x %zu (%.2f MB)\n", N, M, mb_C);
+    printf("-----------------------------------\n");
+    printf(" Kernel execution time: %.3f ms\n", exec_time_ms);
+    printf("===================================\n\n");
 }
 
 size_t get_max_vector_len(cl_device_id dev, size_t element_size) {
@@ -87,6 +118,19 @@ size_t get_max_vector_len(cl_device_id dev, size_t element_size) {
   CHECK_CL_ERROR(ret, "Getting max allocation size");
   cl_ulong safe_alloc = (MB_FLOAT_BUFFER_ALLOC_CAP < max_alloc) ? MB_FLOAT_BUFFER_ALLOC_CAP : max_alloc;
   return safe_alloc / element_size;
+}
+
+char* load_kernel_source(const char* filename) {
+    FILE* fp = fopen(filename, "r");
+    if (!fp) { perror("fopen"); exit(1); }
+    fseek(fp, 0, SEEK_END);
+    long size = ftell(fp);
+    rewind(fp);
+    char* buf = malloc(size + 1);
+    fread(buf, 1, size, fp);
+    buf[size] = 0;
+    fclose(fp);
+    return buf;
 }
 
 void check_succeeded(cl_int err) {
