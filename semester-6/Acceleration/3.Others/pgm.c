@@ -26,6 +26,7 @@ unsigned char* read_pgm(const char* filename, int* width, int* height) {
   ? (fgets((char[1024]){}, 1024, f), 1) 
   : (ungetc(c, f), 0)
 );
+
   fscanf(f, "%d", &maxval);
 
   fgetc(f);

@@ -22,7 +22,7 @@ int main() {
   clGetDeviceInfo(dev, CL_DEVICE_MAX_WORK_GROUP_SIZE, sizeof(size_t), &max_work_group_size, NULL);
   printf("max work group size: %zu\n", max_work_group_size);
 
-  size_t local_size[2] = {16, 15};
+  size_t local_size[2] = {32, 32};
   // N = round_up(N, local_size[0]);
   // M = round_up(M, local_size[1]);
   size_t global_size[2] = {round_up(N, local_size[0]), round_up(M, local_size[1])};

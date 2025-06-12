@@ -4,6 +4,7 @@ cl_platform_id* platforms = NULL;
 device_entry* devices = NULL;
 cl_uint total_platforms = 0;
 cl_uint total_devices = 0;
+cl_int first_error = 0;
 
 int init_opencl() {
   cl_int err = clGetPlatformIDs(0, NULL, &total_platforms);

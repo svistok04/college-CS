@@ -8,7 +8,7 @@
 #include <CL/cl.h>
 
 // TODO attempt CL_MEM_USE_HOST_PTR if no SVM available and verify whether it assures zero-copy
-#define MB_INT_BUFFER_ALLOC_CAP 1250UL * sizeof(int) * 1024 * 1024
+#define MB_INT_BUFFER_ALLOC_CAP 5000UL * 1024 * 1024
 
 #define WARN_CL_RELEASE(retval, what) \
 do { if ((retval) != CL_SUCCESS) { \

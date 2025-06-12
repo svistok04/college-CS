@@ -3,7 +3,7 @@
 
 int main() {
     int width, height;
-    unsigned char* input = read_pgm("output_rotated.pgm", &width, &height);
+    unsigned char* input = read_pgm("output.pgm", &width, &height);
     if (!input) {
         fprintf(stderr, "Failed to read input PGM file.\n");
         return 1;
@@ -17,6 +17,7 @@ int main() {
     }
 
     init_opencl();
+    char* error_context;
     cl_device_id dev = devices[0].device;
     cl_int ret;
 
@@ -34,17 +35,23 @@ int main() {
     cl_mem output_buf = clCreateBuffer(context, CL_MEM_WRITE_ONLY, width * height, NULL, &ret);
 
     ret  = clSetKernelArg(kernel, 0, sizeof(cl_mem), &input_buf);
-    ret |= clSetKernelArg(kernel, 1, sizeof(cl_mem), &output_buf);
-    ret |= clSetKernelArg(kernel, 2, sizeof(int), &width);
-    ret |= clSetKernelArg(kernel, 3, sizeof(int), &height);
+    RECORD_ERROR(ret, "Arg 0");
+    ret = clSetKernelArg(kernel, 1, sizeof(cl_mem), &output_buf);
+    RECORD_ERROR(ret, "Arg 1");
+    ret = clSetKernelArg(kernel, 2, sizeof(int), &width);
+    RECORD_ERROR(ret, "Arg 2");
+    ret = clSetKernelArg(kernel, 3, sizeof(int), &height);
+    RECORD_ERROR(ret, "Arg 3");
 
     size_t global_size[2] = {width, height};
     clEnqueueNDRangeKernel(queue, kernel, 2, NULL, global_size, NULL, 0, NULL, NULL);
+    RECORD_ERROR(ret, "Enqueue Kernel");
     clFinish(queue);
+    RECORD_ERROR(ret, "Finish");
 
     clEnqueueReadBuffer(queue, output_buf, CL_TRUE, 0, width * height, output, 0, NULL, NULL);
 
-    write_pgm("output_rotated2.pgm", output, height, width);
+    write_pgm("output_rotated.pgm", output, height, width);
 
     clReleaseMemObject(input_buf);
     clReleaseMemObject(output_buf);
@@ -56,6 +63,6 @@ int main() {
     free(input);
     free(output);
 
-    printf("Rotation complete. Saved as output_rotated.pgm\n");
+    printf("saved as output_rotated.pgm\n");
     return 0;
 }

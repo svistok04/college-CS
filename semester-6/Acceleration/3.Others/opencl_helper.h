@@ -43,3 +43,4 @@ extern cl_platform_id* platforms;
 extern cl_uint total_platforms;
 extern device_entry* devices;
 extern cl_uint total_devices;
+extern cl_int first_error;
