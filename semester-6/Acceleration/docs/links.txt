@@ -1,8 +1,0 @@
-Specyfikacja do OpenCL
-https://www.khronos.org/registry/cl/specs/opencl-1.1.pdf
-Funkcje
-https://www.khronos.org/files/opencl-1-1-quick-reference-card.pdf
-
-------------- very useful -------------
-materialy do opencl dla studentów
-https://www.mimuw.edu.pl/~krzadca/opencl.html
