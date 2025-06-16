@@ -1,0 +1,10 @@
+[package]
+name = "rlc-circuit-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+plotters = "0.3.7"
+eframe = "0.31.1"
+egui = "0.31.1"
+egui_plot = "0.32.1"
