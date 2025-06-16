@@ -1,0 +1,5 @@
+# Ignore auto-generated STM32/HAL/FreeRTOS code in stats
+Drivers/** linguist-vendored
+Middlewares/** linguist-vendored
+Core/Src/freertos.c linguist-generated
+Core/Inc/freertos.h linguist-generated
