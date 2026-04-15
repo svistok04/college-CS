@@ -1,0 +1,13 @@
+#ignore backup files
+*.bak*
+
+#ignore temp files
+*temp*
+*.tmp
+
+#ignore lock files
+*~lock*
+*.lck
+
+#ignore ~$ file
+~$*

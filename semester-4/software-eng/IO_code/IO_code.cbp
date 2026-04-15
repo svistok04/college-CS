@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="IO_code" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/IO_code" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="src/Archiwum.h" />
+		<Unit filename="src/Base.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/Grupa.cpp" />
+		<Unit filename="src/Grupa.h" />
+		<Unit filename="src/Harmonogram.h" />
+		<Unit filename="src/HarmonogramGrupy.h" />
+		<Unit filename="src/HarmonogramTrenera.h" />
+		<Unit filename="src/Kierownik.cpp" />
+		<Unit filename="src/Kierownik.h" />
+		<Unit filename="src/Klient.cpp" />
+		<Unit filename="src/Klient.h" />
+		<Unit filename="src/Konto.cpp" />
+		<Unit filename="src/Konto.h" />
+		<Unit filename="src/Ogloszenie.h" />
+		<Unit filename="src/Platnosc.h" />
+		<Unit filename="src/Pracownik.cpp" />
+		<Unit filename="src/Pracownik.h" />
+		<Unit filename="src/Rachunek.h" />
+		<Unit filename="src/Raport.h" />
+		<Unit filename="src/Structs.h" />
+		<Unit filename="src/Trener.cpp" />
+		<Unit filename="src/Trener.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/zmianaEnum.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
